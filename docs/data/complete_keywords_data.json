@@ -1,0 +1,1482 @@
+{
+  "summary": {
+    "total_methods": 231,
+    "total_usage_instances": 461437,
+    "categories": {
+      "Research Methods": {
+        "count": 120327,
+        "methods": 9
+      },
+      "Modeling/Simulation": {
+        "count": 60986,
+        "methods": 12
+      },
+      "AI/Machine Learning": {
+        "count": 84799,
+        "methods": 64
+      },
+      "Evaluation Methods": {
+        "count": 67268,
+        "methods": 12
+      },
+      "Statistical Methods": {
+        "count": 73859,
+        "methods": 44
+      },
+      "Other Methods": {
+        "count": 54198,
+        "methods": 90
+      }
+    },
+    "top_10_methods": [
+      {
+        "term": "Case Study",
+        "count": 43807,
+        "category": "Research Methods",
+        "frequency_rank": 1
+      },
+      {
+        "term": "Simulation",
+        "count": 34095,
+        "category": "Modeling/Simulation",
+        "frequency_rank": 2
+      },
+      {
+        "term": "Literature Review",
+        "count": 30719,
+        "category": "Research Methods",
+        "frequency_rank": 3
+      },
+      {
+        "term": "artificial intelligence",
+        "count": 30591,
+        "category": "AI/Machine Learning",
+        "frequency_rank": 4
+      },
+      {
+        "term": "Systematic Review",
+        "count": 22891,
+        "category": "Research Methods",
+        "frequency_rank": 5
+      },
+      {
+        "term": "Risk Assessment",
+        "count": 17381,
+        "category": "Evaluation Methods",
+        "frequency_rank": 6
+      },
+      {
+        "term": "Forecasting",
+        "count": 15027,
+        "category": "Modeling/Simulation",
+        "frequency_rank": 7
+      },
+      {
+        "term": "Focus Group",
+        "count": 14625,
+        "category": "Research Methods",
+        "frequency_rank": 8
+      },
+      {
+        "term": "Meta-Analysis",
+        "count": 14534,
+        "category": "Statistical Methods",
+        "frequency_rank": 9
+      },
+      {
+        "term": "CNN",
+        "count": 9057,
+        "category": "AI/Machine Learning",
+        "frequency_rank": 10
+      }
+    ]
+  },
+  "all_methods": [
+    {
+      "term": "Case Study",
+      "count": 43807,
+      "category": "Research Methods",
+      "frequency_rank": 1
+    },
+    {
+      "term": "Simulation",
+      "count": 34095,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 2
+    },
+    {
+      "term": "Literature Review",
+      "count": 30719,
+      "category": "Research Methods",
+      "frequency_rank": 3
+    },
+    {
+      "term": "artificial intelligence",
+      "count": 30591,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 4
+    },
+    {
+      "term": "Systematic Review",
+      "count": 22891,
+      "category": "Research Methods",
+      "frequency_rank": 5
+    },
+    {
+      "term": "Risk Assessment",
+      "count": 17381,
+      "category": "Evaluation Methods",
+      "frequency_rank": 6
+    },
+    {
+      "term": "Forecasting",
+      "count": 15027,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 7
+    },
+    {
+      "term": "Focus Group",
+      "count": 14625,
+      "category": "Research Methods",
+      "frequency_rank": 8
+    },
+    {
+      "term": "Meta-Analysis",
+      "count": 14534,
+      "category": "Statistical Methods",
+      "frequency_rank": 9
+    },
+    {
+      "term": "CNN",
+      "count": 9057,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 10
+    },
+    {
+      "term": "Program Evaluation",
+      "count": 8668,
+      "category": "Evaluation Methods",
+      "frequency_rank": 11
+    },
+    {
+      "term": "Fixed effects",
+      "count": 8454,
+      "category": "Statistical Methods",
+      "frequency_rank": 12
+    },
+    {
+      "term": "RCT",
+      "count": 8203,
+      "category": "Evaluation Methods",
+      "frequency_rank": 13
+    },
+    {
+      "term": "Randomized Controlled Trial",
+      "count": 6987,
+      "category": "Evaluation Methods",
+      "frequency_rank": 14
+    },
+    {
+      "term": "Network Analysis",
+      "count": 6697,
+      "category": "Statistical Methods",
+      "frequency_rank": 15
+    },
+    {
+      "term": "Wargaming",
+      "count": 6283,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 16
+    },
+    {
+      "term": "Clustering",
+      "count": 6057,
+      "category": "Statistical Methods",
+      "frequency_rank": 17
+    },
+    {
+      "term": "Foresight",
+      "count": 5641,
+      "category": "Other Methods",
+      "frequency_rank": 18
+    },
+    {
+      "term": "Regression Analysis",
+      "count": 5598,
+      "category": "Statistical Methods",
+      "frequency_rank": 19
+    },
+    {
+      "term": "Return on Investment",
+      "count": 5447,
+      "category": "Evaluation Methods",
+      "frequency_rank": 20
+    },
+    {
+      "term": "Statistical Analysis",
+      "count": 5163,
+      "category": "Statistical Methods",
+      "frequency_rank": 21
+    },
+    {
+      "term": "Process Evaluation",
+      "count": 5045,
+      "category": "Evaluation Methods",
+      "frequency_rank": 22
+    },
+    {
+      "term": "Sensitivity Analysis",
+      "count": 4787,
+      "category": "Statistical Methods",
+      "frequency_rank": 23
+    },
+    {
+      "term": "Outcome Evaluation",
+      "count": 4613,
+      "category": "Evaluation Methods",
+      "frequency_rank": 24
+    },
+    {
+      "term": "embedding",
+      "count": 4452,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 25
+    },
+    {
+      "term": "Needs Assessment",
+      "count": 4036,
+      "category": "Evaluation Methods",
+      "frequency_rank": 26
+    },
+    {
+      "term": "Mixed-Methods",
+      "count": 3499,
+      "category": "Other Methods",
+      "frequency_rank": 27
+    },
+    {
+      "term": "deep learning",
+      "count": 3448,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 28
+    },
+    {
+      "term": "GIS",
+      "count": 3183,
+      "category": "Other Methods",
+      "frequency_rank": 29
+    },
+    {
+      "term": "ROI",
+      "count": 3105,
+      "category": "Evaluation Methods",
+      "frequency_rank": 30
+    },
+    {
+      "term": "LLM",
+      "count": 2922,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 31
+    },
+    {
+      "term": "Content Analysis",
+      "count": 2645,
+      "category": "Statistical Methods",
+      "frequency_rank": 32
+    },
+    {
+      "term": "Impact Assessment",
+      "count": 2596,
+      "category": "Evaluation Methods",
+      "frequency_rank": 33
+    },
+    {
+      "term": "Survey Design",
+      "count": 2587,
+      "category": "Research Methods",
+      "frequency_rank": 34
+    },
+    {
+      "term": "Difference-in-differences",
+      "count": 2567,
+      "category": "Other Methods",
+      "frequency_rank": 35
+    },
+    {
+      "term": "GPT",
+      "count": 2548,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 36
+    },
+    {
+      "term": "Microsimulation",
+      "count": 2497,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 37
+    },
+    {
+      "term": "Delphi Method",
+      "count": 2422,
+      "category": "Research Methods",
+      "frequency_rank": 38
+    },
+    {
+      "term": "AI development",
+      "count": 2388,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 39
+    },
+    {
+      "term": "RL",
+      "count": 2384,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 40
+    },
+    {
+      "term": "RDM",
+      "count": 2262,
+      "category": "Other Methods",
+      "frequency_rank": 41
+    },
+    {
+      "term": "AI safety",
+      "count": 2112,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 42
+    },
+    {
+      "term": "Causal Inference",
+      "count": 2072,
+      "category": "Other Methods",
+      "frequency_rank": 43
+    },
+    {
+      "term": "neural network",
+      "count": 2041,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 44
+    },
+    {
+      "term": "GAN",
+      "count": 1910,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 45
+    },
+    {
+      "term": "stacking",
+      "count": 1808,
+      "category": "Other Methods",
+      "frequency_rank": 46
+    },
+    {
+      "term": "Implementation Science",
+      "count": 1798,
+      "category": "Other Methods",
+      "frequency_rank": 47
+    },
+    {
+      "term": "Expert Elicitation",
+      "count": 1750,
+      "category": "Research Methods",
+      "frequency_rank": 48
+    },
+    {
+      "term": "Robust Decision Making",
+      "count": 1725,
+      "category": "Other Methods",
+      "frequency_rank": 49
+    },
+    {
+      "term": "Tabletop Exercise",
+      "count": 1721,
+      "category": "Other Methods",
+      "frequency_rank": 50
+    },
+    {
+      "term": "Social Network Analysis",
+      "count": 1691,
+      "category": "Statistical Methods",
+      "frequency_rank": 51
+    },
+    {
+      "term": "Factor Analysis",
+      "count": 1653,
+      "category": "Statistical Methods",
+      "frequency_rank": 52
+    },
+    {
+      "term": "AI governance",
+      "count": 1628,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 53
+    },
+    {
+      "term": "Random effects",
+      "count": 1618,
+      "category": "Statistical Methods",
+      "frequency_rank": 54
+    },
+    {
+      "term": "Longitudinal Analysis",
+      "count": 1595,
+      "category": "Statistical Methods",
+      "frequency_rank": 55
+    },
+    {
+      "term": "BERT",
+      "count": 1541,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 56
+    },
+    {
+      "term": "fine-tuning",
+      "count": 1513,
+      "category": "Other Methods",
+      "frequency_rank": 57
+    },
+    {
+      "term": "reinforcement learning",
+      "count": 1504,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 58
+    },
+    {
+      "term": "transformer",
+      "count": 1463,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 59
+    },
+    {
+      "term": "PCA",
+      "count": 1458,
+      "category": "Statistical Methods",
+      "frequency_rank": 60
+    },
+    {
+      "term": "Red Teaming",
+      "count": 1445,
+      "category": "Other Methods",
+      "frequency_rank": 61
+    },
+    {
+      "term": "Qualitative Data Analysis",
+      "count": 1377,
+      "category": "Statistical Methods",
+      "frequency_rank": 62
+    },
+    {
+      "term": "CRC",
+      "count": 1318,
+      "category": "Other Methods",
+      "frequency_rank": 63
+    },
+    {
+      "term": "Horizon Scanning",
+      "count": 1306,
+      "category": "Other Methods",
+      "frequency_rank": 64
+    },
+    {
+      "term": "RFI",
+      "count": 1302,
+      "category": "Other Methods",
+      "frequency_rank": 65
+    },
+    {
+      "term": "Robustness Checks",
+      "count": 1296,
+      "category": "Other Methods",
+      "frequency_rank": 66
+    },
+    {
+      "term": "language model",
+      "count": 1291,
+      "category": "Other Methods",
+      "frequency_rank": 67
+    },
+    {
+      "term": "AI system",
+      "count": 1263,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 68
+    },
+    {
+      "term": "Sampling Strategy",
+      "count": 1252,
+      "category": "Other Methods",
+      "frequency_rank": 69
+    },
+    {
+      "term": "Trend Analysis",
+      "count": 1227,
+      "category": "Statistical Methods",
+      "frequency_rank": 70
+    },
+    {
+      "term": "Scenario Analysis",
+      "count": 1185,
+      "category": "Statistical Methods",
+      "frequency_rank": 71
+    },
+    {
+      "term": "AI research",
+      "count": 1175,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 72
+    },
+    {
+      "term": "Research Synthesis",
+      "count": 1164,
+      "category": "Other Methods",
+      "frequency_rank": 73
+    },
+    {
+      "term": "foundation model",
+      "count": 1054,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 74
+    },
+    {
+      "term": "Modified Delphi",
+      "count": 1044,
+      "category": "Research Methods",
+      "frequency_rank": 75
+    },
+    {
+      "term": "CPM",
+      "count": 1018,
+      "category": "Other Methods",
+      "frequency_rank": 76
+    },
+    {
+      "term": "Rapid evidence assessment",
+      "count": 1015,
+      "category": "Evaluation Methods",
+      "frequency_rank": 77
+    },
+    {
+      "term": "Multivariate Analysis",
+      "count": 1011,
+      "category": "Statistical Methods",
+      "frequency_rank": 78
+    },
+    {
+      "term": "AI regulation",
+      "count": 981,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 79
+    },
+    {
+      "term": "synthetic data",
+      "count": 957,
+      "category": "Other Methods",
+      "frequency_rank": 80
+    },
+    {
+      "term": "System Dynamics",
+      "count": 933,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 81
+    },
+    {
+      "term": "Survey Analysis",
+      "count": 885,
+      "category": "Statistical Methods",
+      "frequency_rank": 82
+    },
+    {
+      "term": "PSM",
+      "count": 870,
+      "category": "Other Methods",
+      "frequency_rank": 83
+    },
+    {
+      "term": "Propensity score matching",
+      "count": 870,
+      "category": "Statistical Methods",
+      "frequency_rank": 84
+    },
+    {
+      "term": "Llama",
+      "count": 865,
+      "category": "Other Methods",
+      "frequency_rank": 85
+    },
+    {
+      "term": "large language model",
+      "count": 827,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 86
+    },
+    {
+      "term": "Scenario Planning",
+      "count": 803,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 87
+    },
+    {
+      "term": "supervised learning",
+      "count": 726,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 88
+    },
+    {
+      "term": "Quasi-Experimental Design",
+      "count": 725,
+      "category": "Other Methods",
+      "frequency_rank": 89
+    },
+    {
+      "term": "Survival Analysis",
+      "count": 716,
+      "category": "Statistical Methods",
+      "frequency_rank": 90
+    },
+    {
+      "term": "AI policy",
+      "count": 700,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 91
+    },
+    {
+      "term": "SEM",
+      "count": 682,
+      "category": "Other Methods",
+      "frequency_rank": 92
+    },
+    {
+      "term": "Agent-Based Modeling",
+      "count": 679,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 93
+    },
+    {
+      "term": "Cross-Validation",
+      "count": 664,
+      "category": "Other Methods",
+      "frequency_rank": 94
+    },
+    {
+      "term": "AI ethics",
+      "count": 623,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 95
+    },
+    {
+      "term": "Pardee Center",
+      "count": 608,
+      "category": "Other Methods",
+      "frequency_rank": 96
+    },
+    {
+      "term": "Instrumental variable",
+      "count": 581,
+      "category": "Other Methods",
+      "frequency_rank": 97
+    },
+    {
+      "term": "SNA",
+      "count": 569,
+      "category": "Other Methods",
+      "frequency_rank": 98
+    },
+    {
+      "term": "AI risk",
+      "count": 567,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 99
+    },
+    {
+      "term": "Backcasting",
+      "count": 564,
+      "category": "Other Methods",
+      "frequency_rank": 100
+    },
+    {
+      "term": "regularization",
+      "count": 563,
+      "category": "Other Methods",
+      "frequency_rank": 101
+    },
+    {
+      "term": "Principal Component Analysis",
+      "count": 526,
+      "category": "Statistical Methods",
+      "frequency_rank": 102
+    },
+    {
+      "term": "Synthetic control method",
+      "count": 518,
+      "category": "Other Methods",
+      "frequency_rank": 103
+    },
+    {
+      "term": "Econometric Analysis",
+      "count": 516,
+      "category": "Statistical Methods",
+      "frequency_rank": 104
+    },
+    {
+      "term": "algorithmic bias",
+      "count": 516,
+      "category": "Other Methods",
+      "frequency_rank": 105
+    },
+    {
+      "term": "Monte Carlo Simulation",
+      "count": 489,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 106
+    },
+    {
+      "term": "unsupervised learning",
+      "count": 485,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 107
+    },
+    {
+      "term": "data mining",
+      "count": 485,
+      "category": "Other Methods",
+      "frequency_rank": 108
+    },
+    {
+      "term": "Ethnography",
+      "count": 482,
+      "category": "Research Methods",
+      "frequency_rank": 109
+    },
+    {
+      "term": "AI model",
+      "count": 475,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 110
+    },
+    {
+      "term": "ML model",
+      "count": 474,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 111
+    },
+    {
+      "term": "model calibration",
+      "count": 473,
+      "category": "Other Methods",
+      "frequency_rank": 112
+    },
+    {
+      "term": "AI industry",
+      "count": 462,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 113
+    },
+    {
+      "term": "Geospatial Analysis",
+      "count": 460,
+      "category": "Statistical Methods",
+      "frequency_rank": 114
+    },
+    {
+      "term": "Uncertainty Analysis",
+      "count": 443,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 115
+    },
+    {
+      "term": "AI ecosystem",
+      "count": 439,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 116
+    },
+    {
+      "term": "XAI",
+      "count": 378,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 117
+    },
+    {
+      "term": "sentiment analysis",
+      "count": 361,
+      "category": "Statistical Methods",
+      "frequency_rank": 118
+    },
+    {
+      "term": "explainable AI",
+      "count": 356,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 119
+    },
+    {
+      "term": "NER",
+      "count": 345,
+      "category": "Other Methods",
+      "frequency_rank": 120
+    },
+    {
+      "term": "Time Series Analysis",
+      "count": 327,
+      "category": "Statistical Methods",
+      "frequency_rank": 121
+    },
+    {
+      "term": "loss function",
+      "count": 326,
+      "category": "Other Methods",
+      "frequency_rank": 122
+    },
+    {
+      "term": "Decision theory",
+      "count": 325,
+      "category": "Other Methods",
+      "frequency_rank": 123
+    },
+    {
+      "term": "MCDA",
+      "count": 325,
+      "category": "Other Methods",
+      "frequency_rank": 124
+    },
+    {
+      "term": "Latent Class Analysis",
+      "count": 322,
+      "category": "Statistical Methods",
+      "frequency_rank": 125
+    },
+    {
+      "term": "AI sector",
+      "count": 315,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 126
+    },
+    {
+      "term": "Document Analysis",
+      "count": 313,
+      "category": "Statistical Methods",
+      "frequency_rank": 127
+    },
+    {
+      "term": "deep neural network",
+      "count": 307,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 128
+    },
+    {
+      "term": "Stress Testing",
+      "count": 290,
+      "category": "Other Methods",
+      "frequency_rank": 129
+    },
+    {
+      "term": "ML algorithm",
+      "count": 268,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 130
+    },
+    {
+      "term": "Stakeholder Analysis",
+      "count": 265,
+      "category": "Statistical Methods",
+      "frequency_rank": 131
+    },
+    {
+      "term": "Textual Analysis",
+      "count": 258,
+      "category": "Statistical Methods",
+      "frequency_rank": 132
+    },
+    {
+      "term": "Structural equation modeling",
+      "count": 256,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 133
+    },
+    {
+      "term": "transfer learning",
+      "count": 246,
+      "category": "Other Methods",
+      "frequency_rank": 134
+    },
+    {
+      "term": "Discourse analysis",
+      "count": 242,
+      "category": "Statistical Methods",
+      "frequency_rank": 135
+    },
+    {
+      "term": "generative adversarial network",
+      "count": 236,
+      "category": "Other Methods",
+      "frequency_rank": 136
+    },
+    {
+      "term": "backpropagation",
+      "count": 235,
+      "category": "Other Methods",
+      "frequency_rank": 137
+    },
+    {
+      "term": "AI bias",
+      "count": 235,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 138
+    },
+    {
+      "term": "synthetic control method",
+      "count": 223,
+      "category": "Other Methods",
+      "frequency_rank": 139
+    },
+    {
+      "term": "speech recognition",
+      "count": 223,
+      "category": "Other Methods",
+      "frequency_rank": 140
+    },
+    {
+      "term": "text mining",
+      "count": 218,
+      "category": "Other Methods",
+      "frequency_rank": 141
+    },
+    {
+      "term": "topic modeling",
+      "count": 212,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 142
+    },
+    {
+      "term": "DNN",
+      "count": 200,
+      "category": "Other Methods",
+      "frequency_rank": 143
+    },
+    {
+      "term": "convolutional neural network",
+      "count": 194,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 144
+    },
+    {
+      "term": "RLHF",
+      "count": 178,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 145
+    },
+    {
+      "term": "Realist evaluation",
+      "count": 172,
+      "category": "Evaluation Methods",
+      "frequency_rank": 146
+    },
+    {
+      "term": "Utility Analysis",
+      "count": 168,
+      "category": "Statistical Methods",
+      "frequency_rank": 147
+    },
+    {
+      "term": "Center for Gaming",
+      "count": 159,
+      "category": "Other Methods",
+      "frequency_rank": 148
+    },
+    {
+      "term": "Counterfactual analysis",
+      "count": 158,
+      "category": "Statistical Methods",
+      "frequency_rank": 149
+    },
+    {
+      "term": "latent space",
+      "count": 158,
+      "category": "Other Methods",
+      "frequency_rank": 150
+    },
+    {
+      "term": "image recognition",
+      "count": 151,
+      "category": "Other Methods",
+      "frequency_rank": 151
+    },
+    {
+      "term": "generative pre-trained transformer",
+      "count": 147,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 152
+    },
+    {
+      "term": "RNN",
+      "count": 135,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 153
+    },
+    {
+      "term": "machine learning algorithm",
+      "count": 123,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 154
+    },
+    {
+      "term": "Center for Causal Inference",
+      "count": 119,
+      "category": "Other Methods",
+      "frequency_rank": 155
+    },
+    {
+      "term": "emergent behavior",
+      "count": 115,
+      "category": "Other Methods",
+      "frequency_rank": 156
+    },
+    {
+      "term": "prompt engineering",
+      "count": 112,
+      "category": "Other Methods",
+      "frequency_rank": 157
+    },
+    {
+      "term": "AI alignment",
+      "count": 110,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 158
+    },
+    {
+      "term": "Panel Data Analysis",
+      "count": 107,
+      "category": "Statistical Methods",
+      "frequency_rank": 159
+    },
+    {
+      "term": "Bayesian Analysis",
+      "count": 106,
+      "category": "Statistical Methods",
+      "frequency_rank": 160
+    },
+    {
+      "term": "AI market",
+      "count": 105,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 161
+    },
+    {
+      "term": "Text-as-data",
+      "count": 102,
+      "category": "Other Methods",
+      "frequency_rank": 162
+    },
+    {
+      "term": "Evidence mapping",
+      "count": 96,
+      "category": "Other Methods",
+      "frequency_rank": 163
+    },
+    {
+      "term": "transformer model",
+      "count": 96,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 164
+    },
+    {
+      "term": "Hierarchical Modeling",
+      "count": 95,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 165
+    },
+    {
+      "term": "data augmentation",
+      "count": 91,
+      "category": "Other Methods",
+      "frequency_rank": 166
+    },
+    {
+      "term": "Discrete Event Simulation",
+      "count": 88,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 167
+    },
+    {
+      "term": "recurrent neural network",
+      "count": 87,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 168
+    },
+    {
+      "term": "AI investment",
+      "count": 85,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 169
+    },
+    {
+      "term": "Meselson Center",
+      "count": 84,
+      "category": "Other Methods",
+      "frequency_rank": 170
+    },
+    {
+      "term": "stochastic gradient descent",
+      "count": 81,
+      "category": "Other Methods",
+      "frequency_rank": 171
+    },
+    {
+      "term": "AI company",
+      "count": 80,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 172
+    },
+    {
+      "term": "Event History Analysis",
+      "count": 78,
+      "category": "Statistical Methods",
+      "frequency_rank": 173
+    },
+    {
+      "term": "Center for Scalable Computing and Analysis",
+      "count": 78,
+      "category": "Statistical Methods",
+      "frequency_rank": 174
+    },
+    {
+      "term": "AI algorithm",
+      "count": 77,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 175
+    },
+    {
+      "term": "attention mechanism",
+      "count": 75,
+      "category": "Other Methods",
+      "frequency_rank": 176
+    },
+    {
+      "term": "Discriminant Analysis",
+      "count": 74,
+      "category": "Statistical Methods",
+      "frequency_rank": 177
+    },
+    {
+      "term": "Center for Applied Network Analysis",
+      "count": 73,
+      "category": "Statistical Methods",
+      "frequency_rank": 178
+    },
+    {
+      "term": "Center for Qualitative and Mixed Methods",
+      "count": 73,
+      "category": "Other Methods",
+      "frequency_rank": 179
+    },
+    {
+      "term": "Institutional analysis",
+      "count": 72,
+      "category": "Statistical Methods",
+      "frequency_rank": 180
+    },
+    {
+      "term": "chain-of-thought",
+      "count": 68,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 181
+    },
+    {
+      "term": "RAND Frederick S. Pardee Center for Longer Range Global Policy and the Future Human Condition",
+      "count": 64,
+      "category": "Other Methods",
+      "frequency_rank": 182
+    },
+    {
+      "term": "anomaly detection",
+      "count": 59,
+      "category": "Other Methods",
+      "frequency_rank": 183
+    },
+    {
+      "term": "Multi-Criteria Decision Analysis",
+      "count": 59,
+      "category": "Statistical Methods",
+      "frequency_rank": 184
+    },
+    {
+      "term": "image classification",
+      "count": 58,
+      "category": "Other Methods",
+      "frequency_rank": 185
+    },
+    {
+      "term": "NLG",
+      "count": 58,
+      "category": "Other Methods",
+      "frequency_rank": 186
+    },
+    {
+      "term": "natural language generation",
+      "count": 54,
+      "category": "Other Methods",
+      "frequency_rank": 187
+    },
+    {
+      "term": "feature extraction",
+      "count": 47,
+      "category": "Other Methods",
+      "frequency_rank": 188
+    },
+    {
+      "term": "multimodality",
+      "count": 46,
+      "category": "Other Methods",
+      "frequency_rank": 189
+    },
+    {
+      "term": "Serious Gaming",
+      "count": 44,
+      "category": "Other Methods",
+      "frequency_rank": 190
+    },
+    {
+      "term": "Decision Tree Analysis",
+      "count": 43,
+      "category": "Statistical Methods",
+      "frequency_rank": 191
+    },
+    {
+      "term": "neural network model",
+      "count": 40,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 192
+    },
+    {
+      "term": "Edge AI",
+      "count": 39,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 193
+    },
+    {
+      "term": "AI implementation",
+      "count": 36,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 194
+    },
+    {
+      "term": "China Research Center",
+      "count": 31,
+      "category": "Other Methods",
+      "frequency_rank": 195
+    },
+    {
+      "term": "AI solution",
+      "count": 30,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 196
+    },
+    {
+      "term": "counterfactual reasoning",
+      "count": 30,
+      "category": "Other Methods",
+      "frequency_rank": 197
+    },
+    {
+      "term": "AI deployment",
+      "count": 29,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 198
+    },
+    {
+      "term": "Punctuated equilibrium theory",
+      "count": 27,
+      "category": "Other Methods",
+      "frequency_rank": 199
+    },
+    {
+      "term": "Critical path method",
+      "count": 25,
+      "category": "Other Methods",
+      "frequency_rank": 200
+    },
+    {
+      "term": "multimodal model",
+      "count": 24,
+      "category": "Other Methods",
+      "frequency_rank": 201
+    },
+    {
+      "term": "AI startup",
+      "count": 24,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 202
+    },
+    {
+      "term": "feature engineering",
+      "count": 24,
+      "category": "Other Methods",
+      "frequency_rank": 203
+    },
+    {
+      "term": "automated coding",
+      "count": 21,
+      "category": "Other Methods",
+      "frequency_rank": 204
+    },
+    {
+      "term": "AI assist",
+      "count": 20,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 205
+    },
+    {
+      "term": "recommendation system",
+      "count": 20,
+      "category": "Other Methods",
+      "frequency_rank": 206
+    },
+    {
+      "term": "Citizen science methods",
+      "count": 18,
+      "category": "Other Methods",
+      "frequency_rank": 207
+    },
+    {
+      "term": "AI fairness",
+      "count": 18,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 208
+    },
+    {
+      "term": "zero-shot learning",
+      "count": 18,
+      "category": "Other Methods",
+      "frequency_rank": 209
+    },
+    {
+      "term": "RAND Forecasting Initiative",
+      "count": 18,
+      "category": "Modeling/Simulation",
+      "frequency_rank": 210
+    },
+    {
+      "term": "discriminative model",
+      "count": 17,
+      "category": "Other Methods",
+      "frequency_rank": 211
+    },
+    {
+      "term": "reasoning capability",
+      "count": 17,
+      "category": "Other Methods",
+      "frequency_rank": 212
+    },
+    {
+      "term": "counterfactual analysis",
+      "count": 15,
+      "category": "Statistical Methods",
+      "frequency_rank": 213
+    },
+    {
+      "term": "multimodal AI",
+      "count": 14,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 214
+    },
+    {
+      "term": "Computational text analysis",
+      "count": 13,
+      "category": "Statistical Methods",
+      "frequency_rank": 215
+    },
+    {
+      "term": "TASP Center",
+      "count": 10,
+      "category": "Other Methods",
+      "frequency_rank": 216
+    },
+    {
+      "term": "RCANA",
+      "count": 9,
+      "category": "Other Methods",
+      "frequency_rank": 217
+    },
+    {
+      "term": "model chaining",
+      "count": 9,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 218
+    },
+    {
+      "term": "automated annotation",
+      "count": 9,
+      "category": "Other Methods",
+      "frequency_rank": 219
+    },
+    {
+      "term": "knowledge graph",
+      "count": 8,
+      "category": "Other Methods",
+      "frequency_rank": 220
+    },
+    {
+      "term": "semantic search",
+      "count": 8,
+      "category": "Other Methods",
+      "frequency_rank": 221
+    },
+    {
+      "term": "few-shot learning",
+      "count": 8,
+      "category": "Other Methods",
+      "frequency_rank": 222
+    },
+    {
+      "term": "Advocacy coalition framework",
+      "count": 8,
+      "category": "Other Methods",
+      "frequency_rank": 223
+    },
+    {
+      "term": "AI integration",
+      "count": 7,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 224
+    },
+    {
+      "term": "AI analytics",
+      "count": 6,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 225
+    },
+    {
+      "term": "AI decision support",
+      "count": 6,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 226
+    },
+    {
+      "term": "vector embedding",
+      "count": 5,
+      "category": "AI/Machine Learning",
+      "frequency_rank": 227
+    },
+    {
+      "term": "IV method",
+      "count": 4,
+      "category": "Other Methods",
+      "frequency_rank": 228
+    },
+    {
+      "term": "Framing analysis",
+      "count": 4,
+      "category": "Statistical Methods",
+      "frequency_rank": 229
+    },
+    {
+      "term": "Historical institutionalism",
+      "count": 2,
+      "category": "Other Methods",
+      "frequency_rank": 230
+    },
+    {
+      "term": "Policy triangle framework",
+      "count": 1,
+      "category": "Other Methods",
+      "frequency_rank": 231
+    }
+  ]
+}
