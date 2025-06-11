@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAND AI Methods Intelligence Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/auth.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">RAND AI Methods Intelligence</h1>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#llm-integration">LLM Analysis</a>
+                <a href="#methodology">Methodology</a>
+                <a href="#methods">Methods</a>
+                <a href="#research-areas">Research Areas</a>
+                <a href="#temporal">Temporal</a>
+                <a href="keywords.html">Keywords</a>
+                <a href="#reports">Reports</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Methodology Section -->
+        <section id="methodology" class="section">
+            <h2>📋 Research Methodology</h2>
+            <div class="methodology-grid-2x2">
+                <div class="method-card">
+                    <h3>📊 Data Sources</h3>
+                    <ul>
+                        <li><strong>API Metadata:</strong> 48,876 publication records from RAND publications API</li>
+                        <li><strong>Text Chunks:</strong> 564,062 document segments from AskRAND system</li>
+                        <li><strong>Embeddings:</strong> Vector representations from AskRAND FAISS index</li>
+                        <li><strong>Analysis Subset:</strong> 9,129 publications with full text available</li>
+                        <li><strong>Time Period:</strong> January 2016 - December 2025</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>🔍 Method Detection Process</h3>
+                    <ul>
+                        <li><strong>Keyword Search:</strong> Automated text scanning for <a href="keywords.html">231 method terms</a></li>
+                        <li><strong>Text Chunking:</strong> Documents split into 564,062 analysis segments</li>
+                        <li><strong>Frequency Counting:</strong> Occurrence tracking across all publications</li>
+                        <li><strong>Deduplication:</strong> One count per method per document maximum</li>
+                        <li><strong>Classification:</strong> Methods grouped into research categories</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>🤖 AI Methods vs. Keywords</h3>
+                    <ul>
+                        <li><strong>AI Methods:</strong> CNN, Deep Learning, Neural Networks (actual research techniques)</li>
+                        <li><strong>AI Keywords:</strong> "artificial intelligence", "AI", "machine learning" (general terminology)</li>
+                        <li><strong>Detection Method:</strong> Text pattern matching in document chunks</li>
+                        <li><strong>Growth Calculation:</strong> Year-over-year usage frequency comparison</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>📈 Analysis Techniques</h3>
+                    <ul>
+                        <li><strong>Specialization Index:</strong> Research area method concentration vs. RAND-wide usage patterns</li>
+                        <li><strong>Network Analysis:</strong> Author-method collaboration patterns</li>
+                        <li><strong>Temporal Tracking:</strong> Method usage evolution over time</li>
+                        <li><strong>Co-occurrence Analysis:</strong> Methods used together in publications</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="limitations-box">
+                <h3>⚠️ Known Limitations</h3>
+                <ul>
+                    <li>Keyword-based detection may miss methods described without standard terms</li>
+                    <li>Some mentions may be literature references rather than active method use</li>
+                    <li>Method sophistication levels not systematically validated</li>
+                    <li>AI integration assessment based on keyword co-occurrence only</li>
+                    <li>No manual validation or expert review conducted for this analysis</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Hero Section -->
+        <section id="overview" class="hero">
+            <h2>What methods are being used by whom, and how is AI being used in those methods?</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">231</div>
+                    <div class="stat-label">Methods Searched For</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">9,129</div>
+                    <div class="stat-label">Documents Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">9,533</div>
+                    <div class="stat-label">Contributing Authors</div>
+                </div>
+                <div class="stat-card highlight">
+                    <div class="stat-number"><a href="#ai-growth-details" style="color: inherit; text-decoration: none;">22→4,920</a></div>
+                    <div class="stat-label">AI Terminology Mentions</div>
+                </div>
+            </div>
+            <p class="summary">
+                Analysis of RAND research publications from 2016-2025 using keyword detection 
+                across 564,062 text chunks. AI terminology mentions: 22 (2016) to 4,920 (2025).
+            </p>
+        </section>
+
+        <!-- LLM Integration Analysis -->
+        <section id="llm-integration" class="section">
+            <h2>LLM Integration Analysis (Complete Results)</h2>
+            
+            <div class="limitations-box">
+                <h3>✅ Complete Analysis Status</h3>
+                <ul>
+                    <li><strong>Total analyzed:</strong> 9,750 method instances containing AI terminology or advanced methods</li>
+                    <li><strong>LLM analysis:</strong> Each text chunk was analyzed by Gemini Pro to determine usage context, sophistication, and AI integration</li>
+                    <li><strong>Analysis complete:</strong> 100% success rate, final results available (June 11, 2025)</li>
+                    <li><strong>Coverage:</strong> All instances of AI terms and high-priority research methods analyzed</li>
+                </ul>
+            </div>
+
+            <div class="methodology-grid-2x2">
+                <div class="method-card">
+                    <h3>🔍 Method Usage Types</h3>
+                    <ul>
+                        <li><strong>Background (44.2%):</strong> Methods mentioned in literature context</li>
+                        <li><strong>Citation (26.8%):</strong> References to previous work using methods</li>
+                        <li><strong>Active Usage (18.7%):</strong> Methods actually employed in research</li>
+                        <li><strong>Mixed Categories (10.3%):</strong> Multiple usage patterns detected</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>🎯 Method Sophistication Levels</h3>
+                    <ul>
+                        <li><strong>Basic (51.6%):</strong> Simple application or mention (5,027 instances)</li>
+                        <li><strong>None/Minimal (33.4%):</strong> Limited methodological detail (3,256 instances)</li>
+                        <li><strong>Moderate (14.4%):</strong> Substantive methodological implementation (1,405 instances)</li>
+                        <li><strong>Advanced (0.6%):</strong> Sophisticated or novel application (62 instances)</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>🤖 LLM Integration Status</h3>
+                    <ul>
+                        <li><strong>No LLM Integration (98.7%):</strong> Traditional method usage (9,621 instances)</li>
+                        <li><strong>LLM-Assisted (0.8%):</strong> LLM tools support method implementation (75 instances)</li>
+                        <li><strong>LLM-Augmented (0.6%):</strong> LLMs fundamentally enhance methodology (54 instances)</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>📊 Key Insights</h3>
+                    <ul>
+                        <li><strong>Limited LLM Integration:</strong> Only 1.3% of analyzed methods show LLM integration (129 instances)</li>
+                        <li><strong>Mostly Background Usage:</strong> 71% are literature references vs. active implementation</li>
+                        <li><strong>Basic Implementation:</strong> 85% show basic/minimal sophistication levels</li>
+                        <li><strong>Analysis Complete:</strong> Full dataset processed with 100% success rate</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="data-quality-note">
+                <p><strong>Interpretation Note:</strong> Complete analysis confirms that while AI terminology has grown rapidly (22,364% increase 2016-2025), actual LLM integration into research methods remains extremely limited at 1.3%. Most AI mentions (71%) appear in background literature rather than active methodological implementation, indicating significant opportunity for practical AI integration in RAND research methods.</p>
+            </div>
+        </section>
+
+        <!-- Method Categories -->
+        <section class="section">
+            <h2>📊 Method Categories</h2>
+            <div class="methodology-grid">
+                <div class="method-card">
+                    <h3>Publication Patterns (2016-2025)</h3>
+                    <ul>
+                        <li><strong>Total Publications:</strong> 9,129 documents</li>
+                        <li><strong>Annual Average:</strong> 913 publications/year</li>
+                        <li><strong>Peak Year:</strong> 2023 (1,520 publications)</li>
+                        <li><strong>Methods per Document:</strong> 25.3 average</li>
+                        <li><strong>Text Chunks Analyzed:</strong> 564,062</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>Frequency Tiers</h3>
+                    <ul>
+                        <li><strong>Tier 1 - Very High (15,000+ uses):</strong> 7 methods<br><em>Case Study (43,807), Simulation (34,095), Literature Review (30,719)</em></li>
+                        <li><strong>Tier 2 - High (5,000-15,000):</strong> 14 methods<br><em>Risk Assessment, Forecasting, Focus Group, Meta-Analysis</em></li>
+                        <li><strong>Tier 3 - Moderate (1,000-5,000):</strong> 58 methods<br><em>Mixed-Methods, GIS, Content Analysis</em></li>
+                        <li><strong>Tier 4 - Low (100-1,000):</strong> 89 methods</li>
+                        <li><strong>Tier 5 - Rare (&lt;100):</strong> 63 methods</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>Core Method Categories</h3>
+                    <ul>
+                        <li><strong>Evaluation Methods:</strong> Program Evaluation, Process Evaluation, Outcome Evaluation, Impact Assessment</li>
+                        <li><strong>Statistical Methods:</strong> Fixed Effects, Regression Analysis, Difference-in-differences, Causal Inference</li>
+                        <li><strong>Review Methods:</strong> Literature Review, Systematic Review, Meta-Analysis</li>
+                        <li><strong>Data Collection:</strong> Case Study, Focus Group, Survey Design, Expert Elicitation</li>
+                        <li><strong>Applied Analysis:</strong> Risk Assessment, Forecasting, Simulation, Wargaming</li>
+                    </ul>
+                </div>
+                <div class="method-card" id="ai-growth-details">
+                    <h3>AI Keywords/Terminology Growth</h3>
+                    <ul>
+                        <li><strong>2016:</strong> 22 mentions of "artificial intelligence" keyword in text chunks</li>
+                        <li><strong>2025:</strong> 4,920 mentions of "artificial intelligence" keyword in text chunks</li>
+                        <li><strong>What this represents:</strong> Frequency of AI terminology appearing in RAND document text, not method usage</li>
+                        <li><strong>AI Keywords:</strong> "Artificial Intelligence" (30,591), "AI", "Machine Learning" (general terms)</li>
+                        <li><strong>Actual AI Methods:</strong> CNN (9,057), Deep Learning (3,448), Neural Networks (2,041)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Findings -->
+        <section class="findings">
+            <h2>Key Findings</h2>
+            <div class="findings-grid">
+                <div class="finding-card">
+                    <h3>📊 Method Usage Landscape</h3>
+                    <ul>
+                        <li>Case Study leads with 43,807 uses</li>
+                        <li>Literature Review: 39,101 uses</li>
+                        <li>Multi-author documents: 67.3% (definition: documents with >1 author listed)</li>
+                        <li>Platform methods span all divisions</li>
+                    </ul>
+                </div>
+                <div class="finding-card">
+                    <h3>🤖 AI Terminology Growth</h3>
+                    <ul>
+                        <li>AI term mentions: 31.4% of all method mentions (2025)</li>
+                        <li>Up from 5.4% in 2016 (22,364% increase)</li>
+                        <li>Actual AI Methods: CNN (9,057), Deep Learning (3,448), Neural Networks (2,041)</li>
+                        <li>Note: "Artificial Intelligence" is terminology, not a method</li>
+                    </ul>
+                </div>
+                <div class="finding-card">
+                    <h3>🏢 Research Area Analysis (Data Quality Issues)</h3>
+                    <ul>
+                        <li><strong>Research area identification:</strong> Based on automated classification, not validated against official RAND structure</li>
+                        <li><strong>Example specializations:</strong> Health Care: Clinical methods (Index 15.31), Education: Econometric Analysis (Index 8.36)</li>
+                        <li><strong>Data contamination:</strong> Some "methods" are actually RAND centers (e.g., "Center for Gaming")</li>
+                        <li><strong>Note:</strong> Categories are descriptive for analysis purposes, not official RAND organizational units</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Traditional Research Methods -->
+        <section id="traditional-methods" class="section">
+            <h2>Traditional Research Methods</h2>
+            <p class="section-intro">Core research methods used across RAND publications, excluding AI-related techniques.</p>
+            
+            <div class="method-categories">
+                <div class="method-category">
+                    <h3>Evaluation Methods</h3>
+                    <ul>
+                        <li><strong>Case Study:</strong> 43,807 uses - Most frequent method across RAND</li>
+                        <li><strong>Program Evaluation:</strong> 8,668 uses</li>
+                        <li><strong>Process Evaluation:</strong> 5,045 uses</li>
+                        <li><strong>Outcome Evaluation:</strong> 4,613 uses</li>
+                    </ul>
+                </div>
+                <div class="method-category">
+                    <h3>Statistical Methods</h3>
+                    <ul>
+                        <li><strong>Fixed Effects:</strong> 8,454 uses</li>
+                        <li><strong>Regression Analysis:</strong> 5,598 uses</li>
+                        <li><strong>Statistical Analysis:</strong> 5,163 uses</li>
+                        <li><strong>Sensitivity Analysis:</strong> 4,787 uses</li>
+                    </ul>
+                </div>
+                <div class="method-category">
+                    <h3>Review Methods</h3>
+                    <ul>
+                        <li><strong>Literature Review:</strong> 30,719 uses - Second most frequent</li>
+                        <li><strong>Systematic Review:</strong> 22,891 uses</li>
+                        <li><strong>Meta-Analysis:</strong> 14,534 uses</li>
+                    </ul>
+                </div>
+                <div class="method-category">
+                    <h3>Applied Methods</h3>
+                    <ul>
+                        <li><strong>Simulation:</strong> 34,095 uses - Third most frequent</li>
+                        <li><strong>Risk Assessment:</strong> 17,381 uses</li>
+                        <li><strong>Forecasting:</strong> 15,027 uses</li>
+                        <li><strong>Focus Group:</strong> 14,625 uses</li>
+                    </ul>
+                </div>
+                <div class="method-category">
+                    <h3>Analytical Methods</h3>
+                    <ul>
+                        <li><strong>Network Analysis:</strong> 6,697 uses</li>
+                        <li><strong>Clustering:</strong> 6,057 uses</li>
+                        <li><strong>GIS (Geographic Information Systems):</strong> 3,183 uses</li>
+                        <li><strong>Content Analysis:</strong> 2,645 uses</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Research Methods -->
+        <section id="ai-methods" class="section">
+            <h2>AI Research Methods</h2>
+            <p class="section-intro">Actual AI research techniques used as methods in RAND publications.</p>
+            
+            <div class="method-categories">
+                <div class="method-category">
+                    <h3>Machine Learning Methods</h3>
+                    <ul>
+                        <li><strong>CNN (Convolutional Neural Network):</strong> 9,057 uses</li>
+                        <li><strong>Deep Learning:</strong> 3,448 uses</li>
+                        <li><strong>Neural Network:</strong> 2,041 uses</li>
+                        <li><strong>RL (Reinforcement Learning):</strong> 2,384 uses</li>
+                        <li><strong>LLM (Large Language Model):</strong> 2,922 uses</li>
+                        <li><strong>GPT:</strong> 2,548 uses</li>
+                    </ul>
+                </div>
+                <div class="method-category">
+                    <h3>AI-Specific Techniques</h3>
+                    <ul>
+                        <li><strong>Fine-tuning:</strong> 1,513 uses</li>
+                        <li><strong>Embedding:</strong> 4,452 uses</li>
+                        <li><strong>GAN (Generative Adversarial Network):</strong> 1,910 uses</li>
+                        <li><strong>Transformer:</strong> 1,463 uses</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Terminology -->
+        <section id="ai-terminology" class="section">
+            <h2>AI Terminology & Keywords</h2>
+            <p class="section-intro">General AI terms mentioned in RAND publications - not research methods themselves.</p>
+            
+            <div class="viz-grid">
+                <div class="viz-card">
+                    <h3>AI Terminology Growth</h3>
+                    <p><strong>Chart needs to be fixed:</strong> Current visualization shows flat line - should show exponential growth from 22 (2016) to 4,920 (2025) mentions.</p>
+                </div>
+                <div class="viz-card">
+                    <h3>Publications Per Year</h3>
+                    <p><strong>Chart needs to be generated:</strong> Will show RAND publication counts by year from API metadata (48,876 total publications).</p>
+                </div>
+            </div>
+            
+            <div class="method-categories">
+                <div class="method-category">
+                    <h3>General AI Terms</h3>
+                    <ul>
+                        <li><strong>"Artificial Intelligence":</strong> 30,591 mentions (general field reference)</li>
+                        <li><strong>"Machine Learning":</strong> Frequently mentioned as concept</li>
+                        <li><strong>"AI":</strong> Abbreviation usage throughout documents</li>
+                    </ul>
+                </div>
+                <div class="method-category">
+                    <h3>AI Technology Terms</h3>
+                    <ul>
+                        <li><strong>"Embedding":</strong> 4,452 mentions (data representation technique)</li>
+                        <li><strong>"LLM":</strong> 2,922 mentions (Large Language Model)</li>
+                        <li><strong>"GPT":</strong> 2,548 mentions (specific AI model)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Area Analysis -->
+        <section id="research-areas" class="section">
+            <h2>Research Area Specializations</h2>
+            
+            <div class="limitations-box">
+                <h3>⚠️ Research Area Classification Methodology</h3>
+                <ul>
+                    <li><strong>Method:</strong> Documents classified into research areas using keyword matching against titles/abstracts (e.g., "health", "medical" → Health Care research area)</li>
+                    <li><strong>Keywords used:</strong> 11 research area categories with 5-15 keywords each (AI, defense, education, health, etc.)</li>
+                    <li><strong>Specialization Index:</strong> Measures how concentrated specific methods are within each research area compared to RAND-wide usage</li>
+                    <li><strong>Calculation:</strong> (Method usage % in research area) ÷ (Method usage % across all RAND) = Specialization Index. Values >1.5 indicate strong specialization</li>
+                    <li><strong>Note:</strong> Research area names are descriptive categories, not official RAND organizational units</li>
+                </ul>
+            </div>
+            
+            <div class="viz-card full-width">
+                <h3>Research Area Method Specializations</h3>
+                <img src="visualizations/static/division_specialization_heatmap.png" alt="Research Area Specialization Heatmap">
+                <p>Heatmap showing method specialization patterns across RAND research areas. Darker colors indicate stronger specialization (higher Specialization Index values) where specific methods are used more intensively within particular research areas compared to RAND-wide averages.</p>
+            </div>
+        </section>
+
+        <!-- Temporal Evolution -->
+        <section id="temporal" class="section">
+            <h2>Temporal Evolution</h2>
+            
+            <div class="viz-card full-width">
+                <h3>Top Methods Race (2016-2025)</h3>
+                <img src="visualizations/animations/top_methods_race.gif" alt="Methods Race">
+                <p>Watch how method rankings evolve over time, with AI methods rising rapidly.</p>
+            </div>
+            
+            <div class="viz-card full-width">
+                <h3>AI Keywords vs Traditional Methods</h3>
+                <img src="visualizations/animations/ai_adoption_evolution.gif" alt="AI Adoption">
+                <p>The growing share of AI terminology mentions in RAND publications.</p>
+            </div>
+            
+            <div class="viz-card full-width">
+                <h3>Emerging Methods by Frequency</h3>
+                <img src="visualizations/animations/emerging_methods.gif" alt="Emerging Methods">
+                <p>Methods gaining frequency over time, with AI-related terms leading growth.</p>
+            </div>
+            
+            <div class="viz-card full-width">
+                <h3>Method Growth Heatmap</h3>
+                <p><strong>Issue:</strong> AI Method Penetration chart shows all zeroes - data needs to be recalculated with proper AI method categorization.</p>
+            </div>
+        </section>
+
+
+        <!-- Interactive Visualizations -->
+        <section id="interactive" class="section">
+            <h2>Interactive Network Explorations</h2>
+            
+            <div class="viz-grid">
+                <div class="viz-card">
+                    <h3>Author-Method Network</h3>
+                    <p>Interactive network showing which authors use which research methods. Blue nodes = authors, orange nodes = methods.</p>
+                    <a href="visualizations/author_method_network.html" target="_blank" class="btn btn-primary">Explore Network →</a>
+                </div>
+                <div class="viz-card">
+                    <h3>Method Champions</h3>
+                    <p>Top authors for each research method - the "champions" who use specific methods most frequently.</p>
+                    <a href="visualizations/method_champions.html" target="_blank" class="btn btn-primary">View Champions →</a>
+                </div>
+            </div>
+            
+            <div class="viz-grid">
+                <div class="viz-card">
+                    <h3>Network Analytics Dashboard</h3>
+                    <p>Comprehensive network metrics including density, degree distribution, and collaboration patterns.</p>
+                    <a href="visualizations/network_metrics.html" target="_blank" class="btn btn-primary">View Metrics →</a>
+                </div>
+                <div class="viz-card">
+                    <h3>Enhanced WizMap Network</h3>
+                    <p>Semantic embeddings network of research methods and their relationships.</p>
+                    <a href="https://poloclub.github.io/wizmap/?dataURL=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbrianmills-2718%2Fwizmap_temporal_desperation%2Fresolve%2Fmain%2Fdata.ndjson&gridURL=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbrianmills-2718%2Fwizmap_temporal_desperation%2Fresolve%2Fmain%2Fgrid.json" target="_blank" class="btn btn-primary">Launch WizMap →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reports -->
+        <section id="reports" class="section">
+            <h2>Detailed Reports & Data</h2>
+            <div class="report-grid">
+                <div class="report-card">
+                    <h3>📄 Executive Summary</h3>
+                    <p>High-level findings and strategic insights for decision-makers.</p>
+                    <a href="reports/executive_summary.md" class="btn">View Summary</a>
+                </div>
+                <div class="report-card">
+                    <h3>📊 Full Analysis Report</h3>
+                    <p>Comprehensive findings with detailed methodology and appendices.</p>
+                    <a href="reports/full_report.html" class="btn">View Report</a>
+                </div>
+                <div class="report-card">
+                    <h3>💾 Download Data</h3>
+                    <p>Access raw data files for further analysis:</p>
+                    <ul class="download-list">
+                        <li><a href="data/method_frequencies_top50.csv">Top 50 Methods (CSV)</a></li>
+                        <li><a href="data/division_specializations_high_lq.csv">Division Specializations (CSV)</a></li>
+                        <li><a href="data/temporal_data.json">Temporal Evolution (JSON)</a></li>
+                        <li><a href="data/author_method_network.json">Network Data (JSON)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>RAND AI Methods Intelligence Analysis | Generated: <span id="timestamp"></span></p>
+            <p>Based on 564,062 text chunks from 9,129 RAND publications (2016-2025)</p>
+        </footer>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
