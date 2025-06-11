@@ -236,21 +236,21 @@
                     </ul>
                 </div>
                 <div class="finding-card">
-                    <h3>🏢 Division Specializations</h3>
+                    <h3>🏢 Division Analysis (Data Quality Issues)</h3>
                     <ul>
-                        <li>Science & Tech: AI methods (LQ 2.58)</li>
-                        <li>Health Care: Clinical methods (LQ 15.31)</li>
-                        <li>Education: Causal inference (LQ 9.41)</li>
-                        <li>Clear methodological signatures</li>
+                        <li><strong>Division identification:</strong> Based on automated classification, not validated against official RAND structure</li>
+                        <li><strong>Example specializations:</strong> Health Care: Clinical methods (LQ 15.31), Education: Econometric Analysis (LQ 8.36)</li>
+                        <li><strong>Data contamination:</strong> Some "methods" are actually RAND centers (e.g., "Center for Gaming")</li>
+                        <li><strong>Diversity calculation broken:</strong> All divisions showing 1.0 diversity score</li>
                     </ul>
                 </div>
                 <div class="finding-card">
-                    <h3>👥 Method Champions</h3>
+                    <h3>👥 Author-Method Co-occurrence (Not Networks)</h3>
                     <ul>
-                        <li>Brian A. Jackson: Multi-method leader</li>
-                        <li>James Black: AI champion (21 uses)</li>
-                        <li>Strong collaboration networks</li>
-                        <li>Method adoption follows influencers</li>
+                        <li><strong>Text co-occurrence only:</strong> Brian A. Jackson appears with many method terms</li>
+                        <li><strong>Not actual networks:</strong> Missing connections between coauthors, authors-to-methods, authors-to-divisions</li>
+                        <li><strong>Statistical summary:</strong> 44,001 author-method co-occurrences detected</li>
+                        <li><strong>Limitation:</strong> Frequency counts ≠ collaboration networks</li>
                     </ul>
                 </div>
             </div>
@@ -301,16 +301,27 @@
         <!-- Division Analysis -->
         <section id="divisions" class="section">
             <h2>Division Specializations</h2>
+            
+            <div class="limitations-box">
+                <h3>⚠️ Division Identification Methodology</h3>
+                <ul>
+                    <li><strong>How divisions were identified:</strong> Automated classification based on document metadata and organizational keywords</li>
+                    <li><strong>Validation needed:</strong> Division names like "RAND Science and Technology" may not match official RAND organizational structure</li>
+                    <li><strong>Data quality issues:</strong> Some "methods" detected are actually RAND centers (e.g., "Center for Gaming")</li>
+                    <li><strong>Diversity calculation error:</strong> All divisions showing 1.0 diversity score indicates calculation problems</li>
+                </ul>
+            </div>
+            
             <div class="viz-grid">
                 <div class="viz-card full-width">
-                    <h3>Method Specialization by Division</h3>
+                    <h3>Method Specialization by Division (Location Quotient)</h3>
                     <img src="visualizations/static/division_specialization_heatmap.png" alt="Division Specializations">
-                    <p>Location Quotient analysis reveals unique methodological signatures for each RAND division.</p>
+                    <p><strong>Note:</strong> Location Quotient shows how much more each division uses specific methods compared to RAND average. Values >1 indicate specialization. Chart may contain data quality issues.</p>
                 </div>
                 <div class="viz-card">
-                    <h3>Division Method Diversity</h3>
+                    <h3>Division Method Diversity Analysis</h3>
                     <img src="visualizations/static/division_diversity_analysis.png" alt="Division Diversity">
-                    <p>Comparison of methodological breadth across divisions.</p>
+                    <p><strong>Data Quality Issue:</strong> All divisions showing diversity score of 1.0 suggests calculation error. Chart interpretation unclear.</p>
                 </div>
             </div>
         </section>
@@ -342,25 +353,36 @@
             </div>
         </section>
 
-        <!-- Network Analysis -->
+        <!-- Author Analysis -->
         <section id="networks" class="section">
-            <h2>Author-Method Networks</h2>
+            <h2>Author-Method Analysis</h2>
+            
+            <div class="limitations-box">
+                <h3>⚠️ Network Visualization Missing</h3>
+                <ul>
+                    <li><strong>Expected:</strong> Interactive network showing coauthor connections, author-method relationships, and author-division affiliations</li>
+                    <li><strong>Current limitation:</strong> Charts below show statistical distributions, not actual network connections</li>
+                    <li><strong>Degree distribution alone:</strong> Does not constitute a network visualization</li>
+                    <li><strong>Needed:</strong> Force-directed graph showing nodes (authors, methods, divisions) and edges (relationships)</li>
+                </ul>
+            </div>
+            
             <div class="viz-grid">
                 <div class="viz-card">
-                    <h3>Top Method Champions</h3>
+                    <h3>Author-Method Co-occurrence</h3>
                     <img src="visualizations/static/top_methods.png" alt="Method Champions">
-                    <p>Leading researchers driving adoption of specific methods.</p>
+                    <p>Authors most frequently mentioned with specific methods in document text. <strong>Note:</strong> This shows frequency, not network connections.</p>
                 </div>
                 <div class="viz-card">
-                    <h3>Network Structure</h3>
+                    <h3>Connection Degree Distribution</h3>
                     <img src="visualizations/static/degree_distribution.png" alt="Network Structure">
-                    <p>Distribution of connections in the author-method network.</p>
+                    <p><strong>Limitation:</strong> Shows statistical distribution of connection counts, not the actual network structure with linked nodes.</p>
                 </div>
             </div>
             <div class="network-stats">
-                <h3>Network Statistics</h3>
+                <h3>Statistical Summary</h3>
                 <ul>
-                    <li>Total author-method connections: 44,001</li>
+                    <li>Total author-method co-occurrences: 44,001</li>
                     <li>Average collaborators per document: 4.1</li>
                     <li>Cross-division collaboration rate: 83.2%</li>
                     <li>Platform methods used across 4+ divisions: 47</li>
