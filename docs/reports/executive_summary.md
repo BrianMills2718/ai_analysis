@@ -88,13 +88,13 @@
             <li><strong>Peak AI adoption in 2024</strong> with continued growth trajectory</li>
         </ul>
 
-        <h4>3. Division Specializations (Location Quotient Analysis)</h4>
+        <h4>3. Research Area Specializations</h4>
         <ul>
-            <li><strong>RAND Science & Technology</strong>: AI methods dominant (AI governance LQ: 2.58, neural networks LQ: 2.58)</li>
-            <li><strong>RAND Health Care</strong>: Clinical methods specialized (Modified Delphi LQ: 15.31, Microsimulation LQ: 15.31)</li>
-            <li><strong>RAND Education & Labor</strong>: Causal inference focus (Center for Causal Inference LQ: 9.41)</li>
-            <li><strong>RAND Justice Policy</strong>: Advanced analytics (semantic search LQ: 11.53, survival analysis LQ: 11.53)</li>
-            <li><strong>RAND International</strong>: Counterfactual analysis leadership (LQ: 12.81)</li>
+            <li><strong>Science & Technology Research</strong>: AI methods concentration (AI governance Specialization Index: 2.58, neural networks: 2.58)</li>
+            <li><strong>Health Care Research</strong>: Clinical methods specialization (Modified Delphi Index: 15.31, Microsimulation: 15.31)</li>
+            <li><strong>Education & Labor Research</strong>: Causal inference focus (Center for Causal Inference Index: 9.41)</li>
+            <li><strong>Justice Policy Research</strong>: Advanced analytics (semantic search Index: 11.53, survival analysis: 11.53)</li>
+            <li><strong>International Research</strong>: Counterfactual analysis leadership (Index: 12.81)</li>
         </ul>
 
         <h4>4. Method Champions & Networks</h4>
@@ -115,18 +115,18 @@
         <h3>Strategic Insights</h3>
         <ol>
             <li><strong>AI Adoption Gap</strong>: Despite rapid growth, AI integration remains limited (2.4% of active usage)</li>
-            <li><strong>Division Silos</strong>: Clear methodological specializations suggest opportunities for cross-division collaboration</li>
-            <li><strong>Platform Methods</strong>: Literature Review, Case Study, and Simulation used across all divisions</li>
-            <li><strong>Emerging Capabilities</strong>: Strong growth in AI methods but concentrated in few divisions</li>
+            <li><strong>Research Area Specializations</strong>: Clear methodological concentrations suggest opportunities for cross-area collaboration</li>
+            <li><strong>Platform Methods</strong>: Literature Review, Case Study, and Simulation used across all research areas</li>
+            <li><strong>Emerging Capabilities</strong>: Strong growth in AI methods but concentrated in few research areas</li>
             <li><strong>Network Effects</strong>: Method champions drive adoption - targeting key influencers could accelerate AI integration</li>
         </ol>
 
         <h3>Recommendations for PI Decision-Making</h3>
         <ol>
             <li><strong>Target High-Impact Methods</strong>: Focus AI enhancement on platform methods (Case Study, Literature Review, Simulation)</li>
-            <li><strong>Leverage Division Strengths</strong>: Build on existing specializations rather than forcing uniform adoption</li>
+            <li><strong>Leverage Research Area Strengths</strong>: Build on existing specializations rather than forcing uniform adoption</li>
             <li><strong>Champion Development</strong>: Invest in training method champions who can drive adoption</li>
-            <li><strong>Cross-Division Initiatives</strong>: Create opportunities for AI-savvy divisions to share expertise</li>
+            <li><strong>Cross-Area Initiatives</strong>: Create opportunities for AI-savvy research areas to share expertise</li>
             <li><strong>Monitor Emerging Methods</strong>: Track rapid growth areas for early investment opportunities</li>
         </ol>
 

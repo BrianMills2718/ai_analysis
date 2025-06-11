@@ -16,7 +16,7 @@
                 <a href="#overview">Overview</a>
                 <a href="#methodology">Methodology</a>
                 <a href="#methods">Methods</a>
-                <a href="#divisions">Divisions</a>
+                <a href="#research-areas">Research Areas</a>
                 <a href="#temporal">Temporal</a>
                 <a href="#networks">Networks</a>
                 <a href="keywords.html">Keywords</a>
@@ -62,7 +62,7 @@
                 <div class="method-card">
                     <h3>📈 Analysis Techniques</h3>
                     <ul>
-                        <li><strong>Location Quotient:</strong> Division specialization vs. RAND average</li>
+                        <li><strong>Specialization Index:</strong> Research area method concentration vs. RAND-wide usage patterns</li>
                         <li><strong>Network Analysis:</strong> Author-method collaboration patterns</li>
                         <li><strong>Temporal Tracking:</strong> Method usage evolution over time</li>
                         <li><strong>Co-occurrence Analysis:</strong> Methods used together in publications</li>
@@ -298,36 +298,25 @@
             </div>
         </section>
 
-        <!-- Division Analysis -->
-        <section id="divisions" class="section">
-            <h2>Division Specializations</h2>
+        <!-- Research Area Analysis -->
+        <section id="research-areas" class="section">
+            <h2>Research Area Specializations</h2>
             
             <div class="limitations-box">
-                <h3>⚠️ Division Identification Methodology</h3>
+                <h3>⚠️ Research Area Classification Methodology</h3>
                 <ul>
-                    <li><strong>Method:</strong> Classification by keyword matching against document titles/abstracts using predefined word lists (e.g., "health", "medical" → RAND Health Care)</li>
-                    <li><strong>Keywords used:</strong> 11 division categories with 5-15 keywords each (AI, defense, education, health, etc.)</li>
-                    <li><strong>Validation needed:</strong> Division names may not match official RAND organizational structure</li>
-                    <li><strong>Data contamination:</strong> Some detected "methods" are RAND centers, not research methods</li>
+                    <li><strong>Method:</strong> Documents classified into research areas using keyword matching against titles/abstracts (e.g., "health", "medical" → Health Care research area)</li>
+                    <li><strong>Keywords used:</strong> 11 research area categories with 5-15 keywords each (AI, defense, education, health, etc.)</li>
+                    <li><strong>Specialization Index:</strong> Measures how concentrated specific methods are within each research area compared to RAND-wide usage</li>
+                    <li><strong>Calculation:</strong> (Method usage % in research area) ÷ (Method usage % across all RAND) = Specialization Index. Values >1.5 indicate strong specialization</li>
+                    <li><strong>Note:</strong> Research area names are descriptive categories, not official RAND organizational units</li>
                 </ul>
             </div>
             
-            <div class="viz-grid">
-                <div class="viz-card">
-                    <h3>Division Method Specializations</h3>
-                    <img src="visualizations/static/division_specialization_heatmap.png" alt="Division Specialization Heatmap">
-                    <p>Heatmap showing method usage patterns across RAND divisions based on frequency analysis.</p>
-                </div>
-                <div class="viz-card">
-                    <h3>Division Diversity Analysis</h3>
-                    <img src="visualizations/static/division_diversity_analysis.png" alt="Division Diversity Analysis">
-                    <p>Analysis of methodological diversity across different RAND organizational divisions.</p>
-                </div>
-            </div>
-            
             <div class="viz-card full-width">
-                <h3>Top Specializations by Division</h3>
-                <p><strong>To be added:</strong> Chart showing top method specializations by division (removing problematic metrics).</p>
+                <h3>Research Area Method Specializations</h3>
+                <img src="visualizations/static/division_specialization_heatmap.png" alt="Research Area Specialization Heatmap">
+                <p>Heatmap showing method specialization patterns across RAND research areas. Darker colors indicate stronger specialization (higher Specialization Index values) where specific methods are used more intensively within particular research areas compared to RAND-wide averages.</p>
             </div>
         </section>
 
