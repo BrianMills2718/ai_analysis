@@ -1,0 +1,542 @@
+{
+  "RAND Climate and Environment": {
+    "total_methods": 6,
+    "specialized_count": 5,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Impact Assessment",
+        "lq": 27.42,
+        "count": 8
+      },
+      {
+        "method": "Foresight",
+        "lq": 14.67,
+        "count": 8
+      },
+      {
+        "method": "Simulation",
+        "lq": 7.52,
+        "count": 36
+      },
+      {
+        "method": "Systematic Review",
+        "lq": 2.71,
+        "count": 8
+      },
+      {
+        "method": "Literature Review",
+        "lq": 1.82,
+        "count": 8
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Simulation",
+        "count": 36
+      },
+      {
+        "method": "Case Study",
+        "count": 8
+      },
+      {
+        "method": "Foresight",
+        "count": 8
+      },
+      {
+        "method": "Impact Assessment",
+        "count": 8
+      },
+      {
+        "method": "Literature Review",
+        "count": 8
+      }
+    ]
+  },
+  "RAND Education and Labor": {
+    "total_methods": 59,
+    "specialized_count": 34,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Center for Gaming",
+        "lq": 9.41,
+        "count": 8
+      },
+      {
+        "method": "Center for Causal Inference",
+        "lq": 9.41,
+        "count": 5
+      },
+      {
+        "method": "Structural equation modeling",
+        "lq": 9.41,
+        "count": 4
+      },
+      {
+        "method": "Econometric Analysis",
+        "lq": 8.36,
+        "count": 8
+      },
+      {
+        "method": "Random effects",
+        "lq": 6.27,
+        "count": 4
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Case Study",
+        "count": 777
+      },
+      {
+        "method": "artificial intelligence",
+        "count": 614
+      },
+      {
+        "method": "Meta-Analysis",
+        "count": 296
+      },
+      {
+        "method": "Literature Review",
+        "count": 253
+      },
+      {
+        "method": "Program Evaluation",
+        "count": 235
+      }
+    ]
+  },
+  "RAND Health Care": {
+    "total_methods": 53,
+    "specialized_count": 27,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Modified Delphi",
+        "lq": 15.31,
+        "count": 8
+      },
+      {
+        "method": "Microsimulation",
+        "lq": 15.31,
+        "count": 9
+      },
+      {
+        "method": "Multivariate Analysis",
+        "lq": 13.13,
+        "count": 6
+      },
+      {
+        "method": "Survey Analysis",
+        "lq": 12.04,
+        "count": 125
+      },
+      {
+        "method": "Rapid evidence assessment",
+        "lq": 11.6,
+        "count": 50
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Systematic Review",
+        "count": 404
+      },
+      {
+        "method": "Case Study",
+        "count": 223
+      },
+      {
+        "method": "Literature Review",
+        "count": 218
+      },
+      {
+        "method": "embedding",
+        "count": 206
+      },
+      {
+        "method": "Meta-Analysis",
+        "count": 155
+      }
+    ]
+  },
+  "RAND Homeland Security": {
+    "total_methods": 30,
+    "specialized_count": 17,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Textual Analysis",
+        "lq": 45.79,
+        "count": 8
+      },
+      {
+        "method": "Research Synthesis",
+        "lq": 28.42,
+        "count": 54
+      },
+      {
+        "method": "Impact Assessment",
+        "lq": 22.19,
+        "count": 78
+      },
+      {
+        "method": "Process Evaluation",
+        "lq": 9.97,
+        "count": 32
+      },
+      {
+        "method": "Qualitative Data Analysis",
+        "lq": 7.39,
+        "count": 20
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Literature Review",
+        "count": 157
+      },
+      {
+        "method": "Risk Assessment",
+        "count": 116
+      },
+      {
+        "method": "Systematic Review",
+        "count": 104
+      },
+      {
+        "method": "Impact Assessment",
+        "count": 78
+      },
+      {
+        "method": "Research Synthesis",
+        "count": 54
+      }
+    ]
+  },
+  "RAND Infrastructure": {
+    "total_methods": 42,
+    "specialized_count": 25,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Stress Testing",
+        "lq": 17.59,
+        "count": 18
+      },
+      {
+        "method": "Uncertainty Analysis",
+        "lq": 17.59,
+        "count": 20
+      },
+      {
+        "method": "Institutional analysis",
+        "lq": 17.59,
+        "count": 8
+      },
+      {
+        "method": "Time Series Analysis",
+        "lq": 14.66,
+        "count": 10
+      },
+      {
+        "method": "regularization",
+        "lq": 13.8,
+        "count": 40
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Case Study",
+        "count": 697
+      },
+      {
+        "method": "Regression Analysis",
+        "count": 217
+      },
+      {
+        "method": "Simulation",
+        "count": 203
+      },
+      {
+        "method": "artificial intelligence",
+        "count": 200
+      },
+      {
+        "method": "Risk Assessment",
+        "count": 155
+      }
+    ]
+  },
+  "RAND International": {
+    "total_methods": 62,
+    "specialized_count": 29,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Counterfactual analysis",
+        "lq": 12.81,
+        "count": 1
+      },
+      {
+        "method": "PSM",
+        "lq": 12.81,
+        "count": 4
+      },
+      {
+        "method": "DNN",
+        "lq": 12.81,
+        "count": 3
+      },
+      {
+        "method": "counterfactual analysis",
+        "lq": 12.81,
+        "count": 1
+      },
+      {
+        "method": "SNA",
+        "lq": 12.81,
+        "count": 9
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Case Study",
+        "count": 715
+      },
+      {
+        "method": "artificial intelligence",
+        "count": 386
+      },
+      {
+        "method": "Literature Review",
+        "count": 305
+      },
+      {
+        "method": "CNN",
+        "count": 300
+      },
+      {
+        "method": "Statistical Analysis",
+        "count": 167
+      }
+    ]
+  },
+  "RAND Justice Policy": {
+    "total_methods": 55,
+    "specialized_count": 31,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "semantic search",
+        "lq": 11.53,
+        "count": 4
+      },
+      {
+        "method": "Survival Analysis",
+        "lq": 11.53,
+        "count": 98
+      },
+      {
+        "method": "Realist evaluation",
+        "lq": 11.53,
+        "count": 24
+      },
+      {
+        "method": "model calibration",
+        "lq": 10.09,
+        "count": 42
+      },
+      {
+        "method": "Difference-in-differences",
+        "lq": 9.42,
+        "count": 219
+      }
+    ],
+    "most_used": [
+      {
+        "method": "RCT",
+        "count": 344
+      },
+      {
+        "method": "Literature Review",
+        "count": 296
+      },
+      {
+        "method": "Systematic Review",
+        "count": 287
+      },
+      {
+        "method": "Program Evaluation",
+        "count": 264
+      },
+      {
+        "method": "Difference-in-differences",
+        "count": 219
+      }
+    ]
+  },
+  "RAND National Security Research": {
+    "total_methods": 81,
+    "specialized_count": 32,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Monte Carlo Simulation",
+        "lq": 5.17,
+        "count": 23
+      },
+      {
+        "method": "Decision theory",
+        "lq": 5.17,
+        "count": 7
+      },
+      {
+        "method": "Text-as-data",
+        "lq": 5.17,
+        "count": 9
+      },
+      {
+        "method": "Utility Analysis",
+        "lq": 5.17,
+        "count": 9
+      },
+      {
+        "method": "Factor Analysis",
+        "lq": 3.49,
+        "count": 133
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Case Study",
+        "count": 1601
+      },
+      {
+        "method": "Simulation",
+        "count": 1032
+      },
+      {
+        "method": "Risk Assessment",
+        "count": 780
+      },
+      {
+        "method": "artificial intelligence",
+        "count": 570
+      },
+      {
+        "method": "Literature Review",
+        "count": 524
+      }
+    ]
+  },
+  "RAND Science and Technology": {
+    "total_methods": 129,
+    "specialized_count": 68,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "AI governance",
+        "lq": 2.58,
+        "count": 297
+      },
+      {
+        "method": "AI market",
+        "lq": 2.58,
+        "count": 9
+      },
+      {
+        "method": "AI ecosystem",
+        "lq": 2.58,
+        "count": 117
+      },
+      {
+        "method": "AI deployment",
+        "lq": 2.58,
+        "count": 9
+      },
+      {
+        "method": "neural network model",
+        "lq": 2.58,
+        "count": 9
+      }
+    ],
+    "most_used": [
+      {
+        "method": "artificial intelligence",
+        "count": 4580
+      },
+      {
+        "method": "Simulation",
+        "count": 1011
+      },
+      {
+        "method": "Case Study",
+        "count": 910
+      },
+      {
+        "method": "Forecasting",
+        "count": 681
+      },
+      {
+        "method": "Literature Review",
+        "count": 562
+      }
+    ]
+  },
+  "RAND Social and Economic Policy": {
+    "total_methods": 12,
+    "specialized_count": 11,
+    "diversity_score": 1.0,
+    "top_specialized": [
+      {
+        "method": "Instrumental variable",
+        "lq": 381.33,
+        "count": 3
+      },
+      {
+        "method": "Ethnography",
+        "lq": 158.89,
+        "count": 10
+      },
+      {
+        "method": "Robustness Checks",
+        "lq": 44.57,
+        "count": 9
+      },
+      {
+        "method": "Factor Analysis",
+        "lq": 11.61,
+        "count": 6
+      },
+      {
+        "method": "Difference-in-differences",
+        "lq": 7.11,
+        "count": 5
+      }
+    ],
+    "most_used": [
+      {
+        "method": "Literature Review",
+        "count": 40
+      },
+      {
+        "method": "Ethnography",
+        "count": 10
+      },
+      {
+        "method": "Risk Assessment",
+        "count": 10
+      },
+      {
+        "method": "Robustness Checks",
+        "count": 9
+      },
+      {
+        "method": "Meta-Analysis",
+        "count": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAND Methods Network - Interactive Visualization</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #wizmap-container {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            margin: 2rem 0;
+        }
+        .controls {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        .filter-group {
+            margin-bottom: 1rem;
+        }
+        .filter-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: #003366;
+        }
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">RAND Methods Network</h1>
+            <div class="nav-links">
+                <a href="index.html">← Back to Dashboard</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Interactive Method Network Visualization</h2>
+            <p>Explore relationships between research methods, authors, and divisions. Node size represents usage frequency, colors indicate lifecycle stage.</p>
+        </section>
+
+        <div class="controls">
+            <h3>Filters & Controls</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div class="filter-group">
+                    <label for="division-filter">Division</label>
+                    <select id="division-filter">
+                        <option value="all">All Divisions</option>
+                        <option value="RAND Science and Technology">Science & Technology</option>
+                        <option value="RAND Health Care">Health Care</option>
+                        <option value="RAND Education and Labor">Education & Labor</option>
+                        <option value="RAND Justice Policy">Justice Policy</option>
+                        <option value="RAND International">International</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="lifecycle-filter">Lifecycle Stage</label>
+                    <select id="lifecycle-filter">
+                        <option value="all">All Stages</option>
+                        <option value="Emerging">Emerging</option>
+                        <option value="Growing">Growing</option>
+                        <option value="Mature">Mature</option>
+                        <option value="Declining">Declining</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="ai-filter">AI Integration</label>
+                    <select id="ai-filter">
+                        <option value="all">All Methods</option>
+                        <option value="ai">AI Methods Only</option>
+                        <option value="traditional">Traditional Only</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #FF6B6B"></div>
+                    <span>Emerging</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #4ECDC4"></div>
+                    <span>Growing</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #95E1D3"></div>
+                    <span>Mature</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #C7CEEA"></div>
+                    <span>Declining</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="wizmap-container">
+            <p style="text-align: center; padding: 3rem; color: #666;">
+                Network visualization would be rendered here using D3.js or similar library.<br>
+                For full functionality, integrate with WizMap or implement custom network visualization.
+            </p>
+        </div>
+
+        <section class="section">
+            <h3>How to Use This Visualization</h3>
+            <ol>
+                <li><strong>Filter by Division:</strong> See methods specific to each RAND division</li>
+                <li><strong>Filter by Lifecycle:</strong> Focus on emerging vs. established methods</li>
+                <li><strong>Filter by AI:</strong> Compare AI vs. traditional method networks</li>
+                <li><strong>Hover over nodes:</strong> View detailed information about each method</li>
+                <li><strong>Click and drag:</strong> Rearrange the network layout</li>
+                <li><strong>Zoom in/out:</strong> Use scroll wheel to explore different scales</li>
+            </ol>
+        </section>
+    </main>
+
+    <script src="js/wizmap.js"></script>
+</body>
+</html>

@@ -1,0 +1,1352 @@
+[
+  {
+    "method": "Literature Review",
+    "total_usage": 5241,
+    "author_count": 1938,
+    "top_champions": [
+      {
+        "author": "Brian A. Jackson",
+        "count": 31
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 23
+      },
+      {
+        "author": "Michael J. D. Vermeer",
+        "count": 23
+      },
+      {
+        "author": "James Black",
+        "count": 20
+      },
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 19
+      }
+    ]
+  },
+  {
+    "method": "Case Study",
+    "total_usage": 4480,
+    "author_count": 1784,
+    "top_champions": [
+      {
+        "author": "Bryan Frederick",
+        "count": 21
+      },
+      {
+        "author": "Raphael S. Cohen",
+        "count": 21
+      },
+      {
+        "author": "Elaine Lin Wang",
+        "count": 19
+      },
+      {
+        "author": "Nathan Chandler",
+        "count": 18
+      },
+      {
+        "author": "Heather L. Schwartz",
+        "count": 17
+      }
+    ]
+  },
+  {
+    "method": "Simulation",
+    "total_usage": 3693,
+    "author_count": 1521,
+    "top_champions": [
+      {
+        "author": "Beth J. Asch",
+        "count": 30
+      },
+      {
+        "author": "Michael G. Mattock",
+        "count": 29
+      },
+      {
+        "author": "Matthew Walsh",
+        "count": 22
+      },
+      {
+        "author": "David Schulker",
+        "count": 18
+      },
+      {
+        "author": "James Hosek",
+        "count": 17
+      }
+    ]
+  },
+  {
+    "method": "Systematic Review",
+    "total_usage": 3334,
+    "author_count": 1371,
+    "top_champions": [
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 24
+      },
+      {
+        "author": "Brian A. Jackson",
+        "count": 20
+      },
+      {
+        "author": "Susanne Hempel",
+        "count": 20
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 18
+      },
+      {
+        "author": "Rajeev Ramchand",
+        "count": 18
+      }
+    ]
+  },
+  {
+    "method": "artificial intelligence",
+    "total_usage": 2944,
+    "author_count": 1249,
+    "top_champions": [
+      {
+        "author": "James Black",
+        "count": 21
+      },
+      {
+        "author": "Matthew Walsh",
+        "count": 16
+      },
+      {
+        "author": "Benjamin Boudreaux",
+        "count": 15
+      },
+      {
+        "author": "David Schulker",
+        "count": 15
+      },
+      {
+        "author": "Edward Geist",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "method": "Meta-Analysis",
+    "total_usage": 2369,
+    "author_count": 1065,
+    "top_champions": [
+      {
+        "author": "Susanne Hempel",
+        "count": 17
+      },
+      {
+        "author": "Elizabeth D. Steiner",
+        "count": 16
+      },
+      {
+        "author": "Miriam Matthews",
+        "count": 15
+      },
+      {
+        "author": "Terry L. Schell",
+        "count": 15
+      },
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "method": "Risk Assessment",
+    "total_usage": 2027,
+    "author_count": 1075,
+    "top_champions": [
+      {
+        "author": "Brian A. Jackson",
+        "count": 17
+      },
+      {
+        "author": "Kristin J. Leuschner",
+        "count": 16
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 14
+      },
+      {
+        "author": "Michael J. D. Vermeer",
+        "count": 14
+      },
+      {
+        "author": "Daniel M. Gerstein",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "method": "CNN",
+    "total_usage": 1904,
+    "author_count": 950,
+    "top_champions": [
+      {
+        "author": "Raphael S. Cohen",
+        "count": 23
+      },
+      {
+        "author": "Jeffrey W. Hornung",
+        "count": 19
+      },
+      {
+        "author": "Bryan Frederick",
+        "count": 16
+      },
+      {
+        "author": "Timothy R. Heath",
+        "count": 16
+      },
+      {
+        "author": "Ashley L. Rhoades",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "method": "Forecasting",
+    "total_usage": 1893,
+    "author_count": 1054,
+    "top_champions": [
+      {
+        "author": "Robert J. Lempert",
+        "count": 13
+      },
+      {
+        "author": "Kristin J. Leuschner",
+        "count": 12
+      },
+      {
+        "author": "Raphael S. Cohen",
+        "count": 12
+      },
+      {
+        "author": "James Black",
+        "count": 11
+      },
+      {
+        "author": "Benjamin M. Miller",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "method": "Focus Group",
+    "total_usage": 1725,
+    "author_count": 962,
+    "top_champions": [
+      {
+        "author": "Elizabeth D. Steiner",
+        "count": 13
+      },
+      {
+        "author": "Elaine Lin Wang",
+        "count": 10
+      },
+      {
+        "author": "Emily K. Chen",
+        "count": 10
+      },
+      {
+        "author": "Leslie Adrienne Payne",
+        "count": 10
+      },
+      {
+        "author": "Rita T. Karam",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "method": "Program Evaluation",
+    "total_usage": 1673,
+    "author_count": 907,
+    "top_champions": [
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 16
+      },
+      {
+        "author": "Brian A. Jackson",
+        "count": 14
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 12
+      },
+      {
+        "author": "Megan McKernan",
+        "count": 12
+      },
+      {
+        "author": "Michael J. D. Vermeer",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "method": "Clustering",
+    "total_usage": 1534,
+    "author_count": 903,
+    "top_champions": [
+      {
+        "author": "Dulani Woods",
+        "count": 37
+      },
+      {
+        "author": "Brian A. Jackson",
+        "count": 34
+      },
+      {
+        "author": "Michael J. D. Vermeer",
+        "count": 21
+      },
+      {
+        "author": "Andrew R. Morral",
+        "count": 10
+      },
+      {
+        "author": "John S. Hollywood",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "method": "Return on Investment",
+    "total_usage": 1424,
+    "author_count": 857,
+    "top_champions": [
+      {
+        "author": "Matthew D. Baird",
+        "count": 12
+      },
+      {
+        "author": "Melanie A. Zaber",
+        "count": 11
+      },
+      {
+        "author": "Grace Gahlon",
+        "count": 10
+      },
+      {
+        "author": "Lori Frank",
+        "count": 10
+      },
+      {
+        "author": "Andrew W. Dick",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "method": "Statistical Analysis",
+    "total_usage": 1206,
+    "author_count": 788,
+    "top_champions": [
+      {
+        "author": "Stephen Watts",
+        "count": 14
+      },
+      {
+        "author": "Jennifer Kavanagh",
+        "count": 11
+      },
+      {
+        "author": "Bryan Frederick",
+        "count": 10
+      },
+      {
+        "author": "Angela O'Mahony",
+        "count": 8
+      },
+      {
+        "author": "Nathan Chandler",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "embedding",
+    "total_usage": 1137,
+    "author_count": 767,
+    "top_champions": [
+      {
+        "author": "Tom Ling",
+        "count": 13
+      },
+      {
+        "author": "Sonja Marjanovic",
+        "count": 8
+      },
+      {
+        "author": "Elaine Lin Wang",
+        "count": 7
+      },
+      {
+        "author": "James Black",
+        "count": 7
+      },
+      {
+        "author": "Anita Chandra",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "method": "Mixed-Methods",
+    "total_usage": 1130,
+    "author_count": 717,
+    "top_champions": [
+      {
+        "author": "Salil Gunashekar",
+        "count": 8
+      },
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 7
+      },
+      {
+        "author": "Chryssa Politi",
+        "count": 6
+      },
+      {
+        "author": "Elaine Lin Wang",
+        "count": 6
+      },
+      {
+        "author": "Jonathan Schweig",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "method": "Randomized Controlled Trial",
+    "total_usage": 1129,
+    "author_count": 597,
+    "top_champions": [
+      {
+        "author": "Susanne Hempel",
+        "count": 18
+      },
+      {
+        "author": "Aneesa Motala",
+        "count": 13
+      },
+      {
+        "author": "Jody Larkin",
+        "count": 9
+      },
+      {
+        "author": "Catherine H. Augustine",
+        "count": 8
+      },
+      {
+        "author": "Margaret A. Maglione",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "Wargaming",
+    "total_usage": 1024,
+    "author_count": 553,
+    "top_champions": [
+      {
+        "author": "Andrew Radin",
+        "count": 10
+      },
+      {
+        "author": "Stephanie Pezard",
+        "count": 10
+      },
+      {
+        "author": "Elizabeth M. Bartels",
+        "count": 9
+      },
+      {
+        "author": "Scott Savitz",
+        "count": 9
+      },
+      {
+        "author": "Alyssa Demus",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "Sensitivity Analysis",
+    "total_usage": 989,
+    "author_count": 622,
+    "top_champions": [
+      {
+        "author": "Andrew W. Mulcahy",
+        "count": 11
+      },
+      {
+        "author": "Susanne Hempel",
+        "count": 11
+      },
+      {
+        "author": "Marco Hafner",
+        "count": 9
+      },
+      {
+        "author": "Teague Ruder",
+        "count": 8
+      },
+      {
+        "author": "Christian Van Stolk",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "method": "Fixed effects",
+    "total_usage": 986,
+    "author_count": 593,
+    "top_champions": [
+      {
+        "author": "Julia H. Kaufman",
+        "count": 11
+      },
+      {
+        "author": "Matthew D. Baird",
+        "count": 11
+      },
+      {
+        "author": "Rosanna Smart",
+        "count": 10
+      },
+      {
+        "author": "Andrew R. Morral",
+        "count": 9
+      },
+      {
+        "author": "Marco Hafner",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "Regression Analysis",
+    "total_usage": 922,
+    "author_count": 590,
+    "top_champions": [
+      {
+        "author": "Marco Hafner",
+        "count": 10
+      },
+      {
+        "author": "Christian Van Stolk",
+        "count": 9
+      },
+      {
+        "author": "Rajeev Ramchand",
+        "count": 7
+      },
+      {
+        "author": "Rosanna Smart",
+        "count": 7
+      },
+      {
+        "author": "Bruce R. Orvis",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "method": "Needs Assessment",
+    "total_usage": 814,
+    "author_count": 501,
+    "top_champions": [
+      {
+        "author": "Brian A. Jackson",
+        "count": 12
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 10
+      },
+      {
+        "author": "Joie D. Acosta",
+        "count": 9
+      },
+      {
+        "author": "Michael J. D. Vermeer",
+        "count": 7
+      },
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "method": "RCT",
+    "total_usage": 798,
+    "author_count": 488,
+    "top_champions": [
+      {
+        "author": "Susanne Hempel",
+        "count": 16
+      },
+      {
+        "author": "Aneesa Motala",
+        "count": 12
+      },
+      {
+        "author": "Jody Larkin",
+        "count": 10
+      },
+      {
+        "author": "Stephani L. Wrabel",
+        "count": 8
+      },
+      {
+        "author": "Jennie W. Wenger",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "method": "Network Analysis",
+    "total_usage": 769,
+    "author_count": 515,
+    "top_champions": [
+      {
+        "author": "Jonathan W. Welburn",
+        "count": 10
+      },
+      {
+        "author": "Brian A. Jackson",
+        "count": 8
+      },
+      {
+        "author": "William Marcellino",
+        "count": 8
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 7
+      },
+      {
+        "author": "John S. Hollywood",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "method": "Foresight",
+    "total_usage": 757,
+    "author_count": 485,
+    "top_champions": [
+      {
+        "author": "James Black",
+        "count": 13
+      },
+      {
+        "author": "Aaron C. Davenport",
+        "count": 10
+      },
+      {
+        "author": "Michelle D. Ziegler",
+        "count": 10
+      },
+      {
+        "author": "Melissa Bauman",
+        "count": 8
+      },
+      {
+        "author": "Scott Savitz",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "Survey Design",
+    "total_usage": 643,
+    "author_count": 407,
+    "top_champions": [
+      {
+        "author": "Terry L. Schell",
+        "count": 12
+      },
+      {
+        "author": "David Grant",
+        "count": 11
+      },
+      {
+        "author": "Miriam Matthews",
+        "count": 10
+      },
+      {
+        "author": "Claude Messan Setodji",
+        "count": 7
+      },
+      {
+        "author": "Coreen Farris",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "method": "Content Analysis",
+    "total_usage": 616,
+    "author_count": 483,
+    "top_champions": [
+      {
+        "author": "Brian A. Jackson",
+        "count": 6
+      },
+      {
+        "author": "Joie D. Acosta",
+        "count": 6
+      },
+      {
+        "author": "William Marcellino",
+        "count": 6
+      },
+      {
+        "author": "Douglas Yeung",
+        "count": 5
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "method": "Impact Assessment",
+    "total_usage": 601,
+    "author_count": 447,
+    "top_champions": [
+      {
+        "author": "Denise D. Quigley",
+        "count": 6
+      },
+      {
+        "author": "Molly Waymouth",
+        "count": 6
+      },
+      {
+        "author": "Susan Guthrie",
+        "count": 6
+      },
+      {
+        "author": "Andrew W. Dick",
+        "count": 5
+      },
+      {
+        "author": "Annie Chen",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "method": "GIS",
+    "total_usage": 577,
+    "author_count": 443,
+    "top_champions": [
+      {
+        "author": "Kristin J. Leuschner",
+        "count": 7
+      },
+      {
+        "author": "Susan A. Resetar",
+        "count": 6
+      },
+      {
+        "author": "Abbie Tingstad",
+        "count": 5
+      },
+      {
+        "author": "Beth E. Lachman",
+        "count": 5
+      },
+      {
+        "author": "Kristin Van Abel",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "method": "deep learning",
+    "total_usage": 574,
+    "author_count": 408,
+    "top_champions": [
+      {
+        "author": "Edward Geist",
+        "count": 8
+      },
+      {
+        "author": "Osonde A. Osoba",
+        "count": 7
+      },
+      {
+        "author": "Jasmin L\u00e9veill\u00e9",
+        "count": 6
+      },
+      {
+        "author": "Abbie Tingstad",
+        "count": 5
+      },
+      {
+        "author": "Benjamin Boudreaux",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "method": "Sampling Strategy",
+    "total_usage": 516,
+    "author_count": 280,
+    "top_champions": [
+      {
+        "author": "Sarah O. Meadows",
+        "count": 14
+      },
+      {
+        "author": "Robin L. Beckman",
+        "count": 13
+      },
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 13
+      },
+      {
+        "author": "Charles C. Engel",
+        "count": 12
+      },
+      {
+        "author": "Jennifer Hawes-Dawson",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "method": "Causal Inference",
+    "total_usage": 513,
+    "author_count": 344,
+    "top_champions": [
+      {
+        "author": "Claude Messan Setodji",
+        "count": 9
+      },
+      {
+        "author": "David Grant",
+        "count": 8
+      },
+      {
+        "author": "Beth Ann Griffin",
+        "count": 7
+      },
+      {
+        "author": "Matthew Cefalu",
+        "count": 7
+      },
+      {
+        "author": "Andrew R. Morral",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "method": "neural network",
+    "total_usage": 468,
+    "author_count": 332,
+    "top_champions": [
+      {
+        "author": "Li Ang Zhang",
+        "count": 8
+      },
+      {
+        "author": "Edward Geist",
+        "count": 7
+      },
+      {
+        "author": "Jasmin L\u00e9veill\u00e9",
+        "count": 7
+      },
+      {
+        "author": "Matthew Walsh",
+        "count": 7
+      },
+      {
+        "author": "Lance Menthe",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "method": "Process Evaluation",
+    "total_usage": 464,
+    "author_count": 300,
+    "top_champions": [
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 13
+      },
+      {
+        "author": "Joie D. Acosta",
+        "count": 12
+      },
+      {
+        "author": "Matthew Chinman",
+        "count": 10
+      },
+      {
+        "author": "Patricia A. Ebener",
+        "count": 9
+      },
+      {
+        "author": "Amy L. Shearer",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "Implementation Science",
+    "total_usage": 458,
+    "author_count": 321,
+    "top_champions": [
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 9
+      },
+      {
+        "author": "Joie D. Acosta",
+        "count": 8
+      },
+      {
+        "author": "Matthew Chinman",
+        "count": 6
+      },
+      {
+        "author": "Alex R. Dopp",
+        "count": 5
+      },
+      {
+        "author": "M. Rebecca Kilburn",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "method": "Qualitative Data Analysis",
+    "total_usage": 457,
+    "author_count": 350,
+    "top_champions": [
+      {
+        "author": "Laura Werber",
+        "count": 7
+      },
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 6
+      },
+      {
+        "author": "Elaine Lin Wang",
+        "count": 5
+      },
+      {
+        "author": "Jirka Taylor",
+        "count": 4
+      },
+      {
+        "author": "Kimberly Curry Hall",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "method": "Outcome Evaluation",
+    "total_usage": 443,
+    "author_count": 262,
+    "top_champions": [
+      {
+        "author": "Stephanie Brooks Holliday",
+        "count": 19
+      },
+      {
+        "author": "Joie D. Acosta",
+        "count": 13
+      },
+      {
+        "author": "Matthew Chinman",
+        "count": 10
+      },
+      {
+        "author": "Melissa M. Labriola",
+        "count": 9
+      },
+      {
+        "author": "Patricia A. Ebener",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "method": "ROI",
+    "total_usage": 430,
+    "author_count": 283,
+    "top_champions": [
+      {
+        "author": "Matthew D. Baird",
+        "count": 12
+      },
+      {
+        "author": "Denise D. Quigley",
+        "count": 10
+      },
+      {
+        "author": "Andrew W. Dick",
+        "count": 9
+      },
+      {
+        "author": "Annie Chen",
+        "count": 9
+      },
+      {
+        "author": "Chloe E. Bird",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "method": "Longitudinal Analysis",
+    "total_usage": 424,
+    "author_count": 344,
+    "top_champions": [
+      {
+        "author": "Sarah O. Meadows",
+        "count": 6
+      },
+      {
+        "author": "Rajeev Ramchand",
+        "count": 5
+      },
+      {
+        "author": "Thomas E. Trail",
+        "count": 5
+      },
+      {
+        "author": "Laura L. Miller",
+        "count": 4
+      },
+      {
+        "author": "Anita Chandra",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "method": "BERT",
+    "total_usage": 402,
+    "author_count": 340,
+    "top_champions": [
+      {
+        "author": "Brian A. Jackson",
+        "count": 5
+      },
+      {
+        "author": "William Marcellino",
+        "count": 5
+      },
+      {
+        "author": "Jordan R. Reimer",
+        "count": 4
+      },
+      {
+        "author": "Nathan Beauchamp-Mustafaga",
+        "count": 4
+      },
+      {
+        "author": "Devon Hill",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "method": "GAN",
+    "total_usage": 395,
+    "author_count": 319,
+    "top_champions": [
+      {
+        "author": "Bryan Frederick",
+        "count": 5
+      },
+      {
+        "author": "Emily Hoch",
+        "count": 5
+      },
+      {
+        "author": "Nathan Beauchamp-Mustafaga",
+        "count": 4
+      },
+      {
+        "author": "Alireza Nader",
+        "count": 3
+      },
+      {
+        "author": "Cristina L. Garafola",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "method": "Delphi Method",
+    "total_usage": 376,
+    "author_count": 230,
+    "top_champions": [
+      {
+        "author": "Dulani Woods",
+        "count": 28
+      },
+      {
+        "author": "Brian A. Jackson",
+        "count": 27
+      },
+      {
+        "author": "Michael J. D. Vermeer",
+        "count": 20
+      },
+      {
+        "author": "Duren Banks",
+        "count": 9
+      },
+      {
+        "author": "Jeremy D. Barnum",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "Random effects",
+    "total_usage": 364,
+    "author_count": 221,
+    "top_champions": [
+      {
+        "author": "Andrew R. Morral",
+        "count": 12
+      },
+      {
+        "author": "Susanne Hempel",
+        "count": 12
+      },
+      {
+        "author": "Terry L. Schell",
+        "count": 12
+      },
+      {
+        "author": "Aneesa Motala",
+        "count": 8
+      },
+      {
+        "author": "Rajeev Ramchand",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "method": "Tabletop Exercise",
+    "total_usage": 355,
+    "author_count": 264,
+    "top_champions": [
+      {
+        "author": "Abbie Tingstad",
+        "count": 6
+      },
+      {
+        "author": "Benjamin J. Sacks",
+        "count": 6
+      },
+      {
+        "author": "Stephanie Pezard",
+        "count": 6
+      },
+      {
+        "author": "Adam R. Grissom",
+        "count": 4
+      },
+      {
+        "author": "Bradley Martin",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "method": "Microsimulation",
+    "total_usage": 345,
+    "author_count": 172,
+    "top_champions": [
+      {
+        "author": "Christine Eibner",
+        "count": 14
+      },
+      {
+        "author": "Raffaele Vardavas",
+        "count": 14
+      },
+      {
+        "author": "Andrew W. Dick",
+        "count": 11
+      },
+      {
+        "author": "Preethi Rao",
+        "count": 11
+      },
+      {
+        "author": "Jodi L. Liu",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "method": "Social Network Analysis",
+    "total_usage": 342,
+    "author_count": 264,
+    "top_champions": [
+      {
+        "author": "William Marcellino",
+        "count": 6
+      },
+      {
+        "author": "Brian A. Jackson",
+        "count": 5
+      },
+      {
+        "author": "Dulani Woods",
+        "count": 5
+      },
+      {
+        "author": "John S. Hollywood",
+        "count": 5
+      },
+      {
+        "author": "Todd C. Helmus",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "method": "Expert Elicitation",
+    "total_usage": 336,
+    "author_count": 256,
+    "top_champions": [
+      {
+        "author": "Dulani Woods",
+        "count": 11
+      },
+      {
+        "author": "Michael J. D. Vermeer",
+        "count": 11
+      },
+      {
+        "author": "Brian A. Jackson",
+        "count": 10
+      },
+      {
+        "author": "Duren Banks",
+        "count": 6
+      },
+      {
+        "author": "Lynn Langton",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "method": "AI development",
+    "total_usage": 334,
+    "author_count": 266,
+    "top_champions": [
+      {
+        "author": "James Ryseff",
+        "count": 5
+      },
+      {
+        "author": "Benjamin Boudreaux",
+        "count": 4
+      },
+      {
+        "author": "Gregory Smith",
+        "count": 4
+      },
+      {
+        "author": "Brandon F. De Bruhl",
+        "count": 3
+      },
+      {
+        "author": "Christian Curriden",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "method": "Trend Analysis",
+    "total_usage": 324,
+    "author_count": 249,
+    "top_champions": [
+      {
+        "author": "Bryan Frederick",
+        "count": 5
+      },
+      {
+        "author": "Nathan Chandler",
+        "count": 5
+      },
+      {
+        "author": "Jennie W. Wenger",
+        "count": 4
+      },
+      {
+        "author": "Linda Cottrell",
+        "count": 4
+      },
+      {
+        "author": "Louay Constant",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "method": "Robust Decision Making",
+    "total_usage": 314,
+    "author_count": 234,
+    "top_champions": [
+      {
+        "author": "Robert J. Lempert",
+        "count": 12
+      },
+      {
+        "author": "Debra Knopman",
+        "count": 7
+      },
+      {
+        "author": "David G. Groves",
+        "count": 6
+      },
+      {
+        "author": "James Syme",
+        "count": 4
+      },
+      {
+        "author": "Michael T. Wilson",
+        "count": 4
+      }
+    ]
+  }
+]
