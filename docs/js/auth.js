@@ -1,7 +1,7 @@
 // Simple password protection for RAND AI Analysis Dashboard
 (function() {
     // Configuration
-    const PASSWORD = 'AIAnalysis2025'; // Change this to your desired password
+    const PASSWORD = 'changeme123'; // Change this to your desired password
     const AUTH_KEY = 'rand_ai_authenticated';
     
     // Check if already authenticated this session
