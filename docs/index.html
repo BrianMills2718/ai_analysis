@@ -420,32 +420,45 @@
 
         <!-- Interactive Visualizations -->
         <section id="interactive" class="section">
-            <h2>Interactive Network Explorations</h2>
+            <h2>🕸️ Interactive Network Explorations</h2>
             
             <div class="viz-grid">
                 <div class="viz-card">
-                    <h3>Author-Method Network</h3>
-                    <p>Interactive network showing which authors use which research methods. Blue nodes = authors, orange nodes = methods.</p>
+                    <h3>🔗 Author-Method Network</h3>
+                    <p>Interactive visualization: 600 nodes (500 authors + 100 methods) with 12,603 connections. Zoom, pan, and hover to explore.</p>
+                    <div class="viz-stats">
+                        <span class="stat">96% connected</span>
+                        <span class="stat">42 avg connections</span>
+                    </div>
                     <a href="visualizations/author_method_network.html" target="_blank" class="btn btn-primary">Explore Network →</a>
                 </div>
                 <div class="viz-card">
-                    <h3>Method Champions</h3>
-                    <p>Top authors for each research method - the "champions" who use specific methods most frequently.</p>
-                    <a href="visualizations/method_champions.html" target="_blank" class="btn btn-primary">View Champions →</a>
+                    <h3>📊 Network Analytics Dashboard</h3>
+                    <p>Comprehensive analysis with easy explanations of network concepts, collaboration patterns, and method champions.</p>
+                    <div class="viz-stats">
+                        <span class="stat">Bridge methods</span>
+                        <span class="stat">Collaboration clusters</span>
+                        <span class="stat">Easy explanations</span>
+                    </div>
+                    <a href="network_insights.html" class="btn btn-primary">View Full Analytics →</a>
                 </div>
             </div>
             
             <div class="viz-grid">
                 <div class="viz-card">
-                    <h3>Network Analytics Dashboard</h3>
-                    <p>Comprehensive network metrics including density, degree distribution, and collaboration patterns.</p>
-                    <a href="visualizations/network_metrics.html" target="_blank" class="btn btn-primary">View Metrics →</a>
+                    <h3>🏆 Method Champions</h3>
+                    <p>Top authors for each research method - the "champions" who use specific methods most frequently in publications.</p>
+                    <a href="visualizations/method_champions.html" target="_blank" class="btn btn-primary">View Champions →</a>
                 </div>
                 <div class="viz-card">
-                    <h3>Enhanced WizMap Network</h3>
-                    <p>Semantic embeddings network of research methods and their relationships.</p>
+                    <h3>🗺️ Enhanced WizMap Network</h3>
+                    <p>Semantic embeddings network showing how research methods relate conceptually through language patterns.</p>
                     <a href="https://poloclub.github.io/wizmap/?dataURL=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbrianmills-2718%2Fwizmap_temporal_desperation%2Fresolve%2Fmain%2Fdata.ndjson&gridURL=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fbrianmills-2718%2Fwizmap_temporal_desperation%2Fresolve%2Fmain%2Fgrid.json" target="_blank" class="btn btn-primary">Launch WizMap →</a>
                 </div>
+            </div>
+            
+            <div class="data-quality-note">
+                <p><strong>Network Key Insights:</strong> RAND's methodological network reveals strong collaboration through "bridge methods" (Case Studies, Statistical Analysis) that connect different research communities. Specialized clusters exist for AI/ML, policy evaluation, and security analysis, while maintaining overall connectivity of 96%.</p>
             </div>
         </section>
 
