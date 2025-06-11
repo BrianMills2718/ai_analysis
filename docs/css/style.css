@@ -611,3 +611,47 @@ footer p {
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
 }
+
+/* Method Categories Styles */
+.method-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.method-category {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 4px solid #003366;
+}
+
+.method-category h3 {
+    color: #003366;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.method-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.method-category li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+}
+
+.method-category li:last-child {
+    border-bottom: none;
+}
+
+.section-intro {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: center;
+}
