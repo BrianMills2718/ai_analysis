@@ -14,11 +14,11 @@
             <h1 class="nav-title">RAND AI Methods Intelligence</h1>
             <div class="nav-links">
                 <a href="#overview">Overview</a>
+                <a href="#llm-integration">LLM Analysis</a>
                 <a href="#methodology">Methodology</a>
                 <a href="#methods">Methods</a>
                 <a href="#research-areas">Research Areas</a>
                 <a href="#temporal">Temporal</a>
-                <a href="#ai-integration">AI Integration</a>
                 <a href="keywords.html">Keywords</a>
                 <a href="#reports">Reports</a>
             </div>
@@ -109,6 +109,62 @@
             </p>
         </section>
 
+        <!-- LLM Integration Analysis -->
+        <section id="llm-integration" class="section">
+            <h2>LLM Integration Analysis (Preliminary Results)</h2>
+            
+            <div class="limitations-box">
+                <h3>⚠️ Preliminary Analysis Status</h3>
+                <ul>
+                    <li><strong>Sample analyzed:</strong> 9,750 method instances from 564,062 total chunks (1.7%)</li>
+                    <li><strong>LLM analysis:</strong> Each text chunk containing AI terminology was analyzed by an LLM to determine usage context</li>
+                    <li><strong>Full analysis:</strong> Currently ~65% complete with additional records being processed</li>
+                    <li><strong>Note:</strong> Results below are from preliminary sample, not the complete dataset</li>
+                </ul>
+            </div>
+
+            <div class="methodology-grid-2x2">
+                <div class="method-card">
+                    <h3>🔍 Method Usage Types</h3>
+                    <ul>
+                        <li><strong>Background (44.2%):</strong> Methods mentioned in literature context</li>
+                        <li><strong>Citation (26.8%):</strong> References to previous work using methods</li>
+                        <li><strong>Active Usage (18.7%):</strong> Methods actually employed in research</li>
+                        <li><strong>Mixed Categories (10.3%):</strong> Multiple usage patterns detected</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>🎯 Method Sophistication Levels</h3>
+                    <ul>
+                        <li><strong>Basic (51.6%):</strong> Simple application or mention</li>
+                        <li><strong>None/Minimal (33.4%):</strong> Limited methodological detail</li>
+                        <li><strong>Moderate (14.4%):</strong> Substantive methodological implementation</li>
+                        <li><strong>Advanced (0.6%):</strong> Sophisticated or novel application</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>🤖 LLM Integration Status</h3>
+                    <ul>
+                        <li><strong>No LLM Integration (98.7%):</strong> Traditional method usage</li>
+                        <li><strong>LLM-Assisted (0.8%):</strong> LLM tools support method implementation</li>
+                        <li><strong>LLM-Augmented (0.6%):</strong> LLMs fundamentally enhance methodology</li>
+                    </ul>
+                </div>
+                <div class="method-card">
+                    <h3>📊 Key Insights</h3>
+                    <ul>
+                        <li><strong>Limited LLM Integration:</strong> Only 1.3% of methods show LLM integration</li>
+                        <li><strong>Mostly Background Usage:</strong> 71% are references vs. active usage</li>
+                        <li><strong>Basic Implementation:</strong> 85% show basic/minimal sophistication</li>
+                        <li><strong>Analysis Ongoing:</strong> Full results will provide complete picture</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="data-quality-note">
+                <p><strong>Interpretation Note:</strong> These results suggest that while AI terminology has grown rapidly (as shown in temporal charts), actual LLM integration into research methods remains limited. Most AI mentions appear in background literature rather than active methodological implementation.</p>
+            </div>
+        </section>
 
         <!-- Method Categories -->
         <section class="section">
@@ -180,12 +236,12 @@
                     </ul>
                 </div>
                 <div class="finding-card">
-                    <h3>🏢 Division Analysis (Data Quality Issues)</h3>
+                    <h3>🏢 Research Area Analysis (Data Quality Issues)</h3>
                     <ul>
-                        <li><strong>Division identification:</strong> Based on automated classification, not validated against official RAND structure</li>
-                        <li><strong>Example specializations:</strong> Health Care: Clinical methods (LQ 15.31), Education: Econometric Analysis (LQ 8.36)</li>
+                        <li><strong>Research area identification:</strong> Based on automated classification, not validated against official RAND structure</li>
+                        <li><strong>Example specializations:</strong> Health Care: Clinical methods (Index 15.31), Education: Econometric Analysis (Index 8.36)</li>
                         <li><strong>Data contamination:</strong> Some "methods" are actually RAND centers (e.g., "Center for Gaming")</li>
-                        <li><strong>Diversity calculation broken:</strong> All divisions showing 1.0 diversity score</li>
+                        <li><strong>Note:</strong> Categories are descriptive for analysis purposes, not official RAND organizational units</li>
                     </ul>
                 </div>
             </div>
@@ -281,12 +337,11 @@
             <div class="viz-grid">
                 <div class="viz-card">
                     <h3>AI Terminology Growth</h3>
-                    <img src="visualizations/static/ai_growth.png" alt="AI Growth">
-                    <p><strong>Issue:</strong> Chart appears flat at zero - visualization needs fixing.</p>
+                    <p><strong>Chart needs to be fixed:</strong> Current visualization shows flat line - should show exponential growth from 22 (2016) to 4,920 (2025) mentions.</p>
                 </div>
                 <div class="viz-card">
                     <h3>Publications Per Year</h3>
-                    <p><strong>To be added:</strong> Chart showing RAND publication counts by year from API metadata.</p>
+                    <p><strong>Chart needs to be generated:</strong> Will show RAND publication counts by year from API metadata (48,876 total publications).</p>
                 </div>
             </div>
             
@@ -360,63 +415,6 @@
             </div>
         </section>
 
-
-        <!-- AI Integration Analysis -->
-        <section id="ai-integration" class="section">
-            <h2>AI Integration Analysis (Preliminary Results)</h2>
-            
-            <div class="limitations-box">
-                <h3>⚠️ Preliminary Analysis Status</h3>
-                <ul>
-                    <li><strong>Sample analyzed:</strong> 9,750 method instances from 564,062 total chunks (1.7%)</li>
-                    <li><strong>LLM analysis:</strong> Google Gemini Pro assessed method usage context and AI integration</li>
-                    <li><strong>Full analysis:</strong> Currently ~65% complete with 4.47M records processed</li>
-                    <li><strong>Note:</strong> Results below are from preliminary sample, not the complete dataset</li>
-                </ul>
-            </div>
-
-            <div class="methodology-grid-2x2">
-                <div class="method-card">
-                    <h3>🔍 Method Usage Types</h3>
-                    <ul>
-                        <li><strong>Background (44.2%):</strong> Methods mentioned in literature context</li>
-                        <li><strong>Citation (26.8%):</strong> References to previous work using methods</li>
-                        <li><strong>Active Usage (18.7%):</strong> Methods actually employed in research</li>
-                        <li><strong>Mixed Categories (10.3%):</strong> Multiple usage patterns detected</li>
-                    </ul>
-                </div>
-                <div class="method-card">
-                    <h3>🎯 Method Sophistication Levels</h3>
-                    <ul>
-                        <li><strong>Basic (51.6%):</strong> Simple application or mention</li>
-                        <li><strong>None/Minimal (33.4%):</strong> Limited methodological detail</li>
-                        <li><strong>Moderate (14.4%):</strong> Substantive methodological implementation</li>
-                        <li><strong>Advanced (0.6%):</strong> Sophisticated or novel application</li>
-                    </ul>
-                </div>
-                <div class="method-card">
-                    <h3>🤖 AI Integration Status</h3>
-                    <ul>
-                        <li><strong>No AI Integration (98.7%):</strong> Traditional method usage</li>
-                        <li><strong>AI-Assisted (0.8%):</strong> AI tools support method implementation</li>
-                        <li><strong>AI-Augmented (0.6%):</strong> AI fundamentally enhances methodology</li>
-                    </ul>
-                </div>
-                <div class="method-card">
-                    <h3>📊 Key Insights</h3>
-                    <ul>
-                        <li><strong>Limited AI Integration:</strong> Only 1.3% of methods show AI integration</li>
-                        <li><strong>Mostly Background Usage:</strong> 71% are references vs. active usage</li>
-                        <li><strong>Basic Implementation:</strong> 85% show basic/minimal sophistication</li>
-                        <li><strong>Analysis Ongoing:</strong> Full results will provide complete picture</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="data-quality-note">
-                <p><strong>Interpretation Note:</strong> These results suggest that while AI terminology has grown rapidly (as shown in temporal charts), actual AI integration into research methods remains limited. Most AI mentions appear in background literature rather than active methodological implementation.</p>
-            </div>
-        </section>
 
         <!-- Interactive Visualizations -->
         <section id="interactive" class="section">
