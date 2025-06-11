@@ -8,7 +8,7 @@
         const password = prompt('Please enter the access password:');
         
         // Change this to your desired password
-        const correctPassword = 'RAND2025Analysis';
+        const correctPassword = 'changeme123';
         
         if (password !== correctPassword) {
             document.body.innerHTML = '<h1>Access Denied</h1><p>Invalid password. Please refresh to try again.</p>';
