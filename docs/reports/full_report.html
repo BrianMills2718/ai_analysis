@@ -1,8 +1,9 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>RAND AI Methods Intelligence Analysis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAND AI Methods Intelligence Analysis - Full Report</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,287 +12,243 @@
             margin: 0 auto;
             padding: 20px;
             background-color: #f5f5f5;
+            font-size: 14px;
         }
         .container {
             background-color: white;
             padding: 40px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         h1 {
             color: #003366;
             border-bottom: 3px solid #0066cc;
             padding-bottom: 10px;
+            font-size: 28px;
         }
         h2 {
             color: #0066cc;
             margin-top: 30px;
+            font-size: 22px;
         }
         h3 {
             color: #003366;
+            margin-top: 25px;
+            font-size: 18px;
         }
-        .key-finding {
-            background-color: #e6f2ff;
-            padding: 15px;
-            margin: 10px 0;
-            border-left: 4px solid #0066cc;
-        }
-        .stat-box {
-            display: inline-block;
-            background-color: #f0f8ff;
-            padding: 20px;
-            margin: 10px;
-            border-radius: 5px;
-            text-align: center;
-        }
-        .stat-number {
-            font-size: 2em;
-            font-weight: bold;
+        h4 {
             color: #0066cc;
+            margin-top: 20px;
+            font-size: 16px;
         }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #0066cc;
-            color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        .toc {
-            background-color: #f9f9f9;
-            padding: 20px;
-            margin: 20px 0;
-            border: 1px solid #ddd;
-        }
-        .toc ul {
-            list-style-type: none;
+        ul, ol {
+            margin: 10px 0;
             padding-left: 20px;
         }
-        .toc a {
-            text-decoration: none;
-            color: #0066cc;
+        li {
+            margin: 8px 0;
+            font-size: 14px;
         }
-        .toc a:hover {
-            text-decoration: underline;
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .back-link:hover {
+            background-color: #004499;
+        }
+        .data-quality-note {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .methodology-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 20px;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="toc">
-            <h2>Table of Contents</h2>
+        <h1>RAND AI METHODS INTELLIGENCE ANALYSIS</h1>
+        <h2>Full Report</h2>
+        <p><em>Generated: June 10, 2025</em></p>
+
+        <div class="data-quality-note">
+            <h3>⚠️ Data Quality Notice</h3>
+            <p><strong>Important:</strong> This analysis uses automated keyword detection without manual validation or expert review. Results represent frequency patterns in text, not verified method usage. Division classifications are based on keyword matching and may not reflect actual RAND organizational structure.</p>
+        </div>
+
+        <h2>1. Executive Summary</h2>
+        
+        <h3>Core Question Answered</h3>
+        <p><strong>"What methods are being used by whom, and how is AI being used in those methods?"</strong></p>
+
+        <h3>Key Findings Overview</h3>
+        <ul>
+            <li><strong>231 unique research methods</strong> detected across 9,129 RAND documents (2016-2025)</li>
+            <li><strong>564,062 text chunks</strong> analyzed from AskRAND system</li>
+            <li><strong>Top methods by frequency:</strong> Case Study (43,807), Simulation (34,095), Literature Review (30,719)</li>
+            <li><strong>AI terminology growth:</strong> From 22 mentions (2016) to 4,920 mentions (2025)</li>
+            <li><strong>Method diversity:</strong> 6 major categories spanning qualitative, quantitative, and computational approaches</li>
+        </ul>
+
+        <h2>2. Methodology</h2>
+        
+        <div class="methodology-box">
+            <h3>Data Sources</h3>
             <ul>
-                <li><a href="#executive-summary">Executive Summary</a></li>
-                <li><a href="#key-findings">Key Findings</a></li>
-                <li><a href="#detailed-findings">Detailed Findings</a></li>
-                <li><a href="#appendices">Appendices</a></li>
+                <li><strong>API Metadata:</strong> 48,876 publication records from RAND publications API</li>
+                <li><strong>Text Chunks:</strong> 564,062 document segments from AskRAND system</li>
+                <li><strong>Embeddings:</strong> Vector representations from AskRAND FAISS index</li>
+                <li><strong>Author Data:</strong> 9,533 contributing researchers extracted from metadata</li>
             </ul>
         </div>
-        
-        <p>
-<h1>RAND AI METHODS INTELLIGENCE ANALYSIS
-<h2>Executive Summary
-Generated: June 10, 2025</p><p><h3>Core Question Answered
-<strong>"What methods are being used by whom, and how is AI being used in those methods?"<strong></p><p><h3>Key Findings</p><p>#<h3>1. Method Usage Landscape
-<li><strong>231 unique methods<strong> tracked across 9,129 documents (2016-2025)
-<li><strong>Top 5 methods<strong>: Case Study (43,807 uses), Literature Review (39,101), Simulation (26,925), Systematic Review (23,452), Meta-Analysis (20,273)
-<li><strong>67.3% collaboration rate<strong> with average 4.1 authors per document</p><p>#<h3>2. AI Integration Status
-<li><strong>AI method usage grew 2,840%<strong> from 2016 to 2025
-<li>AI methods now represent <strong>31.4% of all method usage<strong> (up from 5.4% in 2016)
-<li>Only <strong>2.4% of active method usage<strong> includes AI integration (based on Gemini analysis sample)
-<li><strong>Peak AI adoption in 2024<strong> with continued growth trajectory</p><p>#<h3>3. Division Specializations (Location Quotient Analysis)
-<li><strong>RAND Science & Technology<strong>: AI methods dominant (AI governance LQ: 2.58, neural networks LQ: 2.58)
-<li><strong>RAND Health Care<strong>: Clinical methods specialized (Modified Delphi LQ: 15.31, Microsimulation LQ: 15.31)
-<li><strong>RAND Education & Labor<strong>: Causal inference focus (Center for Causal Inference LQ: 9.41)
-<li><strong>RAND Justice Policy<strong>: Advanced analytics (semantic search LQ: 11.53, survival analysis LQ: 11.53)
-<li><strong>RAND International<strong>: Counterfactual analysis leadership (LQ: 12.81)</p><p>#<h3>4. Method Champions & Networks
-<li><strong>Brian A. Jackson<strong>: Top champion for multiple methods (Literature Review, Risk Assessment, Clustering)
-<li><strong>AI method leaders<strong>: James Black (21 uses), Matthew Walsh (16 uses), Benjamin Boudreaux (15 uses)
-<li><strong>Strong author networks<strong>: 9,533 unique authors with clear methodological communities</p><p>#<h3>5. Temporal Evolution Patterns
-<li><strong>60% of methods classified as "Emerging"<strong> (growing usage)
-<li><strong>40% classified as "Growing"<strong> (steady increase)
-<li><strong>Fastest growing<strong>: artificial intelligence (22,264% growth), CNN (937%), Wargaming (627%)
-<li><strong>New methods post-2020<strong>: Primarily AI/ML related</p><p><h3>Strategic Insights</p><p>1. <strong>AI Adoption Gap<strong>: Despite rapid growth, AI integration remains limited (2.4% of active usage)
-2. <strong>Division Silos<strong>: Clear methodological specializations suggest opportunities for cross-division collaboration
-3. <strong>Platform Methods<strong>: Literature Review, Case Study, and Simulation used across all divisions
-4. <strong>Emerging Capabilities<strong>: Strong growth in AI methods but concentrated in few divisions
-5. <strong>Network Effects<strong>: Method champions drive adoption <li>targeting key influencers could accelerate AI integration</p><p><h3>Recommendations for PI Decision-Making</p><p>1. <strong>Target High-Impact Methods<strong>: Focus AI enhancement on platform methods (Case Study, Literature Review, Simulation)
-2. <strong>Leverage Division Strengths<strong>: Build on existing specializations rather than forcing uniform adoption
-3. <strong>Champion Development<strong>: Invest in training method champions who can drive adoption
-4. <strong>Cross-Division Initiatives<strong>: Create opportunities for AI-savvy divisions to share expertise
-5. <strong>Monitor Emerging Methods<strong>: Track rapid growth areas for early investment opportunities
-</p><p>
-<h2>Detailed Findings</p><p><h3>Section 1: Method Usage Patterns</p><p>#<h3>1.1 Overall Method Distribution
-The analysis identified 231 unique research methods across 564,062 document chunks from 9,129 RAND publications (2016-2025).</p><p><strong>Top 20 Methods by Frequency:<strong>
-1. Case Study <li>43,807 mentions
-2. Literature Review <li>39,101 mentions  
-3. Simulation <li>26,925 mentions
-4. Systematic Review <li>23,452 mentions
-5. Meta-Analysis <li>20,273 mentions
-6. CNN <li>17,445 mentions
-7. artificial intelligence <li>16,775 mentions
-8. Risk Assessment <li>15,605 mentions
-9. Regression Analysis <li>13,758 mentions
-10. Network Analysis <li>13,649 mentions</p><p>#<h3>1.2 Author-Method Relationships
-Analysis of 253,263 author-document relationships revealed:
-<li><strong>9,533 unique authors<strong> contributing to RAND research
-<li><strong>Average 4.1 authors per document<strong> indicating high collaboration
-<li><strong>67.3% of documents<strong> have multiple authors</p><p><strong>Most Prolific Method Champions:<strong>
-<li>Brian A. Jackson: 31 Literature Reviews, 34 Clustering analyses, 17 Risk Assessments
-<li>Dulani Woods: 37 Clustering analyses, 23 Literature Reviews
-<li>Beth J. Asch: 30 Simulations
-<li>Susanne Hempel: 20 Systematic Reviews, 18 RCTs</p><p><h3>Section 2: AI Integration Analysis</p><p>#<h3>2.1 AI Method Growth
-<strong>Temporal Evolution (2016-2025):<strong>
-<li>2016: 198 AI-related method uses (5.4% of total)
-<li>2025: 5,850 AI-related method uses (31.4% of total)
-<li><strong>Growth rate: 2,840%<strong> over 9 years
-<li><strong>Average annual growth: 47.3%<strong></p><p><strong>AI Method Categories:<strong>
-<li>Core AI/ML: artificial intelligence, machine learning, deep learning
-<li>Neural Networks: CNN, RNN, LSTM, neural network architectures  
-<li>Applied AI: NLP, computer vision, reinforcement learning
-<li>AI Tools: TensorFlow, PyTorch, clustering algorithms</p><p>#<h3>2.2 AI Integration Patterns
-Based on Gemini LLM analysis of method usage contexts:
-<li><strong>Active Usage<strong>: 23.5% (authors directly using methods)
-<li><strong>Citations<strong>: 39.0% (referencing others' work)
-<li><strong>Background<strong>: 37.0% (general discussion)</p><p>Within active usage:
-<li><strong>No AI integration<strong>: 97.6%
-<li><strong>AI-assisted<strong>: 1.3%
-<li><strong>AI-augmented<strong>: 1.1%</p><p><h3>Section 3: Division Method Specializations</p><p>#<h3>3.1 Location Quotient Analysis Results
-Location Quotient (LQ) > 1.5 indicates strong specialization:</p><p><strong>RAND Science and Technology (129 methods, 68 specialized):<strong>
-<li>AI governance (LQ: 2.58)
-<li>AI ecosystem (LQ: 2.58)
-<li>neural network model (LQ: 2.58)
-<li>Highest diversity score: 1.000</p><p><strong>RAND Health Care (53 methods, 27 specialized):<strong>
-<li>Modified Delphi (LQ: 15.31)
-<li>Microsimulation (LQ: 15.31)
-<li>Survey Analysis (LQ: 12.04)
-<li>Clinical trial methods dominant</p><p><strong>RAND Education and Labor (59 methods, 34 specialized):<strong>
-<li>Center for Causal Inference (LQ: 9.41)
-<li>Structural equation modeling (LQ: 9.41)
-<li>Econometric Analysis (LQ: 8.36)
-<li>Strong quantitative focus</p><p><strong>RAND Justice Policy (55 methods, 31 specialized):<strong>
-<li>semantic search (LQ: 11.53)
-<li>Survival Analysis (LQ: 11.53)
-<li>Difference-in-differences (LQ: 9.42)
-<li>Advanced analytical techniques</p><p><strong>RAND International (62 methods, 29 specialized):<strong>
-<li>Counterfactual analysis (LQ: 12.81)
-<li>SNA <li>Social Network Analysis (LQ: 12.81)
-<li>Case studies remain primary (21.2% of usage)</p><p>#<h3>3.2 Cross-Division Collaboration
-<li><strong>Platform methods<strong> (used across ≥4 divisions): 47 methods
-<li><strong>Specialized methods<strong> (high LQ in 1-2 divisions): 89 methods
-<li><strong>Cross-division edges<strong>: 3,089 out of 3,714 total (83.2%)</p><p><h3>Section 4: Temporal Evolution Patterns</p><p>#<h3>4.1 Method Lifecycle Classification
-<li><strong>Emerging<strong> (60%): 138 methods showing rapid growth
-<li><strong>Growing<strong> (40%): 92 methods with steady increase
-<li><strong>Mature<strong> (0%): No methods showing plateau
-<li><strong>Declining<strong> (0%): No methods in decline</p><p>#<h3>4.2 Fastest Growing Methods (2016-2025)
-1. artificial intelligence: 22,264% growth
-2. CNN: 937% growth
-3. Wargaming: 627% growth
-4. Network Analysis: 614% growth
-5. Risk Assessment: 500% growth</p><p>#<h3>4.3 Emerging Methods (post-2020)
-Primarily AI/ML related methods entering RAND's toolkit after 2020, indicating rapid adoption of new computational approaches.</p><p><h3>Section 5: Network Analysis Insights</p><p>#<h3>5.1 Author Collaboration Networks
-<li><strong>Total author-method connections<strong>: 44,001
-<li><strong>Network density<strong>: Indicates tight-knit research communities
-<li><strong>Key influencers<strong>: Authors with high betweenness centrality bridge methodological communities</p><p>#<h3>5.2 Method Co-occurrence Patterns
-Top method pairs frequently used together:
-1. Literature Review + Case Study
-2. Simulation + Risk Assessment
-3. Meta-Analysis + Systematic Review
-4. Statistical Analysis + Regression Analysis
-5. AI methods increasingly paired with traditional approaches</p><p><h3>Section 6: Strategic Implications</p><p>#<h3>6.1 AI Readiness Assessment
-<strong>High Readiness<strong> (prime for AI enhancement):
-<li>Literature Review: High volume, text-heavy, standardized process
-<li>Data extraction: Manual process ripe for automation
-<li>Simulation: Computational methods easily AI-augmented
-<li>Risk Assessment: Pattern recognition opportunities</p><p><strong>Medium Readiness<strong>:
-<li>Case Study: Qualitative elements require human judgment
-<li>Survey Analysis: Partial automation possible
-<li>Network Analysis: Graph algorithms can be AI-enhanced</p><p><strong>Low Readiness<strong>:
-<li>Focus Groups: Human interaction critical
-<li>Ethnography: Cultural understanding required
-<li>Modified Delphi: Expert judgment essential</p><p>#<h3>6.2 Division-Specific Opportunities
-<li><strong>Science & Technology<strong>: Already leading, expand to other divisions
-<li><strong>Health Care<strong>: Clinical trial analysis automation
-<li><strong>Education & Labor<strong>: Causal inference enhancement
-<li><strong>Justice Policy<strong>: Predictive analytics expansion
-<li><strong>International<strong>: Scenario generation with AI</p><p></p><p>
-<h2>Appendix A: Methodology</p><p><h3>Data Sources
-1. <strong>Document Database<strong>: 564,062 text chunks from 9,129 RAND documents (2016-2025)
-2. <strong>FAISS Embeddings<strong>: 1.4GB vector index with 563,563 document mappings
-3. <strong>API Metadata<strong>: 48,876 publication records with author and organizational data
-4. <strong>Enhanced Contexts<strong>: 119,792 term matches with surrounding text</p><p><h3>Analysis Methods</p><p>#<h3>1. Term Extraction
-<li>Hierarchical dictionary with 266 AI terms and 160+ policy methods
-<li>Regex-based extraction with context windows
-<li>Adjacent chunk retrieval for enhanced context</p><p>#<h3>2. LLM Classification (Gemini)
-<li>Model: gemini-1.5-flash
-<li>Classification: usage type, sophistication, AI integration
-<li>Parallel processing: 20 concurrent workers
-<li>Sample size: 10,000 contexts analyzed</p><p>#<h3>3. Location Quotient Analysis
-<li>Formula: LQ = (division_method_share) / (overall_method_share)
-<li>LQ > 1.0 indicates specialization
-<li>LQ > 1.5 indicates strong specialization</p><p>#<h3>4. Network Analysis
-<li>Bipartite networks: authors ↔ methods
-<li>Co-occurrence networks: method ↔ method
-<li>Centrality measures: degree, betweenness, closeness</p><p>#<h3>5. Temporal Analysis
-<li>Year-over-year growth calculations
-<li>Lifecycle classification algorithm
-<li>Trend identification using time series</p><p><h3>Quality Assurance
-<li>Cross-validation between API metadata and document database
-<li>Manual verification of classification samples
-<li>Statistical significance testing for specialization patterns
-</p><p>
-<h2>Appendix B: Key Data Tables</p><p><h3>Table B1: Top 50 Methods by Total Usage
-[Exported as: method_frequencies_top50.csv]</p><p><h3>Table B2: Division Method Specializations (LQ > 2.0)
-[Exported as: division_specializations_high_lq.csv]</p><p><h3>Table B3: Author Method Champions
-[Exported as: author_method_champions.csv]</p><p><h3>Table B4: Temporal Evolution by Year
-[Exported as: temporal_evolution_yearly.csv]</p><p><h3>Table B5: AI Method Classifications
-[Exported as: ai_method_classifications.csv]</p><p><h3>Table B6: Cross-Division Collaboration Matrix
-[Exported as: cross_division_collaboration.csv]
-</p><p>
-<h2>Appendix C: Visualizations Index</p><p><h3>Static Visualizations
-1. <strong>Method Frequency Distribution<strong> 
-   <li>Location: comprehensive_results/method_frequencies.png
-   <li>Shows top 50 methods by usage count</p><p>2. <strong>Temporal Evolution Heatmap<strong>
-   <li>Location: comprehensive_results/temporal_heatmap.png
-   <li>Year-by-year method usage patterns</p><p>3. <strong>AI Growth Timeline<strong>
-   <li>Location: comprehensive_results/ai_growth.png
-   <li>AI adoption trajectory 2016-2025</p><p>4. <strong>Division Specialization Heatmap<strong>
-   <li>Location: division_analysis/visualizations/division_specialization_heatmap.png
-   <li>Location Quotients by division and method</p><p>5. <strong>Author Influence Network<strong>
-   <li>Location: author_networks/visualizations/author_influence.png
-   <li>Key researchers and collaboration patterns</p><p>6. <strong>Method Lifecycle Analysis<strong>
-   <li>Location: temporal_analysis/visualizations/method_lifecycle_analysis.png
-   <li>Classification of methods by growth stage</p><p><h3>Animated Visualizations
-1. <strong>Top Methods Race Animation<strong>
-   <li>Location: temporal_analysis/animations/top_methods_race.gif
-   <li>Bar chart race showing method evolution</p><p>2. <strong>AI Adoption Evolution<strong>
-   <li>Location: temporal_analysis/animations/ai_adoption_evolution.gif
-   <li>AI vs traditional methods over time</p><p>3. <strong>Emerging Methods Animation<strong>
-   <li>Location: temporal_analysis/animations/emerging_methods.gif
-   <li>Growth of new methods post-2018</p><p><h3>Interactive Visualizations
-1. <strong>Enhanced WizMap<strong>
-   <li>Location: wizmap_enhanced/wizmap_integrated_data.json
-   <li>Multi-dimensional network exploration
-   <li>Features: filters by division, lifecycle, AI integration
-   <li>Node size: usage frequency
-   <li>Node color: lifecycle stage
-   <li>Edge width: co-occurrence strength
-</p>
-        
-        <hr>
-        <p style="text-align: center; color: #666;">
-            Generated: June 10, 2025 at 11:47 PM<br>
-            RAND AI Methods Intelligence Analysis System
-        </p>
+
+        <h3>Detection Process</h3>
+        <ol>
+            <li><strong>Keyword Matching:</strong> Automated text scanning for 231 method terms</li>
+            <li><strong>Text Chunking:</strong> Documents split into analysis segments</li>
+            <li><strong>Frequency Counting:</strong> One count per method per document maximum</li>
+            <li><strong>Classification:</strong> Methods grouped into research categories</li>
+            <li><strong>Division Assignment:</strong> Documents classified by keyword matching (not validated)</li>
+        </ol>
+
+        <h3>Known Limitations</h3>
+        <ul>
+            <li>Keyword-based detection may miss methods described without standard terms</li>
+            <li>Some mentions may be literature references rather than active method use</li>
+            <li>No manual validation or expert review conducted</li>
+            <li>Division classifications based on keyword matching, not official structure</li>
+            <li>AI integration assessment based on keyword co-occurrence only</li>
+        </ul>
+
+        <h2>3. Method Frequency Analysis</h2>
+
+        <h3>Frequency Tiers</h3>
+        <ul>
+            <li><strong>Tier 1 - Very High (15,000+ uses):</strong> 7 methods including Case Study, Simulation, Literature Review</li>
+            <li><strong>Tier 2 - High (5,000-15,000):</strong> 14 methods including Risk Assessment, Forecasting</li>
+            <li><strong>Tier 3 - Medium (1,000-5,000):</strong> 44 methods spanning diverse methodological approaches</li>
+            <li><strong>Tier 4 - Low (100-1,000):</strong> 166 methods representing specialized and emerging techniques</li>
+        </ul>
+
+        <h3>Method Categories</h3>
+        <ul>
+            <li><strong>AI/Machine Learning:</strong> 64 methods (artificial intelligence, neural networks, etc.)</li>
+            <li><strong>Statistical Methods:</strong> 44 methods (regression, factor analysis, etc.)</li>
+            <li><strong>Evaluation Methods:</strong> 12 methods (program evaluation, impact assessment)</li>
+            <li><strong>Modeling/Simulation:</strong> 12 methods (Monte Carlo, microsimulation)</li>
+            <li><strong>Research Methods:</strong> 9 methods (case study, interviews, surveys)</li>
+            <li><strong>Other Methods:</strong> 90 methods (specialized domain techniques)</li>
+        </ul>
+
+        <h2>4. Temporal Evolution (2016-2025)</h2>
+
+        <h3>AI Terminology Growth</h3>
+        <ul>
+            <li><strong>2016:</strong> 22 AI terminology mentions detected</li>
+            <li><strong>2025:</strong> 4,920 AI terminology mentions detected</li>
+            <li><strong>Growth pattern:</strong> Exponential increase with acceleration post-2020</li>
+            <li><strong>Peak growth:</strong> 2023-2024 period shows steepest trajectory</li>
+        </ul>
+
+        <h3>Method Lifecycle Classification</h3>
+        <ul>
+            <li><strong>Emerging methods:</strong> Rapid growth in recent years (primarily AI/ML)</li>
+            <li><strong>Growing methods:</strong> Steady increase over time period</li>
+            <li><strong>Stable methods:</strong> Consistent usage across years</li>
+            <li><strong>Declining methods:</strong> Reduced frequency over time</li>
+        </ul>
+
+        <h2>5. Division Analysis</h2>
+
+        <div class="data-quality-note">
+            <p><strong>Note:</strong> Division classifications are based on automated keyword matching against document titles/abstracts. These may not reflect actual RAND organizational structure and should be validated.</p>
+        </div>
+
+        <h3>Identified Divisions</h3>
+        <ul>
+            <li>RAND Health Care</li>
+            <li>RAND Education & Labor</li>
+            <li>RAND Justice Policy</li>
+            <li>RAND International</li>
+            <li>Science and Technology (keyword-based classification)</li>
+            <li>Defense & Security (keyword-based classification)</li>
+            <li>AI Research (keyword-based classification)</li>
+        </ul>
+
+        <h3>Specialization Patterns</h3>
+        <p>Method usage patterns show apparent specialization by division, with health-related methods concentrated in Health Care division, AI methods in Science & Technology, and evaluation methods distributed across policy-focused divisions.</p>
+
+        <h2>6. Author Network Analysis</h2>
+
+        <h3>Collaboration Patterns</h3>
+        <ul>
+            <li><strong>Total authors:</strong> 9,533 unique researchers</li>
+            <li><strong>Average collaboration:</strong> 4.1 authors per document</li>
+            <li><strong>Method champions:</strong> Authors with high usage of specific methods</li>
+            <li><strong>Cross-divisional work:</strong> Evidence of methodological knowledge sharing</li>
+        </ul>
+
+        <h2>7. AI Integration Assessment</h2>
+
+        <h3>Current Status</h3>
+        <ul>
+            <li><strong>AI terminology detection:</strong> 22,000+ mentions across corpus</li>
+            <li><strong>Growth trajectory:</strong> Exponential increase 2016-2025</li>
+            <li><strong>Method co-occurrence:</strong> AI terms appearing with traditional research methods</li>
+            <li><strong>Integration depth:</strong> Requires further analysis (Gemini LLM analysis in progress)</li>
+        </ul>
+
+        <h2>8. Strategic Insights</h2>
+
+        <h3>Key Observations</h3>
+        <ol>
+            <li><strong>Methodological Diversity:</strong> RAND employs a wide range of research approaches</li>
+            <li><strong>AI Adoption Trajectory:</strong> Rapid growth in AI-related terminology and methods</li>
+            <li><strong>Division Specialization:</strong> Clear patterns in method usage by research area</li>
+            <li><strong>Collaboration Networks:</strong> Strong author networks suggest knowledge transfer</li>
+            <li><strong>Emerging Methods:</strong> New techniques primarily in AI/ML domain</li>
+        </ol>
+
+        <h3>Areas for Further Investigation</h3>
+        <ul>
+            <li>Validate division classifications against actual RAND structure</li>
+            <li>Complete Gemini LLM analysis for AI integration depth assessment</li>
+            <li>Analyze method co-occurrence patterns for hybrid approaches</li>
+            <li>Investigate quality and sophistication of AI method usage</li>
+            <li>Examine geographic and client-specific method preferences</li>
+        </ul>
+
+        <h2>9. Data Appendix</h2>
+
+        <h3>Dataset Specifications</h3>
+        <ul>
+            <li><strong>Analysis period:</strong> January 2016 - December 2025</li>
+            <li><strong>Document count:</strong> 9,129 RAND publications</li>
+            <li><strong>Text segments:</strong> 564,062 chunks processed</li>
+            <li><strong>Method keywords:</strong> 231 terms searched</li>
+            <li><strong>Detection instances:</strong> 461,437 total method mentions</li>
+        </ul>
+
+        <h3>Technical Implementation</h3>
+        <ul>
+            <li><strong>Text processing:</strong> Python-based analysis pipeline</li>
+            <li><strong>Search methodology:</strong> Exact string matching in text chunks</li>
+            <li><strong>Visualization:</strong> Matplotlib and network analysis tools</li>
+            <li><strong>Data storage:</strong> SQLite database and FAISS vector index</li>
+        </ul>
+
+        <a href="../index.html" class="back-link">← Back to Dashboard</a>
     </div>
 </body>
 </html>
-    
