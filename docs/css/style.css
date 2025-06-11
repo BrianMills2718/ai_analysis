@@ -404,6 +404,19 @@ footer p {
     margin-bottom: 2rem;
 }
 
+.methodology-grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .methodology-grid-2x2 {
+        grid-template-columns: 1fr;
+    }
+}
+
 .method-card {
     background: white;
     padding: 1.5rem;

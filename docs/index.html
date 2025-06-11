@@ -29,7 +29,7 @@
         <!-- Methodology Section -->
         <section id="methodology" class="section">
             <h2>📋 Research Methodology</h2>
-            <div class="methodology-grid">
+            <div class="methodology-grid-2x2">
                 <div class="method-card">
                     <h3>📊 Data Sources</h3>
                     <ul>
@@ -51,12 +51,12 @@
                     </ul>
                 </div>
                 <div class="method-card">
-                    <h3>🤖 AI Method Identification</h3>
+                    <h3>🤖 AI Methods vs. Keywords</h3>
                     <ul>
-                        <li><strong>Keywords Used:</strong> "machine learning", "neural network", "AI", "deep learning", "NLP", "computer vision"</li>
+                        <li><strong>AI Methods:</strong> CNN, Deep Learning, Neural Networks (actual research techniques)</li>
+                        <li><strong>AI Keywords:</strong> "artificial intelligence", "AI", "machine learning" (general terminology)</li>
                         <li><strong>Detection Method:</strong> Text pattern matching in document chunks</li>
                         <li><strong>Growth Calculation:</strong> Year-over-year usage frequency comparison</li>
-                        <li><strong>Integration Analysis:</strong> Co-occurrence with traditional methods</li>
                     </ul>
                 </div>
                 <div class="method-card">
@@ -201,13 +201,13 @@
                     </ul>
                 </div>
                 <div class="method-card">
-                    <h3>AI Terminology Growth</h3>
+                    <h3>AI Keywords/Terminology Growth</h3>
                     <ul>
                         <li><strong>2016:</strong> 22 mentions of "artificial intelligence"</li>
                         <li><strong>2025:</strong> 4,920 mentions (22,364% increase)</li>
-                        <li><strong>Note:</strong> "Artificial intelligence" and "ROI" are terminology, not research methods</li>
-                        <li><strong>AI Methods:</strong> Deep Learning (3,448), Neural Network (2,041), CNN (9,057)</li>
-                        <li><strong>Share in 2025:</strong> AI-related terms = 31.4% of all method mentions</li>
+                        <li><strong>AI Keywords:</strong> "Artificial Intelligence" (30,591), "AI", "Machine Learning" (general terms)</li>
+                        <li><strong>Actual AI Methods:</strong> CNN (9,057), Deep Learning (3,448), Neural Networks (2,041)</li>
+                        <li><strong>Share in 2025:</strong> AI-related terminology = 31.4% of all detected terms</li>
                     </ul>
                 </div>
             </div>
@@ -280,7 +280,7 @@
                             <li><strong>Evaluation:</strong> Case Study (43,807), Program Evaluation (8,668)</li>
                             <li><strong>Statistical:</strong> Fixed Effects (8,454), Regression Analysis (5,598)</li>
                             <li><strong>Review:</strong> Literature Review (30,719), Systematic Review (22,891)</li>
-                            <li><strong>AI Methods:</strong> CNN (9,057), Deep Learning (3,448), Neural Networks (2,041)</li>
+                            <li><strong>Actual AI Methods:</strong> CNN (9,057), Deep Learning (3,448), Neural Networks (2,041)</li>
                             <li><strong>Applied:</strong> Simulation (34,095), Forecasting (15,027), Risk Assessment (17,381)</li>
                         </ul>
                     </div>
@@ -325,20 +325,20 @@
                     <p>Watch how method rankings evolve over time, with AI methods rising rapidly.</p>
                 </div>
                 <div class="animation-card">
-                    <h3>AI vs Traditional Methods</h3>
+                    <h3>AI Keywords vs Traditional Methods</h3>
                     <img src="visualizations/animations/ai_adoption_evolution.gif" alt="AI Adoption">
-                    <p>The growing share of AI methods in RAND's research portfolio.</p>
+                    <p>The growing share of AI terminology mentions in RAND publications.</p>
                 </div>
                 <div class="animation-card">
-                    <h3>Emerging Methods</h3>
+                    <h3>Emerging Methods by Frequency</h3>
                     <img src="visualizations/animations/emerging_methods.gif" alt="Emerging Methods">
-                    <p>New methods entering RAND's toolkit, primarily AI/ML approaches.</p>
+                    <p>Methods gaining frequency over time, with AI-related terms leading growth.</p>
                 </div>
             </div>
             <div class="viz-card full-width">
-                <h3>Method Lifecycle Analysis</h3>
-                <img src="visualizations/static/method_lifecycle_analysis.png" alt="Method Lifecycle">
-                <p>Classification of methods by growth stage: 60% emerging, 40% growing.</p>
+                <h3>Method Growth Heatmap</h3>
+                <img src="visualizations/static/ai_penetration_heatmap.png" alt="Method Growth">
+                <p>Frequency-based view: High-frequency methods (15,000+ uses) vs. moderate/low-frequency methods across time.</p>
             </div>
         </section>
 
@@ -375,9 +375,9 @@
                 <h3>Enhanced WizMap Network</h3>
                 <p>Explore the complete method network with multi-dimensional filtering:</p>
                 <ul>
-                    <li>Filter by division, lifecycle stage, or AI integration</li>
-                    <li>Node size shows usage frequency</li>
-                    <li>Node color indicates lifecycle stage</li>
+                    <li>Filter by division, frequency tier, or method category</li>
+                    <li>Node size shows usage frequency (based on empirical tiers)</li>
+                    <li>Node color indicates method category (evaluation, statistical, AI, etc.)</li>
                     <li>Edge width represents co-occurrence strength</li>
                 </ul>
                 <a href="wizmap.html" class="btn btn-primary">Launch WizMap →</a>
