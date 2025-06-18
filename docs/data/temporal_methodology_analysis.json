@@ -1,0 +1,35 @@
+{
+  "generated_at": "2025-06-18T05:58:43.962140",
+  "dataset_summary": {
+    "total_documents_processed": 3,
+    "documents_with_methodology": 0,
+    "detection_rate": 0.0,
+    "unique_methods_identified": 0,
+    "ai_methods_count": 0,
+    "traditional_methods_count": 0
+  },
+  "yearly_analysis": {},
+  "temporal_summary": {
+    "years_with_data": [],
+    "total_years_tracked": 0,
+    "peak_methodology_year": "-",
+    "peak_year_count": 0,
+    "ai_adoption_start": "Not detected",
+    "methodology_growth_trend": "-",
+    "average_methods_per_year": 0
+  },
+  "method_evolution": {
+    "all_methods": [],
+    "ai_methods": [],
+    "traditional_methods": [],
+    "newest_methods": [],
+    "most_consistent_methods": []
+  },
+  "division_trends": {},
+  "insights": {
+    "methodology_coverage": "0 out of 3 documents have identifiable methodology sections",
+    "ai_penetration": "0 AI/ML methods identified across the corpus",
+    "temporal_span": "Analysis covers 0 years from N/A to N/A",
+    "peak_activity": "Peak methodology documentation in - with 0 documents"
+  }
+}

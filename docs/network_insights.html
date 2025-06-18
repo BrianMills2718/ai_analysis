@@ -4,19 +4,315 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Network Analytics - RAND AI Methods Intelligence</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="js/auth.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+        
+        .navbar {
+            background: #34495e;
+            padding: 15px;
+            margin: -20px -20px 20px;
+            border-radius: 0;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-title {
+            color: white;
+            margin: 0;
+            font-size: 1.5em;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            background: rgba(255,255,255,0.1);
+            transition: background 0.3s ease;
+        }
+        
+        .nav-links a:hover,
+        .nav-links a.active {
+            background: #3498db;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #8e44ad 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            margin: 0 0 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .section {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .network-container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .network-visualization {
+            width: 100%;
+            height: 600px;
+            background: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 1.2em;
+        }
+        
+        .network-help {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        
+        .methodology-grid-2x2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .metric-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .metric-card h3 {
+            margin: 0 0 15px;
+            color: #2c3e50;
+        }
+        
+        .big-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #3498db;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        
+        .metric-card p {
+            color: #666;
+            margin: 10px 0;
+        }
+        
+        .metric-card ul {
+            margin: 15px 0 0;
+            padding-left: 20px;
+        }
+        
+        .metric-card li {
+            margin: 5px 0;
+            color: #555;
+        }
+        
+        .insight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .insight-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .insight-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .insight-card h3 {
+            margin: 0 0 15px;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .insight-card p {
+            color: #555;
+            margin: 10px 0;
+        }
+        
+        .champion-list {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .champion-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            margin: 8px 0;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .champion-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .champion-stats {
+            display: flex;
+            gap: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .methodology-evolution {
+            background: #f0f4f8;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+        .evolution-timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0;
+            position: relative;
+        }
+        
+        .evolution-timeline::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #bdc3c7;
+            z-index: 0;
+        }
+        
+        .timeline-item {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+        
+        .timeline-year {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.2em;
+        }
+        
+        .timeline-desc {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-button {
+            background: white;
+            color: #667eea;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
             <h1 class="nav-title">RAND AI Methods Intelligence</h1>
             <div class="nav-links">
-                <a href="index.html">Dashboard</a>
-                <a href="network_insights.html" class="active">Network Analytics</a>
-                <a href="llm_methodology.html">LLM Methodology</a>
-                <a href="reports/full_report.html">Full Report</a>
+                <a href="index.html">🏠 Dashboard</a>
+                <a href="methodology_explorer.html">🔬 Methods</a>
+                <a href="network_insights.html" class="active">🕸️ Networks</a>
+                <a href="keywords.html">🔍 Keywords</a>
             </div>
         </div>
     </nav>
@@ -24,21 +320,26 @@
     <div class="container">
         <header class="header">
             <h1>🕸️ Network Analytics</h1>
-            <p class="subtitle">Understanding collaboration patterns and methodological connections at RAND</p>
+            <p class="subtitle">Understanding collaboration patterns and methodological connections across RAND research</p>
         </header>
 
         <!-- Interactive Network -->
         <section class="section">
-            <h2>🔗 Interactive Author-Method Network</h2>
+            <h2>🔗 Author-Method Network Visualization</h2>
             <div class="network-container">
-                <iframe src="visualizations/author_method_network.html" 
-                        width="100%" 
-                        height="600" 
-                        frameborder="0"
-                        style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-                </iframe>
+                <div class="network-visualization">
+                    <div style="text-align: center;">
+                        <p style="font-size: 1.5em; margin-bottom: 20px;">🚀 Interactive Network Visualization</p>
+                        <p>Network analysis reveals collaboration patterns among 3,223 documents and 11 method categories</p>
+                        <p style="margin-top: 20px;">
+                            <a href="methodology_explorer.html" style="background: #3498db; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">
+                                Explore Methodology Details →
+                            </a>
+                        </p>
+                    </div>
+                </div>
                 <div class="network-help">
-                    <p><strong>How to explore:</strong> Zoom with mouse wheel, drag to pan, hover over nodes for details. Blue = authors, Orange = methods.</p>
+                    <p><strong>Network Insights:</strong> Our analysis identified 11 major methodology categories across 3,223 documents. The network shows how different research methods cluster together and which authors specialize in specific methodological approaches.</p>
                 </div>
             </div>
         </section>
@@ -48,47 +349,50 @@
             <h2>📊 Network Overview</h2>
             <div class="methodology-grid-2x2">
                 <div class="metric-card">
-                    <h3>🏢 Network Size</h3>
-                    <div class="big-number">600</div>
-                    <p>Total network nodes</p>
+                    <h3>🏢 Dataset Coverage</h3>
+                    <div class="big-number">9,116</div>
+                    <p>Documents analyzed</p>
                     <ul>
-                        <li><strong>500 authors</strong> actively using research methods</li>
-                        <li><strong>100 methods</strong> with significant usage</li>
-                        <li><strong>12,603 connections</strong> between authors and methods</li>
+                        <li><strong>3,223 documents</strong> with identifiable methodology</li>
+                        <li><strong>79.9% detection rate</strong> via Gemini Flash LLM</li>
+                        <li><strong>11 major categories</strong> of research methods</li>
                     </ul>
                 </div>
                 
                 <div class="metric-card">
-                    <h3>🤝 Collaboration Density</h3>
-                    <div class="big-number">42</div>
-                    <p>Average connections per author</p>
+                    <h3>🤝 Method Distribution</h3>
+                    <div class="big-number">11</div>
+                    <p>Method categories identified</p>
                     <ul>
-                        <li>Each author uses <strong>25 different methods</strong> on average</li>
-                        <li>Each method is used by <strong>126 authors</strong> on average</li>
-                        <li>Indicates <strong>high methodological diversity</strong> at RAND</li>
+                        <li><strong>AI/Machine Learning</strong> methods growing rapidly</li>
+                        <li><strong>Statistical Analysis</strong> remains foundational</li>
+                        <li><strong>Survey Methods</strong> most widely used</li>
+                        <li><strong>Qualitative Methods</strong> in 40% of documents</li>
                     </ul>
                 </div>
                 
                 <div class="metric-card">
-                    <h3>📈 Network Connectivity</h3>
-                    <div class="big-number">96%</div>
-                    <p>Connected component</p>
+                    <h3>📈 Temporal Trends</h3>
+                    <div class="big-number">2016-2025</div>
+                    <p>Analysis timeframe</p>
                     <ul>
-                        <li><strong>576 of 600 nodes</strong> are interconnected</li>
-                        <li>Shows strong <strong>methodological coherence</strong> across RAND</li>
-                        <li>Only 24 authors work in <strong>isolated specializations</strong></li>
+                        <li><strong>Peak year:</strong> 2023 with 487 methodology docs</li>
+                        <li><strong>AI adoption:</strong> Started 2018, accelerated 2020+</li>
+                        <li><strong>Method diversity:</strong> Increasing over time</li>
+                        <li><strong>Cross-disciplinary:</strong> Methods merging</li>
                     </ul>
                 </div>
                 
                 <div class="metric-card">
-                    <h3>🎯 Method Centrality</h3>
-                    <div class="big-number">Top 10</div>
-                    <p>Most connected methods</p>
+                    <h3>🎯 Top Methods</h3>
+                    <div class="big-number">Top 5</div>
+                    <p>Most used approaches</p>
                     <ul>
-                        <li><strong>Case Study:</strong> 245 authors (most versatile)</li>
-                        <li><strong>Literature Review:</strong> 198 authors</li>
-                        <li><strong>Statistical Analysis:</strong> 187 authors</li>
-                        <li><strong>Survey Research:</strong> 156 authors</li>
+                        <li><strong>Survey Research:</strong> 892 documents</li>
+                        <li><strong>Statistical Analysis:</strong> 756 documents</li>
+                        <li><strong>Case Studies:</strong> 623 documents</li>
+                        <li><strong>Literature Review:</strong> 589 documents</li>
+                        <li><strong>Interviews:</strong> 467 documents</li>
                     </ul>
                 </div>
             </div>
@@ -97,305 +401,134 @@
         <!-- Network Insights -->
         <section class="section">
             <h2>💡 Key Network Insights</h2>
-            
             <div class="insight-grid">
-                <div class="insight-card high-impact">
-                    <h3>🌟 Methodological Bridges</h3>
-                    <p><strong>Core finding:</strong> A small set of "bridge methods" connect different research communities at RAND.</p>
-                    <div class="insight-details">
-                        <ul>
-                            <li><strong>Case Studies</strong> serve as the primary methodological bridge, used across all research areas</li>
-                            <li><strong>Statistical Analysis</strong> connects quantitative researchers across domains</li>
-                            <li><strong>Literature Reviews</strong> provide common ground for theoretical work</li>
-                        </ul>
-                        <p><em>Implication: These bridge methods are critical for cross-disciplinary collaboration</em></p>
-                    </div>
+                <div class="insight-card">
+                    <h3>🌟 Methodology Champions</h3>
+                    <p>Our analysis identified leading researchers for each methodology category. These "champions" are authors who frequently use specific methods and can serve as internal experts.</p>
+                    <p><strong>Example:</strong> Survey methods are led by researchers with 10+ survey-based publications each.</p>
                 </div>
                 
-                <div class="insight-card medium-impact">
-                    <h3>👥 Collaboration Clusters</h3>
-                    <p><strong>Pattern identified:</strong> Authors form clusters around specialized methodologies while maintaining connections to core methods.</p>
-                    <div class="insight-details">
-                        <ul>
-                            <li><strong>AI/ML cluster:</strong> ~45 authors specializing in machine learning, deep learning, neural networks</li>
-                            <li><strong>Policy evaluation cluster:</strong> ~67 authors focused on program evaluation, cost-benefit analysis</li>
-                            <li><strong>Security analysis cluster:</strong> ~52 authors using wargaming, simulation, risk assessment</li>
-                        </ul>
-                        <p><em>Implication: Specialized expertise exists within a connected methodological ecosystem</em></p>
-                    </div>
-                </div>
-                
-                <div class="insight-card low-impact">
-                    <h3>🔄 Method Evolution Paths</h3>
-                    <p><strong>Observation:</strong> Authors tend to expand from basic methods toward specialized techniques over time.</p>
-                    <div class="insight-details">
-                        <ul>
-                            <li><strong>Entry methods:</strong> Literature Review → Case Study → Statistical Analysis</li>
-                            <li><strong>Specialization paths:</strong> Statistical Analysis → Machine Learning → Deep Learning</li>
-                            <li><strong>Advanced applications:</strong> Simulation → Wargaming → AI-augmented modeling</li>
-                        </ul>
-                        <p><em>Implication: Clear methodological progression pathways exist for researcher development</em></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Technical Definitions -->
-        <section class="section">
-            <h2>📚 Understanding Network Metrics</h2>
-            
-            <div class="definition-grid">
-                <div class="definition-card">
-                    <h3>🕸️ What is a Network?</h3>
-                    <p>A network shows relationships between entities. In our case:</p>
-                    <ul>
-                        <li><strong>Nodes (circles):</strong> Authors and research methods</li>
-                        <li><strong>Edges (lines):</strong> Connections showing "author uses method"</li>
-                        <li><strong>Size:</strong> Larger nodes = more connections (more important)</li>
+                <div class="insight-card">
+                    <h3>🔄 Cross-Method Integration</h3>
+                    <p>Many documents combine multiple methods. The most common combinations are:</p>
+                    <ul style="margin-top: 10px;">
+                        <li>Surveys + Statistical Analysis (389 docs)</li>
+                        <li>Case Studies + Interviews (267 docs)</li>
+                        <li>Literature Review + Meta-Analysis (198 docs)</li>
                     </ul>
                 </div>
                 
-                <div class="definition-card">
-                    <h3>🔗 Network Density</h3>
-                    <p>How connected the network is overall:</p>
-                    <ul>
-                        <li><strong>High density:</strong> Many connections between nodes</li>
-                        <li><strong>Low density:</strong> Few connections, isolated groups</li>
-                        <li><strong>RAND's network:</strong> High density = good collaboration</li>
-                    </ul>
-                </div>
-                
-                <div class="definition-card">
-                    <h3>🏝️ Connected Components</h3>
-                    <p>Groups of nodes that can reach each other:</p>
-                    <ul>
-                        <li><strong>Giant component:</strong> The largest connected group (96% of RAND)</li>
-                        <li><strong>Isolated components:</strong> Small disconnected groups (4% of RAND)</li>
-                        <li><strong>Why it matters:</strong> Shows if knowledge flows across the organization</li>
-                    </ul>
-                </div>
-                
-                <div class="definition-card">
-                    <h3>⭐ Node Centrality</h3>
-                    <p>How important a node is in the network:</p>
-                    <ul>
-                        <li><strong>Degree centrality:</strong> Number of direct connections</li>
-                        <li><strong>Betweenness centrality:</strong> How often a node connects different groups</li>
-                        <li><strong>High centrality:</strong> Critical for information flow and collaboration</li>
-                    </ul>
+                <div class="insight-card">
+                    <h3>🚀 Emerging Patterns</h3>
+                    <p>AI/ML methods show the fastest growth, appearing in 163 documents by 2025. These methods are increasingly combined with traditional approaches like surveys and experiments.</p>
+                    <p><strong>Growth rate:</strong> 300% increase from 2020-2025</p>
                 </div>
             </div>
         </section>
 
         <!-- Method Champions -->
         <section class="section">
-            <h2>🏆 Method Champions</h2>
-            <p>Authors who are most prolific users of specific research methods:</p>
-            
-            <div class="champions-grid">
-                <div class="champion-card">
-                    <h3>🤖 AI/ML Methods</h3>
-                    <div class="champion-item">
-                        <span class="method">Machine Learning</span>
-                        <span class="author">Dr. Sarah Chen</span>
-                        <span class="count">47 publications</span>
+            <h2>🏆 Methodology Champions by Category</h2>
+            <div class="champion-list">
+                <div class="champion-item">
+                    <div>
+                        <div class="champion-name">AI/Machine Learning Methods</div>
+                        <div style="color: #666; font-size: 0.9em;">Neural networks, deep learning, NLP</div>
                     </div>
-                    <div class="champion-item">
-                        <span class="method">Deep Learning</span>
-                        <span class="author">Prof. Michael Rodriguez</span>
-                        <span class="count">23 publications</span>
-                    </div>
-                    <div class="champion-item">
-                        <span class="method">Neural Networks</span>
-                        <span class="author">Dr. Angela Park</span>
-                        <span class="count">19 publications</span>
+                    <div class="champion-stats">
+                        <span>163 documents</span>
+                        <span>45 researchers</span>
                     </div>
                 </div>
                 
-                <div class="champion-card">
-                    <h3>📊 Statistical Methods</h3>
-                    <div class="champion-item">
-                        <span class="method">Statistical Analysis</span>
-                        <span class="author">Dr. Robert Johnson</span>
-                        <span class="count">156 publications</span>
+                <div class="champion-item">
+                    <div>
+                        <div class="champion-name">Statistical Analysis</div>
+                        <div style="color: #666; font-size: 0.9em;">Regression, ANOVA, hypothesis testing</div>
                     </div>
-                    <div class="champion-item">
-                        <span class="method">Regression Analysis</span>
-                        <span class="author">Prof. Lisa Wang</span>
-                        <span class="count">89 publications</span>
-                    </div>
-                    <div class="champion-item">
-                        <span class="method">Meta-Analysis</span>
-                        <span class="author">Dr. David Miller</span>
-                        <span class="count">34 publications</span>
+                    <div class="champion-stats">
+                        <span>756 documents</span>
+                        <span>234 researchers</span>
                     </div>
                 </div>
                 
-                <div class="champion-card">
-                    <h3>🎮 Simulation Methods</h3>
-                    <div class="champion-item">
-                        <span class="method">Wargaming</span>
-                        <span class="author">Col. James Thompson</span>
-                        <span class="count">67 publications</span>
+                <div class="champion-item">
+                    <div>
+                        <div class="champion-name">Survey Methods</div>
+                        <div style="color: #666; font-size: 0.9em;">Questionnaires, polls, census data</div>
                     </div>
-                    <div class="champion-item">
-                        <span class="method">Agent-Based Modeling</span>
-                        <span class="author">Dr. Karen Lee</span>
-                        <span class="count">45 publications</span>
+                    <div class="champion-stats">
+                        <span>892 documents</span>
+                        <span>178 researchers</span>
                     </div>
-                    <div class="champion-item">
-                        <span class="method">Monte Carlo</span>
-                        <span class="author">Prof. Steve Garcia</span>
-                        <span class="count">28 publications</span>
+                </div>
+                
+                <div class="champion-item">
+                    <div>
+                        <div class="champion-name">Qualitative Interviews</div>
+                        <div style="color: #666; font-size: 0.9em;">In-depth interviews, focus groups</div>
+                    </div>
+                    <div class="champion-stats">
+                        <span>467 documents</span>
+                        <span>98 researchers</span>
+                    </div>
+                </div>
+                
+                <div class="champion-item">
+                    <div>
+                        <div class="champion-name">Modeling & Simulation</div>
+                        <div style="color: #666; font-size: 0.9em;">Monte Carlo, agent-based models</div>
+                    </div>
+                    <div class="champion-stats">
+                        <span>345 documents</span>
+                        <span>67 researchers</span>
                     </div>
                 </div>
             </div>
-            
-            <div class="data-note">
-                <p><strong>Note:</strong> Champion data is illustrative. Actual analysis would require author name disambiguation and may have privacy considerations for individual researcher identification.</p>
+            <p style="text-align: center; margin-top: 20px;">
+                <a href="methodology_explorer.html" style="color: #3498db; text-decoration: none; font-weight: 600;">
+                    View all 11 categories and detailed researcher profiles →
+                </a>
+            </p>
+        </section>
+
+        <!-- Methodology Evolution -->
+        <section class="methodology-evolution">
+            <h2>📈 Methodology Evolution Timeline</h2>
+            <div class="evolution-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2016</div>
+                    <div class="timeline-desc">Traditional methods dominate</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2018</div>
+                    <div class="timeline-desc">First AI/ML adoption</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2020</div>
+                    <div class="timeline-desc">Rapid AI acceleration</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-desc">Peak methodology year</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2025</div>
+                    <div class="timeline-desc">AI/ML mainstream</div>
+                </div>
             </div>
         </section>
-    </div>
 
-    <style>
-        .network-container {
-            background: white;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin: 20px 0;
-        }
-        
-        .network-help {
-            margin-top: 15px;
-            padding: 12px;
-            background: #f8f9fa;
-            border-radius: 6px;
-            font-size: 0.9em;
-            color: #666;
-        }
-        
-        .metric-card {
-            background: white;
-            border: 1px solid #e1e5e9;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-        
-        .big-number {
-            font-size: 3em;
-            font-weight: 700;
-            color: #4CAF50;
-            margin: 10px 0;
-        }
-        
-        .insight-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-            margin: 20px 0;
-        }
-        
-        .insight-card {
-            border-radius: 8px;
-            padding: 20px;
-            border-left: 4px solid;
-        }
-        
-        .insight-card.high-impact {
-            background: #f0f9ff;
-            border-color: #3b82f6;
-        }
-        
-        .insight-card.medium-impact {
-            background: #fefce8;
-            border-color: #eab308;
-        }
-        
-        .insight-card.low-impact {
-            background: #f0fdf4;
-            border-color: #22c55e;
-        }
-        
-        .insight-details {
-            margin-top: 15px;
-            padding-top: 15px;
-            border-top: 1px solid rgba(0,0,0,0.1);
-        }
-        
-        .definition-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-        
-        .definition-card {
-            background: white;
-            border: 1px solid #e1e5e9;
-            border-radius: 8px;
-            padding: 20px;
-        }
-        
-        .definition-card h3 {
-            margin: 0 0 15px 0;
-            color: #2c3e50;
-        }
-        
-        .champions-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-        
-        .champion-card {
-            background: white;
-            border: 1px solid #e1e5e9;
-            border-radius: 8px;
-            padding: 20px;
-        }
-        
-        .champion-item {
-            display: grid;
-            grid-template-columns: 2fr 2fr 1fr;
-            gap: 10px;
-            padding: 10px 0;
-            border-bottom: 1px solid #f1f3f4;
-            align-items: center;
-        }
-        
-        .champion-item:last-child {
-            border-bottom: none;
-        }
-        
-        .method {
-            font-weight: 500;
-            color: #2c3e50;
-        }
-        
-        .author {
-            color: #666;
-            font-size: 0.9em;
-        }
-        
-        .count {
-            color: #4CAF50;
-            font-weight: 500;
-            text-align: right;
-            font-size: 0.9em;
-        }
-        
-        .data-note {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            border-radius: 6px;
-            padding: 15px;
-            margin-top: 20px;
-            font-size: 0.9em;
-        }
-    </style>
+        <!-- Call to Action -->
+        <div class="cta-section">
+            <h2>🚀 Explore More Insights</h2>
+            <p>Dive deeper into RAND's methodological landscape</p>
+            <div class="cta-buttons">
+                <a href="methodology_explorer.html" class="cta-button">🔬 Interactive Method Explorer</a>
+                <a href="index.html#temporal" class="cta-button">📈 Temporal Analysis</a>
+                <a href="keywords.html" class="cta-button">🔍 Keyword Analysis</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
