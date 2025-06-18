@@ -1,0 +1,11 @@
+{
+  "deployment_time": "2025-06-18T03:44:56.019454",
+  "files_updated": [
+    "improved_rr_analysis.json",
+    "Improved_RR_Analysis_Readable_Report.txt",
+    "prioritized_checkpoint.json"
+  ],
+  "website_status": "ready",
+  "data_source": "Gemini Flash LLM methodology extraction",
+  "coverage": "RR documents (3,414 processed)"
+}

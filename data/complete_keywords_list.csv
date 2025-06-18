@@ -1,0 +1,232 @@
+term,count,category,frequency_rank
+Case Study,43807,Research Methods,1
+Simulation,34095,Modeling/Simulation,2
+Literature Review,30719,Research Methods,3
+artificial intelligence,30591,AI/Machine Learning,4
+Systematic Review,22891,Research Methods,5
+Risk Assessment,17381,Evaluation Methods,6
+Forecasting,15027,Modeling/Simulation,7
+Focus Group,14625,Research Methods,8
+Meta-Analysis,14534,Statistical Methods,9
+CNN,9057,AI/Machine Learning,10
+Program Evaluation,8668,Evaluation Methods,11
+Fixed effects,8454,Statistical Methods,12
+RCT,8203,Evaluation Methods,13
+Randomized Controlled Trial,6987,Evaluation Methods,14
+Network Analysis,6697,Statistical Methods,15
+Wargaming,6283,Modeling/Simulation,16
+Clustering,6057,Statistical Methods,17
+Foresight,5641,Other Methods,18
+Regression Analysis,5598,Statistical Methods,19
+Return on Investment,5447,Evaluation Methods,20
+Statistical Analysis,5163,Statistical Methods,21
+Process Evaluation,5045,Evaluation Methods,22
+Sensitivity Analysis,4787,Statistical Methods,23
+Outcome Evaluation,4613,Evaluation Methods,24
+embedding,4452,AI/Machine Learning,25
+Needs Assessment,4036,Evaluation Methods,26
+Mixed-Methods,3499,Other Methods,27
+deep learning,3448,AI/Machine Learning,28
+GIS,3183,Other Methods,29
+ROI,3105,Evaluation Methods,30
+LLM,2922,AI/Machine Learning,31
+Content Analysis,2645,Statistical Methods,32
+Impact Assessment,2596,Evaluation Methods,33
+Survey Design,2587,Research Methods,34
+Difference-in-differences,2567,Other Methods,35
+GPT,2548,AI/Machine Learning,36
+Microsimulation,2497,Modeling/Simulation,37
+Delphi Method,2422,Research Methods,38
+AI development,2388,AI/Machine Learning,39
+RL,2384,AI/Machine Learning,40
+RDM,2262,Other Methods,41
+AI safety,2112,AI/Machine Learning,42
+Causal Inference,2072,Other Methods,43
+neural network,2041,AI/Machine Learning,44
+GAN,1910,AI/Machine Learning,45
+stacking,1808,Other Methods,46
+Implementation Science,1798,Other Methods,47
+Expert Elicitation,1750,Research Methods,48
+Robust Decision Making,1725,Other Methods,49
+Tabletop Exercise,1721,Other Methods,50
+Social Network Analysis,1691,Statistical Methods,51
+Factor Analysis,1653,Statistical Methods,52
+AI governance,1628,AI/Machine Learning,53
+Random effects,1618,Statistical Methods,54
+Longitudinal Analysis,1595,Statistical Methods,55
+BERT,1541,AI/Machine Learning,56
+fine-tuning,1513,Other Methods,57
+reinforcement learning,1504,AI/Machine Learning,58
+transformer,1463,AI/Machine Learning,59
+PCA,1458,Statistical Methods,60
+Red Teaming,1445,Other Methods,61
+Qualitative Data Analysis,1377,Statistical Methods,62
+CRC,1318,Other Methods,63
+Horizon Scanning,1306,Other Methods,64
+RFI,1302,Other Methods,65
+Robustness Checks,1296,Other Methods,66
+language model,1291,Other Methods,67
+AI system,1263,AI/Machine Learning,68
+Sampling Strategy,1252,Other Methods,69
+Trend Analysis,1227,Statistical Methods,70
+Scenario Analysis,1185,Statistical Methods,71
+AI research,1175,AI/Machine Learning,72
+Research Synthesis,1164,Other Methods,73
+foundation model,1054,AI/Machine Learning,74
+Modified Delphi,1044,Research Methods,75
+CPM,1018,Other Methods,76
+Rapid evidence assessment,1015,Evaluation Methods,77
+Multivariate Analysis,1011,Statistical Methods,78
+AI regulation,981,AI/Machine Learning,79
+synthetic data,957,Other Methods,80
+System Dynamics,933,Modeling/Simulation,81
+Survey Analysis,885,Statistical Methods,82
+PSM,870,Other Methods,83
+Propensity score matching,870,Statistical Methods,84
+Llama,865,Other Methods,85
+large language model,827,AI/Machine Learning,86
+Scenario Planning,803,Modeling/Simulation,87
+supervised learning,726,AI/Machine Learning,88
+Quasi-Experimental Design,725,Other Methods,89
+Survival Analysis,716,Statistical Methods,90
+AI policy,700,AI/Machine Learning,91
+SEM,682,Other Methods,92
+Agent-Based Modeling,679,Modeling/Simulation,93
+Cross-Validation,664,Other Methods,94
+AI ethics,623,AI/Machine Learning,95
+Pardee Center,608,Other Methods,96
+Instrumental variable,581,Other Methods,97
+SNA,569,Other Methods,98
+AI risk,567,AI/Machine Learning,99
+Backcasting,564,Other Methods,100
+regularization,563,Other Methods,101
+Principal Component Analysis,526,Statistical Methods,102
+Synthetic control method,518,Other Methods,103
+Econometric Analysis,516,Statistical Methods,104
+algorithmic bias,516,Other Methods,105
+Monte Carlo Simulation,489,AI/Machine Learning,106
+unsupervised learning,485,AI/Machine Learning,107
+data mining,485,Other Methods,108
+Ethnography,482,Research Methods,109
+AI model,475,AI/Machine Learning,110
+ML model,474,AI/Machine Learning,111
+model calibration,473,Other Methods,112
+AI industry,462,AI/Machine Learning,113
+Geospatial Analysis,460,Statistical Methods,114
+Uncertainty Analysis,443,AI/Machine Learning,115
+AI ecosystem,439,AI/Machine Learning,116
+XAI,378,AI/Machine Learning,117
+sentiment analysis,361,Statistical Methods,118
+explainable AI,356,AI/Machine Learning,119
+NER,345,Other Methods,120
+Time Series Analysis,327,Statistical Methods,121
+loss function,326,Other Methods,122
+Decision theory,325,Other Methods,123
+MCDA,325,Other Methods,124
+Latent Class Analysis,322,Statistical Methods,125
+AI sector,315,AI/Machine Learning,126
+Document Analysis,313,Statistical Methods,127
+deep neural network,307,AI/Machine Learning,128
+Stress Testing,290,Other Methods,129
+ML algorithm,268,AI/Machine Learning,130
+Stakeholder Analysis,265,Statistical Methods,131
+Textual Analysis,258,Statistical Methods,132
+Structural equation modeling,256,Modeling/Simulation,133
+transfer learning,246,Other Methods,134
+Discourse analysis,242,Statistical Methods,135
+generative adversarial network,236,Other Methods,136
+backpropagation,235,Other Methods,137
+AI bias,235,AI/Machine Learning,138
+synthetic control method,223,Other Methods,139
+speech recognition,223,Other Methods,140
+text mining,218,Other Methods,141
+topic modeling,212,Modeling/Simulation,142
+DNN,200,Other Methods,143
+convolutional neural network,194,AI/Machine Learning,144
+RLHF,178,AI/Machine Learning,145
+Realist evaluation,172,Evaluation Methods,146
+Utility Analysis,168,Statistical Methods,147
+Center for Gaming,159,Other Methods,148
+Counterfactual analysis,158,Statistical Methods,149
+latent space,158,Other Methods,150
+image recognition,151,Other Methods,151
+generative pre-trained transformer,147,AI/Machine Learning,152
+RNN,135,AI/Machine Learning,153
+machine learning algorithm,123,AI/Machine Learning,154
+Center for Causal Inference,119,Other Methods,155
+emergent behavior,115,Other Methods,156
+prompt engineering,112,Other Methods,157
+AI alignment,110,AI/Machine Learning,158
+Panel Data Analysis,107,Statistical Methods,159
+Bayesian Analysis,106,Statistical Methods,160
+AI market,105,AI/Machine Learning,161
+Text-as-data,102,Other Methods,162
+Evidence mapping,96,Other Methods,163
+transformer model,96,AI/Machine Learning,164
+Hierarchical Modeling,95,Modeling/Simulation,165
+data augmentation,91,Other Methods,166
+Discrete Event Simulation,88,Modeling/Simulation,167
+recurrent neural network,87,AI/Machine Learning,168
+AI investment,85,AI/Machine Learning,169
+Meselson Center,84,Other Methods,170
+stochastic gradient descent,81,Other Methods,171
+AI company,80,AI/Machine Learning,172
+Event History Analysis,78,Statistical Methods,173
+Center for Scalable Computing and Analysis,78,Statistical Methods,174
+AI algorithm,77,AI/Machine Learning,175
+attention mechanism,75,Other Methods,176
+Discriminant Analysis,74,Statistical Methods,177
+Center for Applied Network Analysis,73,Statistical Methods,178
+Center for Qualitative and Mixed Methods,73,Other Methods,179
+Institutional analysis,72,Statistical Methods,180
+chain-of-thought,68,AI/Machine Learning,181
+RAND Frederick S. Pardee Center for Longer Range Global Policy and the Future Human Condition,64,Other Methods,182
+anomaly detection,59,Other Methods,183
+Multi-Criteria Decision Analysis,59,Statistical Methods,184
+image classification,58,Other Methods,185
+NLG,58,Other Methods,186
+natural language generation,54,Other Methods,187
+feature extraction,47,Other Methods,188
+multimodality,46,Other Methods,189
+Serious Gaming,44,Other Methods,190
+Decision Tree Analysis,43,Statistical Methods,191
+neural network model,40,AI/Machine Learning,192
+Edge AI,39,AI/Machine Learning,193
+AI implementation,36,AI/Machine Learning,194
+China Research Center,31,Other Methods,195
+AI solution,30,AI/Machine Learning,196
+counterfactual reasoning,30,Other Methods,197
+AI deployment,29,AI/Machine Learning,198
+Punctuated equilibrium theory,27,Other Methods,199
+Critical path method,25,Other Methods,200
+multimodal model,24,Other Methods,201
+AI startup,24,AI/Machine Learning,202
+feature engineering,24,Other Methods,203
+automated coding,21,Other Methods,204
+AI assist,20,AI/Machine Learning,205
+recommendation system,20,Other Methods,206
+Citizen science methods,18,Other Methods,207
+AI fairness,18,AI/Machine Learning,208
+zero-shot learning,18,Other Methods,209
+RAND Forecasting Initiative,18,Modeling/Simulation,210
+discriminative model,17,Other Methods,211
+reasoning capability,17,Other Methods,212
+counterfactual analysis,15,Statistical Methods,213
+multimodal AI,14,AI/Machine Learning,214
+Computational text analysis,13,Statistical Methods,215
+TASP Center,10,Other Methods,216
+RCANA,9,Other Methods,217
+model chaining,9,AI/Machine Learning,218
+automated annotation,9,Other Methods,219
+knowledge graph,8,Other Methods,220
+semantic search,8,Other Methods,221
+few-shot learning,8,Other Methods,222
+Advocacy coalition framework,8,Other Methods,223
+AI integration,7,AI/Machine Learning,224
+AI analytics,6,AI/Machine Learning,225
+AI decision support,6,AI/Machine Learning,226
+vector embedding,5,AI/Machine Learning,227
+IV method,4,Other Methods,228
+Framing analysis,4,Statistical Methods,229
+Historical institutionalism,2,Other Methods,230
+Policy triangle framework,1,Other Methods,231

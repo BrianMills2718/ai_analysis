@@ -1,0 +1,289 @@
+================================================================================
+RAND RR DOCUMENTS METHODOLOGY ANALYSIS - IMPROVED
+================================================================================
+
+📋 DATA SOURCES & METHODOLOGY
+--------------------------------------------------
+Methodology Extraction: Gemini Flash LLM analysis of full RAND document text
+Author Mapping: RAND publication metadata (rand_publications_full_metadata.json)
+Document Coverage: Results from prioritized_checkpoint.json
+
+AI vs ML Keywords Used:
+  AI Keywords: artificial intelligence, ai, expert system, knowledge base, natural language processing, nlp, computer vision, robotics
+  ML Keywords: machine learning, neural network, deep learning, ann, regression model, classification model, clustering, algorithm, random forest, support vector machine, svm, gradient boosting, convolutional neural network, cnn, recurrent neural network, rnn, supervised learning, unsupervised learning, reinforcement learning, predictive modeling, data mining, ensemble method, feature selection, dimensionality reduction, cross-validation
+
+📊 EXECUTIVE SUMMARY
+--------------------------------------------------
+Total Research Reports (RR) analyzed: 3,414 documents
+Documents with methodology sections: 443 (13%)
+Unique research methods identified: 703
+Documents using AI methods: 163
+Documents using ML methods: 65
+Research areas using AI: 1
+Research areas using ML: 1
+Methods suitable for focus groups: 695
+
+👥 METHOD CHAMPIONS
+--------------------------------------------------
+Selection Criteria: Top authors by document count using each method
+Data Source: Author-method mapping from RAND metadata + LLM methodology extraction
+
+ 1. SURVEY (45 documents)
+    • Melissa Kay Diliberti (13 studies)
+      Research area: RAND Research Reports
+    • Heather L. Schwartz (9 studies)
+      Research area: RAND Research Reports
+    • David Grant (9 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 2. ONLINE SURVEY (20 documents)
+    • Rebecca L. Collins (5 studies)
+      Research area: RAND Research Reports
+    • Nicole K. Eberhart (5 studies)
+      Research area: RAND Research Reports
+    • Elizabeth Roth (4 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 3. LITERATURE REVIEW (19 documents)
+    • Linda Slapakova (5 studies)
+      Research area: RAND Research Reports
+    • Michael J. D. Vermeer (4 studies)
+      Research area: RAND Research Reports
+    • Lucia Retter (4 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 4. DELPHI METHOD (18 documents)
+    • Dulani Woods (4 studies)
+      Research area: RAND Research Reports
+    • Michael J. D. Vermeer (4 studies)
+      Research area: RAND Research Reports
+    • Brian A. Jackson (4 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 5. INTERVIEWS (15 documents)
+    • Beth E. Lachman (3 studies)
+      Research area: RAND Research Reports
+    • Frank Camm (3 studies)
+      Research area: RAND Research Reports
+    • Jason H. Campbell (3 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 6. INDIVIDUAL INTERVIEWS (15 documents)
+    • Lynn Langton (3 studies)
+      Research area: RAND Research Reports
+    • Michael G. Planty (3 studies)
+      Research area: RAND Research Reports
+    • Duren Banks (3 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 7. GROUP DISCUSSIONS (15 documents)
+    • Lynn Langton (3 studies)
+      Research area: RAND Research Reports
+    • Michael G. Planty (3 studies)
+      Research area: RAND Research Reports
+    • Duren Banks (3 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 8. REGRESSION ANALYSIS (14 documents)
+    • John Engberg (3 studies)
+      Research area: RAND Research Reports
+    • Jennie W. Wenger (3 studies)
+      Research area: RAND Research Reports
+    • Ashley Woo (3 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+ 9. DESCRIPTIVE STATISTICS (14 documents)
+    • Teague Ruder (5 studies)
+      Research area: RAND Research Reports
+    • Andrew W. Mulcahy (3 studies)
+      Research area: RAND Research Reports
+    • Jennie W. Wenger (2 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+10. EXPERT WORKSHOP (13 documents)
+    • Dulani Woods (3 studies)
+      Research area: RAND Research Reports
+    • Michael J. D. Vermeer (3 studies)
+      Research area: RAND Research Reports
+    • Brian A. Jackson (3 studies)
+      Research area: RAND Research Reports
+    ... and 2 more experts
+
+🤖 AI vs ML USAGE ANALYSIS
+--------------------------------------------------
+AI Adoption: 163/443 methodology docs (36.8%)
+ML Adoption: 65/443 methodology docs (14.7%)
+
+Top AI Methods Found:
+  • ai: 163 documents
+  • nlp: 4 documents
+  • natural language processing: 3 documents
+  • robotics: 1 documents
+
+Top ML Methods Found:
+  • regression model: 22 documents
+  • ann: 20 documents
+  • algorithm: 14 documents
+  • clustering: 10 documents
+  • machine learning: 6 documents
+
+🏢 RESEARCH AREA ANALYSIS
+--------------------------------------------------
+Research areas using AI: 1
+Research areas using ML: 1
+Research areas using neither: 1
+
+Research Areas NOT Using AI/ML (Growth Opportunities):
+  1. RAND Research Reports
+
+🎯 FOCUS GROUP RECRUITMENT
+--------------------------------------------------
+Selection Criteria: Methods with 2+ expert practitioners
+Participant Selection: Top 3 authors by document count per method
+
+Top Methods Ready for Focus Groups:
+ 1. survey - 3 experts, 10 documents
+    • Melissa Kay Diliberti
+      Research area: RAND Research Reports
+    • Heather L. Schwartz
+      Research area: RAND Research Reports
+ 2. online survey - 3 experts, 7 documents
+    • Rebecca L. Collins
+      Research area: RAND Research Reports
+    • Nicole K. Eberhart
+      Research area: RAND Research Reports
+ 3. literature review - 3 experts, 15 documents
+    • Linda Slapakova
+      Research area: RAND Research Reports
+    • Michael J. D. Vermeer
+      Research area: RAND Research Reports
+ 4. delphi method - 3 experts, 4 documents
+    • Dulani Woods
+      Research area: RAND Research Reports
+    • Michael J. D. Vermeer
+      Research area: RAND Research Reports
+ 5. interviews - 3 experts, 10 documents
+    • Beth E. Lachman
+      Research area: RAND Research Reports
+    • Frank Camm
+      Research area: RAND Research Reports
+ 6. individual interviews - 3 experts, 3 documents
+    • Lynn Langton
+      Research area: RAND Research Reports
+    • Michael G. Planty
+      Research area: RAND Research Reports
+ 7. group discussions - 3 experts, 3 documents
+    • Lynn Langton
+      Research area: RAND Research Reports
+    • Michael G. Planty
+      Research area: RAND Research Reports
+ 8. regression analysis - 3 experts, 10 documents
+    • John Engberg
+      Research area: RAND Research Reports
+    • Jennie W. Wenger
+      Research area: RAND Research Reports
+ 9. descriptive statistics - 3 experts, 10 documents
+    • Teague Ruder
+      Research area: RAND Research Reports
+    • Andrew W. Mulcahy
+      Research area: RAND Research Reports
+10. expert workshop - 3 experts, 5 documents
+    • Dulani Woods
+      Research area: RAND Research Reports
+    • Michael J. D. Vermeer
+      Research area: RAND Research Reports
+
+🔬 METHODOLOGY PROCESS ANALYSIS
+--------------------------------------------------
+Data Source: Gemini Flash LLM extraction from full RAND document text
+Extraction Basis: Full document analysis with section identification
+
+Sample Process Descriptions (What Researchers Actually Do):
+
+LITERATURE REVIEW (used in 120 studies):
+  Example 1 - Document: RR-103-AF
+  Sample: The study primarily focuses on research conducted with adult populations in the United States, with some inclusion of research on children and adults in other Western nations.  The study prioritizes literature reviews, meta-analyses, and ongoing bodies of research over smaller-scale studies....
+  Analysis: The study analyzes existing research on the relationship between behavioral fitness constructs (sleep, alcohol and drug use, tobacco use) and resilience, well-being, and stress.  The analysis focuses on identifying key constructs, measures, and interventions, and evaluating the effectiveness of diff...
+
+  Example 2 - Document: RR-1036-AUS
+  Sample: Three case studies: Newport News Shipbuilding (USA), Austal USA (USA), and Saab Aeronautics' Gripen program (Sweden).  Additional interviews and literature reviews were conducted on other shipbuilders (Bath Iron Works, Ingalls Shipbuilding, Marinette Marine Corporation), but these were not as in-dep...
+  Analysis: Qualitative analysis of case studies, supplemented by quantitative data where available (e.g., employment figures, revenue data).  Critical review and interpretation of existing economic multiplier studies and their limitations....
+
+
+INTERVIEWS (used in 60 studies):
+  Example 1 - Document: RR-1024-JNI
+  Sample: 18 CISOs were interviewed, with a non-random sample drawn from various sectors (military, communications, government, finance, manufacturing). The heuristic model simulates over 100 types of organizations....
+  Analysis: Qualitative analysis of interview data was used to inform the development of a quantitative heuristic model.  Sensitivity analyses were conducted to assess the impact of varying key parameters on model outcomes....
+
+  Example 2 - Document: RR-1295-BMGF
+  Sample: The study included three school districts and four charter management organizations.  Interviews were conducted with central office staff, school leaders, and teachers. Surveys were administered to all school leaders and a stratified random sample of teachers....
+  Analysis: Qualitative data analysis of interviews using NVivo 10, thematic coding, and inductive coding. Quantitative analysis of survey data using Stata, including sampling weights and nonresponse adjustments.  Implementation status coded using a point system and converted to percentages. Nonresponse analysi...
+
+
+DOCUMENT REVIEW (used in 53 studies):
+  Example 1 - Document: RR-1024-JNI
+  Sample: 18 CISOs were interviewed, with a non-random sample drawn from various sectors (military, communications, government, finance, manufacturing). The heuristic model simulates over 100 types of organizations....
+  Analysis: Qualitative analysis of interview data was used to inform the development of a quantitative heuristic model.  Sensitivity analyses were conducted to assess the impact of varying key parameters on model outcomes....
+
+  Example 2 - Document: RR-1137-DFID
+  Sample: The survey included all task team leaders (TTLs) and principal investigators (PIs) named on applications to the first three SIEF calls for funding.  The online focus group included 10 DFID staff. In-depth interviews were conducted with SIEF staff, NGOs, peers (e.g., 3ie, DIME), and donors (CIFF)....
+  Analysis: Data from different methods were synthesized to answer six core research questions and several secondary research questions.  Analysis included comparing SIEF costs with those of peer funders, examining survey response rates and disaggregating data by respondent characteristics (position, cluster, c...
+
+
+SURVEY (used in 45 studies):
+  Example 1 - Document: RR-1034-OSD
+  Sample: Nationally representative sample of active-duty members of the Army, Navy, Marine Corps, and Air Force (up to pay grade O-6), at least 18 years old at the start of the survey period.  Included both those currently serving overseas and those who had served overseas previously.  Sample size of 11,306 ...
+  Analysis: Descriptive statistics, multivariate statistical modeling (probit and interval regression), cluster analysis to group attitudinal data.  Marginal effects were calculated to interpret the results of the statistical models.  Steady-state analysis was used to estimate long-run costs and savings of tour...
+
+  Example 2 - Document: RR-1129-CMHSA
+  Sample: 1,272 California K–12 public school principals (14% response rate).  Respondent schools were demographically similar to all California schools in terms of school type (elementary vs. secondary) and percentage of students receiving free or reduced-priced lunches....
+  Analysis: Comparisons were made among responses of elementary, middle, and high school principals.  The report focuses on the severity of reported problems and the implementation of PEI activities, including comparisons across school levels and between schools reporting moderate or severe problems versus thos...
+
+
+REGRESSION ANALYSIS (used in 34 studies):
+  Example 1 - Document: RR-1130-BTS
+  Sample: Household Travel Survey (HTS) data from nine waves (1999/2000 to 2007/2008) were used.  Specific waves selected varied by travel purpose to balance sample size and representativeness for the 2006 base year. Sample sizes for toll road choices and train access mode choices were analyzed to ensure suff...
+  Analysis: The study used a tour-based approach to model home-based travel.  The model structure included nested logit and multinomial logit components to represent various choice decisions (mode, destination, access mode, station, toll road).  Model parameters were estimated using maximum likelihood estimatio...
+
+  Example 2 - Document: RR-1131-BTS
+  Sample: The primary data source is the Household Travel Survey (HTS) data from New South Wales, spanning multiple years (1999-2008).  Specific samples were used for different models, often based on adult status groups and travel purposes.  Data exclusion criteria varied by model and included considerations ...
+  Analysis: The analysis involved re-estimating existing models with updated HTS data and refining model specifications through iterative testing and evaluation of parameter significance.  The approach involved comparing initial estimations using existing model structures with subsequent estimations incorporati...
+
+🔍 KEY FINDINGS
+--------------------------------------------------
+1. METHODOLOGY COVERAGE:
+   • Only 13% of RR documents contain identifiable methodology sections
+   • This suggests most RR documents are policy analysis, not empirical research
+
+2. AI/ML ADOPTION:
+   • AI adoption rate: 36.8% of methodology documents
+   • ML adoption rate: 14.7% of methodology documents
+   • Significant growth opportunity in both areas
+
+3. METHOD DIVERSITY:
+   • 703 unique methods identified
+   • Survey research dominates (45+ documents)
+   • Strong representation of qualitative methods
+
+4. EXPERT IDENTIFICATION:
+   • 695 methods have multiple practitioners
+   • Clear method champions identified for recruitment
+   • Research areas provide context for expert selection
+
+📈 PROJECT STATUS
+--------------------------------------------------
+Current Coverage: 3,414 RR documents (37.5% of total RAND corpus)
+Next Phases: MG, TR, WR documents will add significantly more methods and experts
+Data Quality: High - based on full LLM analysis of complete documents
+Ready for Action: Focus group recruitment can begin immediately
+
+================================================================================
