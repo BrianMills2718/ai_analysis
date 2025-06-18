@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - RAND AI Methods Intelligence Analysis</title>
+    <link rel="stylesheet" href="css/common-styles.css">
+    <style>
+        .about-container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .section { margin-bottom: 30px; background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+        .stat-card { background: #f8f9fa; padding: 15px; border-radius: 8px; text-align: center; }
+        .stat-number { font-size: 24px; font-weight: bold; color: #2c3e50; }
+        .process-step { background: #e8f4f8; padding: 15px; margin: 10px 0; border-left: 4px solid #3498db; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: 'Courier New', monospace; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">RAND AI Analysis</a>
+            <div class="nav-links">
+                <a href="index.html">Dashboard</a>
+                <a href="methodology_explorer.html">Methods Explorer</a>
+                <a href="network_insights.html">Network Analysis</a>
+                <a href="keywords.html">Keywords</a>
+                <a href="about.html" class="active">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="about-container">
+        <div class="section">
+            <h1>🔬 RAND AI Methods Intelligence Analysis</h1>
+            <p>This project analyzes 9,116 RAND Corporation research documents (2016-2025) to identify methodological patterns, AI/ML adoption trends, and research approach evolution using advanced language model analysis.</p>
+        </div>
+
+        <div class="section">
+            <h2>📊 Current Analysis Status</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">7,843</div>
+                    <div>Documents Processed</div>
+                    <small>86% Complete</small>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">6,328</div>
+                    <div>Methodology Sections Found</div>
+                    <small>80% Detection Rate</small>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">703</div>
+                    <div>Unique Research Methods</div>
+                    <small>Identified & Categorized</small>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">163</div>
+                    <div>Documents Using AI/ML</div>
+                    <small>Growing Trend</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🤖 Methodology Extraction Process</h2>
+            <p>Our analysis pipeline uses Google's Gemini Flash LLM to systematically extract methodology sections from RAND documents:</p>
+            
+            <div class="process-step">
+                <strong>1. Document Processing</strong><br>
+                Documents are chunked into manageable segments and analyzed by document type priority (RR → MG → TR → PE → WR → etc.)
+            </div>
+            
+            <div class="process-step">
+                <strong>2. LLM Analysis</strong><br>
+                Gemini Flash analyzes each document with specialized prompts to identify methodology sections, research approaches, and analytical frameworks
+            </div>
+            
+            <div class="process-step">
+                <strong>3. Method Classification</strong><br>
+                Extracted methods are categorized into research types: surveys, case studies, statistical analysis, AI/ML approaches, policy analysis, etc.
+            </div>
+            
+            <div class="process-step">
+                <strong>4. Expert Mapping</strong><br>
+                Authors are mapped to their methodological expertise based on frequency and recent usage of specific research methods
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📈 Detection Rates by Document Type</h2>
+            <ul>
+                <li><strong>Research Reports (RR):</strong> 97% methodology detection rate</li>
+                <li><strong>Monographs (MG):</strong> 90% methodology detection rate</li>
+                <li><strong>Technical Reports (TR):</strong> 76% methodology detection rate</li>
+                <li><strong>Working Papers (WR):</strong> 13% methodology detection rate</li>
+                <li><strong>Policy Evaluations (PE):</strong> 43% methodology detection rate</li>
+            </ul>
+            <p><em>Variations reflect document types - working papers often lack formal methodology sections while research reports consistently include detailed methods.</em></p>
+        </div>
+
+        <div class="section">
+            <h2>🔧 Technical Implementation</h2>
+            <h3>Data Infrastructure</h3>
+            <ul>
+                <li><strong>Source:</strong> 564K document chunks from 9,129 RAND documents via API</li>
+                <li><strong>Processing:</strong> Google Gemini Flash LLM with custom methodology detection prompts</li>
+                <li><strong>Storage:</strong> SQLite database (docstore.db) + JSON checkpoints for analysis results</li>
+                <li><strong>Embeddings:</strong> FAISS vector database for semantic search capabilities</li>
+            </ul>
+
+            <h3>Analysis Pipeline</h3>
+            <p>Key scripts and their functions:</p>
+            <ul>
+                <li><code>prioritized_methodology_extractor.py</code> - Main LLM extraction engine</li>
+                <li><code>create_interactive_methodology_page.py</code> - Dashboard generation</li>
+                <li><code>automated_pipeline.py</code> - Overnight processing automation</li>
+                <li><code>create_temporal_methodology_analysis.py</code> - Trend analysis over time</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Key Research Insights</h2>
+            <h3>AI/ML Adoption Patterns</h3>
+            <ul>
+                <li>163 documents explicitly use AI/ML methodologies</li>
+                <li>Growing trend from 2016-2025 with acceleration post-2020</li>
+                <li>Most common: machine learning, neural networks, natural language processing</li>
+            </ul>
+
+            <h3>Methodological Diversity</h3>
+            <ul>
+                <li>703 unique research methods identified across RAND publications</li>
+                <li>Dominant approaches: surveys, statistical analysis, case studies, policy analysis</li>
+                <li>Emerging methods: computational modeling, sentiment analysis, network analysis</li>
+            </ul>
+
+            <h3>Expert Networks</h3>
+            <ul>
+                <li>Methodology expertise mapped to individual researchers</li>
+                <li>Cross-divisional collaboration patterns identified</li>
+                <li>Specialization vs. generalization trends tracked over time</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📚 Data Sources & Methodology</h2>
+            <p><strong>LLM Prompt Strategy:</strong> We use carefully crafted prompts that instruct Gemini Flash to identify methodology sections with high precision while casting a wide net for various research approaches.</p>
+            
+            <p><strong>Example Prompt Excerpt:</strong></p>
+            <code style="display: block; padding: 15px; background: #f8f9fa; margin: 10px 0;">
+Find ALL sections describing research methods, analytical approaches, evaluation frameworks, or systematic processes... Include sections describing: Research methodology and methods, Analytical approaches and frameworks, Data collection procedures and sources, Study design and sampling strategies...
+            </code>
+
+            <p><strong>Validation:</strong> Results cross-validated through multiple extraction passes and expert review of methodology classifications.</p>
+        </div>
+
+        <div class="section">
+            <h2>🔗 Technical Links</h2>
+            <ul>
+                <li><strong>Live Dashboard:</strong> <a href="https://brianmills2718.github.io/ai_analysis/">https://brianmills2718.github.io/ai_analysis/</a></li>
+                <li><strong>Source Repository:</strong> Private development repository with full extraction pipeline</li>
+                <li><strong>Data Sources:</strong> RAND Corporation publication database (2016-2025)</li>
+                <li><strong>Processing Infrastructure:</strong> Google Gemini Flash API for large-scale text analysis</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>⚡ Real-Time Updates</h2>
+            <p>This analysis dashboard updates automatically as new documents are processed. The current extraction is ~86% complete with overnight processing continuing to analyze remaining documents and refine methodology classifications.</p>
+            
+            <p><strong>Last Updated:</strong> <span id="lastUpdated">June 18, 2025</span></p>
+            <p><strong>Next Update:</strong> Automated overnight processing completes remaining 1,273 documents</p>
+        </div>
+    </div>
+</body>
+</html>
