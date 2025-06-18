@@ -22,6 +22,9 @@
             justify-content: space-between;
             align-items: center;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
         
         .nav-links {
@@ -64,6 +67,41 @@
             font-size: 0.9em;
             opacity: 0.8;
             margin-top: 10px;
+        }
+        
+        /* Quick navigation */
+        .quick-nav {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .quick-nav h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        
+        .quick-nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .quick-nav-links a {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .quick-nav-links a:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         
         .summary-stats {
@@ -123,6 +161,13 @@
             padding-bottom: 10px;
         }
         
+        .section-subtitle {
+            font-size: 1.2em;
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        
         .document-table {
             width: 100%;
             border-collapse: collapse;
@@ -136,7 +181,7 @@
             font-weight: bold;
             color: #2c3e50;
             position: sticky;
-            top: 0;
+            top: 60px;
             z-index: 10;
         }
         
@@ -337,6 +382,21 @@
         .division-table tr:hover {
             background: #f8f9fa;
         }
+        
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: #3498db;
+            transition: width 0.3s ease;
+        }
     </style>
 </head>
 <body>
@@ -361,7 +421,24 @@
             </div>
         </div>
         
-        <div class="summary-stats">
+        <!-- Quick Navigation -->
+        <div class="quick-nav">
+            <h3>Quick Navigation</h3>
+            <div class="quick-nav-links">
+                <a href="#overview">Overview Statistics</a>
+                <a href="#temporal">Temporal Trends</a>
+                <a href="#ai-vs-traditional">AI vs Traditional</a>
+                <a href="#doc-types">Document Types</a>
+                <a href="#divisions">RAND Divisions</a>
+                <a href="#research-areas">Research Areas</a>
+                <a href="#method-categories">Method Categories</a>
+                <a href="#" onclick="showAIDocuments()">View AI Documents</a>
+                <a href="#" onclick="showMLDocuments()">View ML Documents</a>
+            </div>
+        </div>
+        
+        <!-- Overview Statistics -->
+        <div id="overview" class="summary-stats">
             <div class="stat-card">
                 <div class="stat-number">9,116</div>
                 <div class="stat-label">Total Documents Analyzed</div>
@@ -377,14 +454,14 @@
                 <div class="stat-number">629</div>
                 <div class="stat-label">Documents using AI</div>
                 <div style="font-size: 0.8em; color: #3498db; margin-top: 5px;">
-                    Click to view all documents →
+                    Click to view all 629 documents →
                 </div>
             </div>
             <div class="stat-card clickable" onclick="showMLDocuments()">
                 <div class="stat-number">166</div>
                 <div class="stat-label">Documents using ML</div>
                 <div style="font-size: 0.8em; color: #3498db; margin-top: 5px;">
-                    Click to view all documents →
+                    Click to view all 166 documents →
                 </div>
             </div>
             <div class="stat-card">
@@ -401,13 +478,13 @@
         </div>
         
         <!-- Temporal Analysis -->
-        <div class="section">
-            <h2 class="section-title">Methodology Trends Over Time</h2>
+        <div id="temporal" class="section">
+            <h2 class="section-title">Methodology Trends Over Time (2016-2025)</h2>
             <div id="temporal-chart" class="temporal-chart"></div>
         </div>
         
         <!-- AI vs Traditional Methods -->
-        <div class="section">
+        <div id="ai-vs-traditional" class="section">
             <h2 class="section-title">AI/ML vs Traditional Methods</h2>
             <div class="ai-traditional-comparison">
                 <div class="comparison-side ai-side">
@@ -442,8 +519,384 @@
             </div>
         </div>
         
+        <!-- Document Type Breakdown -->
+        <div id="doc-types" class="section">
+            <h2 class="section-title">Methodology Detection by Document Type</h2>
+            <table class="division-table">
+                <thead>
+                    <tr>
+                        <th>Document Type</th>
+                        <th>Total Docs</th>
+                        <th>With Methodology</th>
+                        <th>Detection Rate</th>
+                        <th>AI Docs</th>
+                        <th>ML Docs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>RB</strong></td>
+                        <td>1,195</td>
+                        <td>1,040</td>
+                        <td>87.0% <div class="progress-bar"><div class="progress-fill" style="width: 87.02928870292888%"></div></div></td>
+                        <td>194</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RR</strong></td>
+                        <td>453</td>
+                        <td>443</td>
+                        <td>97.8% <div class="progress-bar"><div class="progress-fill" style="width: 97.7924944812362%"></div></div></td>
+                        <td>163</td>
+                        <td>65</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CT</strong></td>
+                        <td>399</td>
+                        <td>152</td>
+                        <td>38.1% <div class="progress-bar"><div class="progress-fill" style="width: 38.095238095238095%"></div></div></td>
+                        <td>26</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><strong>WR</strong></td>
+                        <td>254</td>
+                        <td>241</td>
+                        <td>94.9% <div class="progress-bar"><div class="progress-fill" style="width: 94.88188976377953%"></div></div></td>
+                        <td>31</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PE</strong></td>
+                        <td>240</td>
+                        <td>155</td>
+                        <td>64.6% <div class="progress-bar"><div class="progress-fill" style="width: 64.58333333333334%"></div></div></td>
+                        <td>61</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RP</strong></td>
+                        <td>236</td>
+                        <td>137</td>
+                        <td>58.1% <div class="progress-bar"><div class="progress-fill" style="width: 58.05084745762712%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CP</strong></td>
+                        <td>199</td>
+                        <td>136</td>
+                        <td>68.3% <div class="progress-bar"><div class="progress-fill" style="width: 68.34170854271356%"></div></div></td>
+                        <td>35</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OP</strong></td>
+                        <td>168</td>
+                        <td>142</td>
+                        <td>84.5% <div class="progress-bar"><div class="progress-fill" style="width: 84.52380952380952%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CF</strong></td>
+                        <td>142</td>
+                        <td>111</td>
+                        <td>78.2% <div class="progress-bar"><div class="progress-fill" style="width: 78.16901408450704%"></div></div></td>
+                        <td>23</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><strong>TR</strong></td>
+                        <td>140</td>
+                        <td>136</td>
+                        <td>97.1% <div class="progress-bar"><div class="progress-fill" style="width: 97.14285714285714%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>TL</strong></td>
+                        <td>133</td>
+                        <td>122</td>
+                        <td>91.7% <div class="progress-bar"><div class="progress-fill" style="width: 91.72932330827066%"></div></div></td>
+                        <td>47</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MG</strong></td>
+                        <td>105</td>
+                        <td>99</td>
+                        <td>94.3% <div class="progress-bar"><div class="progress-fill" style="width: 94.28571428571428%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>DB</strong></td>
+                        <td>89</td>
+                        <td>86</td>
+                        <td>96.6% <div class="progress-bar"><div class="progress-fill" style="width: 96.62921348314607%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>IG</strong></td>
+                        <td>87</td>
+                        <td>63</td>
+                        <td>72.4% <div class="progress-bar"><div class="progress-fill" style="width: 72.41379310344827%"></div></div></td>
+                        <td>27</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RGSD</strong></td>
+                        <td>75</td>
+                        <td>75</td>
+                        <td>100.0% <div class="progress-bar"><div class="progress-fill" style="width: 100.0%"></div></div></td>
+                        <td>8</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MR</strong></td>
+                        <td>35</td>
+                        <td>33</td>
+                        <td>94.3% <div class="progress-bar"><div class="progress-fill" style="width: 94.28571428571428%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>D</strong></td>
+                        <td>26</td>
+                        <td>5</td>
+                        <td>19.2% <div class="progress-bar"><div class="progress-fill" style="width: 19.230769230769234%"></div></div></td>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AR</strong></td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>100.0% <div class="progress-bar"><div class="progress-fill" style="width: 100.0%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CB</strong></td>
+                        <td>9</td>
+                        <td>1</td>
+                        <td>11.1% <div class="progress-bar"><div class="progress-fill" style="width: 11.11111111111111%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RM</strong></td>
+                        <td>8</td>
+                        <td>8</td>
+                        <td>100.0% <div class="progress-bar"><div class="progress-fill" style="width: 100.0%"></div></div></td>
+                        <td>6</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PT</strong></td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>87.5% <div class="progress-bar"><div class="progress-fill" style="width: 87.5%"></div></div></td>
+                        <td>2</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>DRU</strong></td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>100.0% <div class="progress-bar"><div class="progress-fill" style="width: 100.0%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>IP</strong></td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>66.7% <div class="progress-bar"><div class="progress-fill" style="width: 66.66666666666666%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>EP</strong></td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>100.0% <div class="progress-bar"><div class="progress-fill" style="width: 100.0%"></div></div></td>
+                        <td>3</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>R</strong></td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>100.0% <div class="progress-bar"><div class="progress-fill" style="width: 100.0%"></div></div></td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>HD</strong></td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0.0% <div class="progress-bar"><div class="progress-fill" style="width: 0.0%"></div></div></td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- RAND Divisions -->
+        <div id="divisions" class="section">
+            <h2 class="section-title">Methodology by RAND Division</h2>
+            <p>Estimated distribution based on document types and research areas:</p>
+            <table class="division-table">
+                <thead>
+                    <tr>
+                        <th>Division</th>
+                        <th>Estimated Coverage</th>
+                        <th>Key Focus Areas</th>
+                        <th>AI/ML Adoption</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>RAND Corporation (Main)</strong></td>
+                        <td>~40% of documents</td>
+                        <td>General policy research, cross-cutting issues</td>
+                        <td>Moderate (growing)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RAND Arroyo Center</strong></td>
+                        <td>~10% of documents</td>
+                        <td>Army operations, land warfare, logistics</td>
+                        <td>High (AI in military)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RAND Project AIR FORCE</strong></td>
+                        <td>~8% of documents</td>
+                        <td>Air Force strategy, aerospace, space</td>
+                        <td>Very High</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RAND National Defense Research Institute</strong></td>
+                        <td>~12% of documents</td>
+                        <td>Defense policy, military readiness</td>
+                        <td>High</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RAND Health Care</strong></td>
+                        <td>~15% of documents</td>
+                        <td>Health policy, healthcare systems</td>
+                        <td>Moderate (ML in health)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RAND Education and Labor</strong></td>
+                        <td>~10% of documents</td>
+                        <td>Education policy, workforce development</td>
+                        <td>Low to Moderate</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RAND Science, Technology, and Policy</strong></td>
+                        <td>~5% of documents</td>
+                        <td>Emerging tech, innovation policy</td>
+                        <td>Very High</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Research Areas -->
+        <div id="research-areas" class="section">
+            <h2 class="section-title">AI/ML Adoption by Research Area</h2>
+            <p>Distribution of AI/ML usage across RAND research publication types:</p>
+            <table class="division-table">
+                <thead>
+                    <tr>
+                        <th>Research Area</th>
+                        <th>AI Documents</th>
+                        <th>ML Documents</th>
+                        <th>Total AI/ML</th>
+                        <th>Key Methods</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>RAND Research Reports</td>
+                        <td>163</td>
+                        <td>65</td>
+                        <td><strong>228</strong></td>
+                        <td style="font-size: 0.9em;">regression model, neural network, algorithm</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Research Briefs</td>
+                        <td>194</td>
+                        <td>24</td>
+                        <td><strong>218</strong></td>
+                        <td style="font-size: 0.9em;">regression model, algorithm, clustering</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Perspectives</td>
+                        <td>61</td>
+                        <td>14</td>
+                        <td><strong>75</strong></td>
+                        <td style="font-size: 0.9em;">algorithm, deep learning, nlp</td>
+                    </tr>
+                    <tr>
+                        <td>TL Publications</td>
+                        <td>47</td>
+                        <td>13</td>
+                        <td><strong>60</strong></td>
+                        <td style="font-size: 0.9em;">regression model, clustering, machine learning</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Corporate Publications</td>
+                        <td>35</td>
+                        <td>19</td>
+                        <td><strong>54</strong></td>
+                        <td style="font-size: 0.9em;">neural network, algorithm, regression model</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Working Papers</td>
+                        <td>31</td>
+                        <td>11</td>
+                        <td><strong>42</strong></td>
+                        <td style="font-size: 0.9em;">regression model, dimensionality reduction, neural network</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Commentaries</td>
+                        <td>26</td>
+                        <td>3</td>
+                        <td><strong>29</strong></td>
+                        <td style="font-size: 0.9em;">ai, algorithm, ann</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Issue Papers</td>
+                        <td>27</td>
+                        <td>1</td>
+                        <td><strong>28</strong></td>
+                        <td style="font-size: 0.9em;">ai, ann</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Conference Proceedings</td>
+                        <td>23</td>
+                        <td>4</td>
+                        <td><strong>27</strong></td>
+                        <td style="font-size: 0.9em;">ai, ann</td>
+                    </tr>
+                    <tr>
+                        <td>RAND Graduate School Dissertations</td>
+                        <td>8</td>
+                        <td>8</td>
+                        <td><strong>16</strong></td>
+                        <td style="font-size: 0.9em;">regression model, algorithm, clustering</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
         <!-- Method Categories -->
-        <div class="section">
+        <div id="method-categories" class="section">
             <h2 class="section-title">Research Methods by Category</h2>
             <div class="method-category">
                 <div class="category-header">
@@ -1015,84 +1468,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- Division Breakdown -->
-        <div class="section">
-            <h2 class="section-title">Methodology by Research Area</h2>
-            <p>Distribution of AI/ML usage across RAND research areas:</p>
-            <table class="division-table">
-                <thead>
-                    <tr>
-                        <th>Research Area</th>
-                        <th>AI Documents</th>
-                        <th>ML Documents</th>
-                        <th>Total in Area</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>RAND Research Reports</td>
-                        <td>163</td>
-                        <td>65</td>
-                        <td>228</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Research Briefs</td>
-                        <td>194</td>
-                        <td>24</td>
-                        <td>218</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Perspectives</td>
-                        <td>61</td>
-                        <td>14</td>
-                        <td>75</td>
-                    </tr>
-                    <tr>
-                        <td>TL Publications</td>
-                        <td>47</td>
-                        <td>13</td>
-                        <td>60</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Corporate Publications</td>
-                        <td>35</td>
-                        <td>19</td>
-                        <td>54</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Working Papers</td>
-                        <td>31</td>
-                        <td>11</td>
-                        <td>42</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Commentaries</td>
-                        <td>26</td>
-                        <td>3</td>
-                        <td>29</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Issue Papers</td>
-                        <td>27</td>
-                        <td>1</td>
-                        <td>28</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Conference Proceedings</td>
-                        <td>23</td>
-                        <td>4</td>
-                        <td>27</td>
-                    </tr>
-                    <tr>
-                        <td>RAND Graduate School Dissertations</td>
-                        <td>8</td>
-                        <td>8</td>
-                        <td>16</td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
     </div>
     
@@ -7097,6 +7472,20 @@
                     .text(series.name);
             });
         }
+        
+        // Smooth scroll to sections
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
         
         // Initialize chart on load
         window.addEventListener('load', () => {

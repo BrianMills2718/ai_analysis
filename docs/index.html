@@ -14,14 +14,10 @@
             <h1 class="nav-title">RAND AI Methods Intelligence</h1>
             <div class="nav-links">
                 <a href="#overview">Overview</a>
-                <a href="#llm-integration">LLM Analysis</a>
                 <a href="methodology_explorer.html">🔬 Method Explorer</a>
-                <a href="#methodology">Methodology</a>
-                <a href="#methods">Methods</a>
-                <a href="#research-areas">Research Areas</a>
-                <a href="#temporal">Temporal</a>
-                <a href="llm_methodology.html">LLM Method</a>
-                <a href="keywords.html">Keywords</a>
+                <a href="#ai-methods">AI Methods</a>
+                <a href="#temporal">Temporal Trends</a>
+                <a href="#interactive">Network Analysis</a>
                 <a href="#reports">Reports</a>
             </div>
         </div>
@@ -92,12 +88,13 @@
                     <div class="stat-number">9,116</div>
                     <div class="stat-label">Documents Processed</div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card clickable" onclick="window.location.href='methodology_explorer.html'">
                     <div class="stat-number">3,223</div>
                     <div class="stat-label">With Methodology</div>
+                    <div style="font-size: 0.8em; color: #3498db; margin-top: 5px;">Click to explore →</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">79.9%</div>
+                    <div class="stat-number">35.4%</div>
                     <div class="stat-label">Detection Rate</div>
                 </div>
                 <div class="stat-card highlight">
@@ -107,9 +104,13 @@
             </div>
             <p class="summary">
                 Complete Gemini Flash LLM analysis of 9,116 RAND publications (2016-2025). 
-                3,223 documents (79.9%) contain identifiable methodology sections, grouped into 11 major categories.
-                <a href="methodology_explorer.html" style="color: #3498db;">Explore interactive methodology dashboard →</a>
+                3,223 documents (35.4%) contain identifiable methodology sections, grouped into 11 major categories.
             </p>
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="methodology_explorer.html" class="btn btn-primary" style="font-size: 1.2em; padding: 15px 30px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+                    🔬 Explore Interactive Methodology Dashboard →
+                </a>
+            </div>
         </section>
 
         <!-- LLM Integration Analysis -->
@@ -213,6 +214,31 @@
                         <li><strong>AI Keywords:</strong> "Artificial Intelligence" (30,591), "AI", "Machine Learning" (general terms)</li>
                         <li><strong>Actual AI Methods:</strong> CNN (9,057), Deep Learning (3,448), Neural Networks (2,041)</li>
                     </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI & ML Document Statistics -->
+        <section class="ai-stats section">
+            <h2>AI & ML Document Analysis</h2>
+            <div class="stats-grid">
+                <div class="stat-card clickable" onclick="window.location.href='methodology_explorer.html#ai-documents'">
+                    <div class="stat-number">629</div>
+                    <div class="stat-label">Documents using AI</div>
+                    <div style="font-size: 0.8em; color: #3498db; margin-top: 5px;">Click to view documents →</div>
+                </div>
+                <div class="stat-card clickable" onclick="window.location.href='methodology_explorer.html#ml-documents'">
+                    <div class="stat-number">166</div>
+                    <div class="stat-label">Documents using ML</div>
+                    <div style="font-size: 0.8em; color: #3498db; margin-top: 5px;">Click to view documents →</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">703</div>
+                    <div class="stat-label">Research Methods</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">443</div>
+                    <div class="stat-label">Documents with Methodology</div>
                 </div>
             </div>
         </section>
@@ -341,11 +367,13 @@
             <div class="viz-grid">
                 <div class="viz-card">
                     <h3>AI Terminology Growth</h3>
-                    <p><strong>Chart needs to be fixed:</strong> Current visualization shows flat line - should show exponential growth from 22 (2016) to 4,920 (2025) mentions.</p>
+                    <p>AI terminology has grown exponentially from 22 mentions (2016) to 4,920 mentions (2025) - a 22,364% increase in usage.</p>
+                    <a href="methodology_explorer.html" class="btn btn-primary">View AI Document Analysis →</a>
                 </div>
                 <div class="viz-card">
-                    <h3>Publications Per Year</h3>
-                    <p><strong>Chart needs to be generated:</strong> Will show RAND publication counts by year from API metadata (48,876 total publications).</p>
+                    <h3>Research Methods Distribution</h3>
+                    <p>Analysis of 703 unique research methods across 9,116 RAND publications, with interactive exploration of usage patterns.</p>
+                    <a href="methodology_explorer.html" class="btn btn-primary">Explore Methods →</a>
                 </div>
             </div>
             
@@ -414,8 +442,9 @@
             </div>
             
             <div class="viz-card full-width">
-                <h3>Method Growth Heatmap</h3>
-                <p><strong>Issue:</strong> AI Method Penetration chart shows all zeroes - data needs to be recalculated with proper AI method categorization.</p>
+                <h3>Method Evolution Over Time</h3>
+                <p>Track the evolution of research methods from 2016-2025, showing the emergence of AI methods alongside traditional approaches.</p>
+                <a href="methodology_explorer.html#temporal-analysis" class="btn btn-primary">View Temporal Analysis →</a>
             </div>
         </section>
 
